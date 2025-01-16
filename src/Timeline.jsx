@@ -33,14 +33,14 @@ const Timeline = () => {
               <div className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary"></div>
               <h4 className="-mt-2 text-xl font-semibold">{event.title}</h4>
             </div>
-            <div className="mb-6 ms-6 pb-6">
+            <div className="mb-6 ms-6 pb-6 text-left">
               <a
                 href="#!"
-                className="text-sm text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700"
+                className="text-sm text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 block text-left"
               >
                 {event.date}
               </a>
-              <p className="mb-4 mt-2 text-neutral-600">
+              <p className="mb-4 mt-2 text-neutral-600 text-left">
                 {event.description}
               </p>
               <button
