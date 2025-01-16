@@ -30,7 +30,7 @@ const Timeline = () => {
 
   return (
     <div className="w-full max-w-2xl mx-auto my-8 sm:my-12 md:my-16 lg:my-24 transform perspective-1000 rotate-x-0 md:rotate-x-1">
-      <ol className="border-s-2 border-primary/50 ms-[7px]">
+      <ol className="border-s-2 border-primary/50 ms-4">
         {events.map((event, index) => (
           <li 
             key={index}
@@ -38,7 +38,7 @@ const Timeline = () => {
             onClick={() => toggleExpand(index)}
           >
             <div className="flex-start flex items-center pt-1">
-              <div className="-ms-[7px] me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary shadow-[0_0_8px_2px_rgba(86,156,214,0.4)] group-hover:scale-125 transition-transform"></div>
+              <div className="-ms-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary shadow-[0_0_8px_2px_rgba(86,156,214,0.4)] group-hover:scale-125 transition-transform"></div>
               <h4 className="text-lg sm:text-xl font-semibold text-primary group-hover:text-[#8dff8d] transition-colors">
                 {event.date}
               </h4>
