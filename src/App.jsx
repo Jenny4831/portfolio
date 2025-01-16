@@ -11,8 +11,10 @@ function App() {
       </h2>
       <div className="max-w-2xl mx-auto my-16 p-12 bg-background-light rounded-2xl shadow-custom backdrop-blur-lg border border-white/10 animate-fadeUp">
         <p className="text-lg text-[#2A1E17] leading-relaxed">
-          Passionate software engineer with expertise in building scalable web applications using modern technologies. 
-          Experienced in full-stack development with a focus on creating efficient, maintainable, and user-friendly solutions.
+          Senior Software Engineer with extensive experience driving technical innovation and delivering complex projects. 
+          Expertise in architecting and scaling distributed systems, optimizing performance, and implementing security-first solutions. 
+          Proven track record in leading initiatives from research and design through to deployment, while working collaboratively with cross-functional teams. 
+          Passionate about mentoring engineers and interns. Committed to managing the backend community to promote knowledge sharing and upskill team members.
         </p>
       </div>
       <Timeline />
