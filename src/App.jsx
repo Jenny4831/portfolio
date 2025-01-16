@@ -9,7 +9,7 @@ function App() {
       <h2 className="text-2xl text-text-muted font-normal mb-16 animate-fadeIn tracking-tight">
         Software Engineer | Full Stack Developer
       </h2>
-      <div className="max-w-2xl mx-auto my-16 p-12 bg-background-light rounded-2xl shadow-custom backdrop-blur-lg border border-white/10 animate-fadeUp">
+      <div className="max-w-3xl mx-auto my-16 p-12 bg-background-light rounded-2xl shadow-custom backdrop-blur-lg border border-white/10 animate-fadeUp">
         <p className="text-lg text-[#2A1E17] leading-relaxed">
           Senior Software Engineer with extensive experience driving technical innovation and delivering complex projects. 
           Expertise in architecting and scaling distributed systems, optimizing performance, and implementing security-first solutions. 
