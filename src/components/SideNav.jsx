@@ -5,27 +5,26 @@ const SideNav = () => {
 
   return (
     <>
-      <button 
-        className="fixed top-8 left-8 p-2 bg-[#252526] rounded-lg z-30 hover:bg-[#2a2d2e] transition-colors"
-        onClick={() => setIsCollapsed(!isCollapsed)}
-      >
-        <svg 
-          width="24" 
-          height="24" 
-          viewBox="0 0 24 24" 
-          fill="none" 
-          stroke="#8dff8d"
-          className={`transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`}
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-      </button>
-      
       <div className={`fixed left-0 top-0 h-screen bg-[#252526] border-r border-[#3c3c3d] z-20 transition-all duration-300 ${
         isCollapsed ? 'w-16' : 'w-64'
       }`}>
       <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d]">
-        <span className={`text-sm text-[#8dff8d]/80 ${isCollapsed ? 'hidden' : 'block'}`}>EXPLORER</span>
+        <button 
+          className="p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
+          onClick={() => setIsCollapsed(!isCollapsed)}
+        >
+          <svg 
+            width="24" 
+            height="24" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="#8dff8d"
+            className={`transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`}
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+        <span className={`text-sm text-[#8dff8d]/80 ml-2 ${isCollapsed ? 'hidden' : 'block'}`}>EXPLORER</span>
       </div>
       <div className="p-2">
         <div className={`text-[#8dff8d]/80 text-sm mb-2 ${isCollapsed ? 'hidden' : 'block'}`}>NAIMEN_LIANG</div>
