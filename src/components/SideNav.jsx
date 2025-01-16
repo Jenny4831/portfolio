@@ -10,15 +10,16 @@ const SideNav = () => {
       }`}>
       <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d]">
         <button 
-          className="p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
+          className="p-1 sm:p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
           <svg 
-            width="24" 
-            height="24" 
+            width="20" 
+            height="20" 
             viewBox="0 0 24 24" 
             fill="none" 
             stroke="#8dff8d"
+            strokeWidth="2.5"
             className={`transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`}
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
