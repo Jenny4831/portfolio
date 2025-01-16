@@ -9,7 +9,8 @@
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: var(--background-light);
+  background-color: #3D2C24;
+  border: 1px solid rgba(255, 107, 53, 0.2);
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -17,14 +18,14 @@
 .summary p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--text-muted);
+  color: #FFE8D6;
   margin: 0;
 }
 
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), #FFD700);
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), #FF9F1C);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -91,7 +92,7 @@ h1 {
 
 .subtitle {
   font-size: 1.4rem;
-  color: var(--text-muted);
+  color: #FFE8D6;
   font-weight: 400;
   margin-bottom: 2rem;
   animation: fadeIn 1.2s ease-in-out;
@@ -121,7 +122,8 @@ h1 {
   width: 45%;
   padding: 1.5rem;
   margin: 2rem 0;
-  background: var(--background-light);
+  background: #3D2C24;
+  border: 1px solid rgba(255, 107, 53, 0.2);
   border: 1px solid rgba(255, 107, 53, 0.1);
   border: 1px solid rgba(255, 107, 53, 0.1);
   border-radius: 8px;
@@ -182,7 +184,7 @@ h1 {
 }
 
 .timeline-event p {
-  color: var(--text-muted);
+  color: #FFE8D6;
   line-height: 1.6;
   margin: 0;
   max-height: 0;
