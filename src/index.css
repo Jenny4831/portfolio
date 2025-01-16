@@ -12,12 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  --primary-color: #646cff;
-  --primary-hover: #535bf2;
-  --secondary-color: #747bff;
-  --background-light: #2a2a2a;
-  --text-light: #ffffff;
-  --text-muted: rgba(255, 255, 255, 0.7);
+  --primary-color: #FF6B35;
+  --primary-hover: #E65A2B;
+  --secondary-color: #FFA630;
+  --background-light: #2E2A24;
+  --text-light: #FFF8F0;
+  --text-muted: rgba(255, 248, 240, 0.8);
 }
 
 a {

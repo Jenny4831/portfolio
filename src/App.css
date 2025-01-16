@@ -24,7 +24,7 @@
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), #FFD700);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -111,6 +111,7 @@ h1 {
   bottom: 0;
   width: 4px;
   background: var(--primary-color);
+  box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.2);
   left: 50%;
   transform: translateX(-50%);
 }
@@ -121,6 +122,8 @@ h1 {
   padding: 1.5rem;
   margin: 2rem 0;
   background: var(--background-light);
+  border: 1px solid rgba(255, 107, 53, 0.1);
+  border: 1px solid rgba(255, 107, 53, 0.1);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
