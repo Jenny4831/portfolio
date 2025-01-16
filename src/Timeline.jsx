@@ -25,12 +25,12 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="w-full max-w-2xl mx-auto my-24">
-      <ol className="border-s-2 border-primary">
+    <div className="w-full max-w-2xl mx-auto my-24 transform perspective-1000 rotate-x-1">
+      <ol className="border-s-2 border-primary/50">
         {events.map((event, index) => (
           <li key={index}>
             <div className="flex-start flex items-center">
-              <div className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary"></div>
+              <div className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary shadow-[0_0_8px_2px_rgba(86,156,214,0.4)]"></div>
               <h4 className="-mt-2 text-xl font-semibold">{event.title}</h4>
             </div>
             <div className="mb-6 ms-6 pb-6 text-left">

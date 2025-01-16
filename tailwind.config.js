@@ -7,15 +7,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#007AFF',
-        'primary-hover': '#0063CC',
-        secondary: '#34C759',
-        'background-light': '#FFFFFF',
-        'text-light': '#F5F5F7',
-        'text-muted': 'rgba(29, 29, 31, 0.6)',
-        'timeline-bg': '#F5F5F7',
-        'timeline-text': '#1D1D1F',
-        'timeline-line': '#e5e7eb',
+        primary: '#569CD6',
+        'primary-hover': '#4D94C4',
+        secondary: '#B5CEA8',
+        'background-light': '#252526',
+        'text-light': '#D4D4D4',
+        'text-muted': 'rgba(212, 212, 212, 0.6)',
+        'timeline-bg': '#1E1E1E',
+        'timeline-text': '#D4D4D4',
+        'timeline-line': '#3C3C3C',
+        'code-bg': '#1E1E1E',
       },
       boxShadow: {
         custom: '0 4px 8px rgba(0, 0, 0, 0.08)',
