@@ -57,7 +57,7 @@ const Timeline = () => {
                 </p>
               </div>
               <div className="mt-2 text-sm text-[#8dff8d]/60">
-                {expandedIndex === index ? '▲ Collapse' : '▼ Expand'}
+                {expandedIndex === index ? '▲ Show Less' : '▼ Show More Details'}
               </div>
             </div>
           </li>
