@@ -30,16 +30,13 @@ const Timeline = () => {
           <li key={index}>
             <div className="flex-start flex items-center">
               <div className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary shadow-[0_0_8px_2px_rgba(86,156,214,0.4)]"></div>
-              <h4 className="-mt-2 text-xl font-semibold">{event.title}</h4>
+              <h4 className="-mt-2 text-xl font-semibold text-primary">{event.date}</h4>
             </div>
             <div className="mb-6 ms-6 pb-6 text-left">
-              <a
-                href="#!"
-                className="text-sm text-primary transition duration-150 ease-in-out hover:text-primary-600 focus:text-primary-600 active:text-primary-700 block text-left"
-              >
-                {event.date}
-              </a>
-              <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text">
+              <h5 className="text-lg font-medium text-[#8dff8d] mb-2 terminal-text">
+                {event.title}
+              </h5>
+              <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text whitespace-pre-line">
                 {event.description}
               </p>
             </div>
