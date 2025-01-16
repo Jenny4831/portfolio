@@ -21,6 +21,14 @@
     font-family: 'Source Code Pro', monospace;
   }
 
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    border-left: 2px solid rgba(141, 223, 141, 0.5);
+  }
+
   @media (max-width: 768px) {
     .code-bg::before {
       background-size: 20px 20px;
