@@ -8,20 +8,20 @@ const SideNav = () => {
       </div>
       <div className="p-2">
         <div className="text-[#8dff8d]/80 text-sm mb-2">NAIMEN_LIANG</div>
-        <ul className="space-y-1">
-          <li className="text-[#8dff8d] hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            📄 resume.jsx
-          </li>
-          <li className="text-[#8dff8d] hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            📁 experience
-          </li>
-          <li className="text-[#8dff8d] hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            📁 education
-          </li>
-          <li className="text-[#8dff8d] hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            📁 skills
-          </li>
-        </ul>
+        <div className="text-[#8dff8d] text-sm font-mono">
+          <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+            ├── 📄 resume.jsx
+          </div>
+          <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+            ├── 📁 experience
+          </div>
+          <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+            ├── 📁 education
+          </div>
+          <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+            └── 📁 skills
+          </div>
+        </div>
       </div>
     </div>
   );
