@@ -1,8 +1,56 @@
 #root {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem 2rem;
   text-align: center;
+}
+
+.summary {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--background-light);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 1.5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .summary {
+    padding: 1.5rem;
+  }
 }
 
 .logo {
@@ -39,4 +87,12 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  animation: fadeIn 1.2s ease-in-out;
 }
