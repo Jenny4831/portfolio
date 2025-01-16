@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Timeline = () => {
   const events = [
@@ -8,13 +8,19 @@ const Timeline = () => {
     { date: '2021', title: 'Full-Time Software Engineer', description: 'Started working full-time as a software engineer at Innovatech Solutions.' },
   ];
 
+  const [activeIndex, setActiveIndex] = useState(null);
+
   return (
     <div className="timeline">
       {events.map((event, index) => (
-        <div key={index} className="timeline-event">
+        <div 
+          key={index} 
+          className={`timeline-event ${activeIndex === index ? 'active' : ''}`}
+          onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+        >
           <h3>{event.date}</h3>
           <h4>{event.title}</h4>
-          <p>{event.description}</p>
+          {activeIndex === index && <p>{event.description}</p>}
         </div>
       ))}
     </div>
