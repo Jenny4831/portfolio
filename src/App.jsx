@@ -1,8 +1,10 @@
 import Timeline from './Timeline.jsx'
+import SideNav from './components/SideNav.jsx'
 
 function App() {
   return (
-    <div className="relative max-w-7xl mx-auto px-8 py-16 text-center min-h-screen flex flex-col justify-center">
+    <div className="relative max-w-7xl mx-auto px-8 py-16 text-center min-h-screen flex flex-col justify-center pl-72">
+      <SideNav />
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-3 rotate-y-2">
       <h1 className="text-7xl font-bold text-[#8dff8d] mb-6 animate-fadeIn leading-tight tracking-tight terminal-text">
