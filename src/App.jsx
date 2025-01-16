@@ -3,17 +3,17 @@ import SideNav from './components/SideNav.jsx'
 
 function App() {
   return (
-    <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16 text-center min-h-screen flex flex-col justify-center pl-20 md:pl-80">
+    <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen flex flex-col justify-center pl-16 sm:pl-20 md:pl-64 lg:pl-80">
       <SideNav />
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2">
-      <h1 className="text-3xl md:text-5xl font-bold text-[#8dff8d] mb-4 md:mb-6 animate-fadeIn leading-tight tracking-tight terminal-text">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 animate-fadeIn leading-tight tracking-tight terminal-text">
         Naimen (Jenny) Zhen Liang<span className="cursor"></span>
       </h1>
-      <h2 className="text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-8 md:mb-16 animate-fadeIn tracking-tight terminal-text">
+      <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 animate-fadeIn tracking-tight terminal-text">
         Senior Software Engineer<span className="cursor"></span>
       </h2>
-      <div className="max-w-3xl mx-auto my-8 md:my-16 p-6 md:p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
+      <div className="max-w-3xl mx-auto my-6 sm:my-8 md:my-12 lg:my-16 p-4 sm:p-6 md:p-8 lg:p-12 bg-[#252526] rounded-xl sm:rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
         <p className="text-lg text-blue-400 leading-relaxed terminal-text">
           Senior Software Engineer with extensive experience driving technical innovation
           and delivering complex projects. Expertise in architecting and scaling distributed

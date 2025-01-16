@@ -30,6 +30,22 @@
       font-size: 0.9rem;
       line-height: 1.5;
     }
+
+    .cursor {
+      width: 6px;
+      height: 16px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .code-bg::before {
+      background-size: 15px 15px;
+    }
+    
+    .terminal-text {
+      font-size: 0.85rem;
+      line-height: 1.4;
+    }
   }
 
   .terminal-text {

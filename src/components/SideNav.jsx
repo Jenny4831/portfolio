@@ -6,7 +6,7 @@ const SideNav = () => {
   return (
     <>
       <div className={`fixed left-0 top-0 h-screen bg-[#252526] border-r border-[#3c3c3d] z-20 transition-all duration-300 ${
-        isCollapsed ? 'w-16' : 'w-64'
+        isCollapsed ? 'w-12 sm:w-16' : 'w-56 sm:w-64'
       }`}>
       <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d]">
         <button 
