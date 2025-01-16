@@ -6,7 +6,7 @@ const SideNav = () => {
   return (
     <>
       <button 
-        className="fixed top-4 left-4 p-2 bg-[#252526] rounded-lg z-30 hover:bg-[#2a2d2e] transition-colors"
+        className="fixed top-8 left-8 p-2 bg-[#252526] rounded-lg z-30 hover:bg-[#2a2d2e] transition-colors"
         onClick={() => setIsCollapsed(!isCollapsed)}
       >
         <svg 
