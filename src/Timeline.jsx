@@ -8,45 +8,28 @@ const Timeline = () => {
     { date: '2021', title: 'Full-Time Software Engineer', description: 'Started working full-time as a software engineer at Innovatech Solutions.' },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(null);
-  const [visibleEvents, setVisibleEvents] = useState([]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setVisibleEvents(prev => [...prev, entry.target.dataset.index]);
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    const eventElements = document.querySelectorAll('.timeline-event');
-    eventElements.forEach(el => observer.observe(el));
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <div className="timeline">
-      {events.map((event, index) => (
-        <div 
-          key={index}
-          data-index={index}
-          className={`timeline-event ${activeIndex === index ? 'active' : ''} ${
-            visibleEvents.includes(index.toString()) ? 'visible' : ''
-          }`}
-          onClick={() => setActiveIndex(activeIndex === index ? null : index)}
-        >
-          <div className="timeline-content">
-            <h3>{event.date}</h3>
-            <h4>{event.title}</h4>
-            <p>{event.description}</p>
-          </div>
+    <div className="timeline-container">
+      <div className="timeline-scroll">
+        <div className="timeline-line"></div>
+        <div className="timeline-events">
+          {events.map((event, index) => (
+            <div 
+              key={index}
+              className="timeline-event"
+              style={{ '--index': index }}
+            >
+              <div className="timeline-card">
+                <div className="timeline-date">{event.date}</div>
+                <div className="timeline-content">
+                  <h3>{event.title}</h3>
+                  <p>{event.description}</p>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 };
