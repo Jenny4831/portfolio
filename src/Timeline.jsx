@@ -24,7 +24,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="w-full max-w-2xl mx-auto my-24 transform perspective-1000 rotate-x-1">
+    <div className="w-full max-w-2xl mx-auto my-12 md:my-24 transform perspective-1000 rotate-x-0 md:rotate-x-1">
       <ol className="border-s-2 border-primary/50">
         {events.map((event, index) => (
           <li key={index}>
