@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-sans bg-[#F5F5F7] text-[#1D1D1F] min-h-screen flex items-center;
+    @apply font-sans bg-[#F5F5F7] text-[#1D1D1F] min-h-screen;
   }
   
   a {

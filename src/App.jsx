@@ -2,7 +2,7 @@ import Timeline from './Timeline.jsx'
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto px-8 py-24 text-center">
+    <div className="max-w-7xl mx-auto px-8 py-16 text-center min-h-screen flex flex-col justify-center">
       <h1 className="text-7xl font-bold text-primary mb-6 animate-fadeIn leading-tight tracking-tight">
         Naimen (Jenny) Zhen Liang
       </h1>
