@@ -40,7 +40,7 @@ const Timeline = () => {
               >
                 {event.date}
               </a>
-              <p className="mb-4 mt-2 text-neutral-600 text-left">
+              <p className="mb-4 mt-2 text-[#d4d4d4] text-left">
                 {event.description}
               </p>
               <button
