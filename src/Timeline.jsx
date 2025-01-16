@@ -44,7 +44,7 @@ const Timeline = () => {
               >
                 {event.date}
               </a>
-              <p className="mb-4 mt-2 text-[#33ff33] text-left terminal-text">
+              <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text">
                 {event.description}
               </p>
             </div>

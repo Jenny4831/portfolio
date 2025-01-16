@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#33ff33',
-        'primary-hover': '#28cc28',
+        primary: '#8dff8d',
+        'primary-hover': '#6dcc6d',
         'primary-hover': '#4D94C4',
         secondary: '#B5CEA8',
         'background-light': '#252526',
