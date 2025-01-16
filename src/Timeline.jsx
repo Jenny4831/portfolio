@@ -20,12 +20,7 @@ const Timeline = () => {
         '- Developed analytics dashboard for leasing agencies\n' +
         '- Built appointment scheduling system\n' +
         '- Created agent activity reporting feature',
-    },
-    { 
-      date: 'Achievements', 
-      title: 'Microsoft Research Asia Prize', 
-      description: 'Awarded Microsoft Research Asia Prize for Junior Software Development Projects at USYD',
-    },
+    }
   ];
 
   return (
