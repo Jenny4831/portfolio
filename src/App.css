@@ -9,7 +9,7 @@
   max-width: 800px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #3D2C24;
+  background-color: #FFE8D6;
   border: 1px solid rgba(255, 107, 53, 0.2);
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -18,7 +18,7 @@
 .summary p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #FFE8D6;
+  color: #3D2C24;
   margin: 0;
 }
 
@@ -92,7 +92,7 @@ h1 {
 
 .subtitle {
   font-size: 1.4rem;
-  color: #FFE8D6;
+  color: #3D2C24;
   font-weight: 400;
   margin-bottom: 2rem;
   animation: fadeIn 1.2s ease-in-out;
@@ -122,7 +122,7 @@ h1 {
   width: 45%;
   padding: 1.5rem;
   margin: 2rem 0;
-  background: #3D2C24;
+  background: #FFE8D6;
   border: 1px solid rgba(255, 107, 53, 0.2);
   border: 1px solid rgba(255, 107, 53, 0.1);
   border: 1px solid rgba(255, 107, 53, 0.1);
@@ -184,7 +184,7 @@ h1 {
 }
 
 .timeline-event p {
-  color: #FFE8D6;
+  color: #3D2C24;
   line-height: 1.6;
   margin: 0;
   max-height: 0;
