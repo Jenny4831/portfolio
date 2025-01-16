@@ -14,11 +14,10 @@ function App() {
         Senior Software Engineer<span className="cursor"></span>
       </h2>
       <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
-        <p className="text-lg text-[#8dff8d] leading-relaxed terminal-text">
-          Senior Software Engineer with 6+ years experience building scalable systems and leading technical initiatives.
-          Specializing in distributed systems architecture, performance optimization, and secure software design.
-          Proven track record of delivering enterprise-grade solutions including billing platforms, real-time activity tracking, and internal tooling systems.
-          Passionate about mentoring, knowledge sharing, and fostering engineering excellence through community leadership.
+        <p className="text-lg text-blue-400 leading-relaxed terminal-text">
+          Senior Software Engineer with extensive experience driving technical innovation
+          and delivering complex projects. Expertise in architecting and scaling distributed
+          systems, optimizing performance, and implementing security-first solutions.
         </p>
       </div>
       

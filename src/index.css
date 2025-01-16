@@ -22,15 +22,15 @@
   }
 
   .terminal-text {
-    @apply text-[#8dff8d];
-    text-shadow: 0 0 5px rgba(141,255,141,0.3);
+    @apply text-blue-400;
+    text-shadow: 0 0 5px rgba(96, 165, 250, 0.3);
   }
 
   .cursor {
     display: inline-block;
     width: 10px;
     height: 20px;
-    background: #8dff8d;
+    background: #60a5fa;
     margin-left: 5px;
     animation: blink 1s step-end infinite;
   }
