@@ -19,6 +19,19 @@ function App() {
           Passionate about mentoring engineers and interns. Committed to managing the backend community to promote knowledge sharing and upskill team members.
         </p>
       </div>
+      
+      <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
+        <h3 className="text-2xl text-[#33ff33] font-bold mb-6 terminal-text">Education</h3>
+        <div className="text-left">
+          <h4 className="text-xl text-[#33ff33] font-semibold mb-2 terminal-text">Bachelor of Science: Computer Science</h4>
+          <p className="text-sm text-[#33ff33]/80 mb-4 terminal-text">Nov 2017</p>
+          <p className="text-lg text-[#33ff33] leading-relaxed terminal-text">
+            University of Sydney, Sydney, NSW<br/>
+            Distinction units: Foundations of IT, Database Systems, Internet Software Platforms, Human-Computer Interaction
+          </p>
+        </div>
+      </div>
+      
       <Timeline />
       </div>
     </div>

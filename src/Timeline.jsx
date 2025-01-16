@@ -22,13 +22,6 @@ const Timeline = () => {
         '- Created agent activity reporting feature',
     },
     { 
-      date: 'Nov 2017', 
-      title: 'Education', 
-      description: 'Bachelor of Science: Computer Science\n' +
-        'University of Sydney, Sydney, NSW\n' +
-        'Distinction units: Foundations of IT, Database Systems, Internet Software Platforms, Human-Computer Interaction',
-    },
-    { 
       date: 'Achievements', 
       title: 'Microsoft Research Asia Prize', 
       description: 'Awarded Microsoft Research Asia Prize for Junior Software Development Projects at USYD',
