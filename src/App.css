@@ -18,7 +18,7 @@
 .summary p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #3D2C24;
+  color: #2A1E17;
   margin: 0;
 }
 
@@ -92,7 +92,7 @@ h1 {
 
 .subtitle {
   font-size: 1.4rem;
-  color: #3D2C24;
+  color: #2A1E17;
   font-weight: 400;
   margin-bottom: 2rem;
   animation: fadeIn 1.2s ease-in-out;
@@ -184,7 +184,7 @@ h1 {
 }
 
 .timeline-event p {
-  color: #3D2C24;
+  color: #2A1E17;
   line-height: 1.6;
   margin: 0;
   max-height: 0;
