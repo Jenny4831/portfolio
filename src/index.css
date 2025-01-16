@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
 
 @keyframes codeScroll {
   0% { transform: translateY(0); }
@@ -9,7 +17,21 @@
 
 @layer base {
   body {
-    @apply font-sans bg-[#1e1e1e] text-[#d4d4d4] min-h-screen overflow-hidden;
+    @apply font-mono bg-[#1e1e1e] text-[#d4d4d4] min-h-screen overflow-hidden;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .terminal-text {
+    @apply text-[#33ff33] text-shadow-[0_0_5px_rgba(51,255,51,0.5)];
+  }
+
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: #33ff33;
+    margin-left: 5px;
+    animation: blink 1s step-end infinite;
   }
 
   .code-bg {
