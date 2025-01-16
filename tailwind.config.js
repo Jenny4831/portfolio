@@ -13,6 +13,8 @@ module.exports = {
         'background-light': '#FFFFFF',
         'text-light': '#F5F5F7',
         'text-muted': 'rgba(29, 29, 31, 0.6)',
+        'timeline-bg': '#F5F5F7',
+        'timeline-text': '#1D1D1F',
       },
       boxShadow: {
         custom: '0 4px 8px rgba(0, 0, 0, 0.08)',
