@@ -17,7 +17,7 @@
 
 @layer base {
   body {
-    @apply font-mono bg-[#1e1e1e] text-[#d4d4d4] min-h-screen overflow-hidden;
+    @apply font-mono bg-[#1e1e1e] text-[#d4d4d4] min-h-screen;
     font-family: 'Source Code Pro', monospace;
   }
 
