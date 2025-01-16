@@ -1,23 +1,24 @@
 :root {
-  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.6;
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #2A1E17;
-  background-color: #FFD8B1;
+  color: #1D1D1F;
+  background-color: #F5F5F7;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  --primary-color: #FF6B35;
-  --primary-hover: #E65A2B;
-  --secondary-color: #FFA630;
-  --background-light: #2E2A24;
-  --text-light: #FFF8F0;
-  --text-muted: rgba(255, 248, 240, 0.8);
+  --primary-color: #007AFF;
+  --primary-hover: #0063CC;
+  --secondary-color: #34C759;
+  --background-light: #FFFFFF;
+  --text-light: #F5F5F7;
+  --text-muted: rgba(29, 29, 31, 0.6);
+  --shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
 }
 
 a {
