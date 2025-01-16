@@ -3,7 +3,7 @@ import SideNav from './components/SideNav.jsx'
 
 function App() {
   return (
-    <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16 text-center min-h-screen flex flex-col justify-center pl-0 md:pl-72">
+    <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16 text-center min-h-screen flex flex-col justify-center pl-20 md:pl-80">
       <SideNav />
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2">
