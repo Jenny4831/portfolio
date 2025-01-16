@@ -18,6 +18,14 @@ function App() {
           Senior Software Engineer with extensive experience driving technical innovation
           and delivering complex projects. Expertise in architecting and scaling distributed
           systems, optimizing performance, and implementing security-first solutions.
+          
+          - Led the enhancement of the billing system to support enterprise customers
+          - Designed and developed core architecture for internal tooling platform
+          - Implemented and optimized sales order process with Salesforce synchronization
+          - Built real-time, event-based customer activity logging system
+          - Managed backend community and mentorship programs
+          - Led seamless migration of legacy users enabling new feature rollouts
+          - Implemented GDPR-compliant data retention strategies
         </p>
       </div>
       
@@ -32,6 +40,12 @@ function App() {
           <p className="text-lg text-[#8dff8d] leading-relaxed terminal-text">
             University of Sydney, Sydney, NSW<br/>
             Distinction units: Foundations of IT, Database Systems, Internet Software Platforms, Human-Computer Interaction
+          </p>
+        </div>
+        <div className="text-left mt-8">
+          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Achievements</h3>
+          <p className="text-lg text-[#8dff8d] leading-relaxed terminal-text">
+            - Awarded Microsoft Research Asia Prize for Junior Software Development Projects at USYD
           </p>
         </div>
       </div>
