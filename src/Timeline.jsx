@@ -9,21 +9,24 @@ const Timeline = () => {
   ];
 
   return (
-    <div className="timeline-container">
-      <div className="timeline-scroll">
-        <div className="timeline-line"></div>
-        <div className="timeline-events">
+    <div className="w-full overflow-hidden my-24 py-8">
+      <div className="relative w-full min-h-[400px]">
+        <div className="absolute top-1/2 left-0 right-0 h-1 bg-primary -translate-y-1/2 z-10"></div>
+        <div className="flex gap-16 px-16 overflow-x-auto scroll-snap-x pb-8 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {events.map((event, index) => (
-            <div 
+            <div
               key={index}
-              className="timeline-event"
-              style={{ '--index': index }}
+              className="scroll-snap-center relative min-w-[300px] w-[300px] pt-16 transition-transform duration-300"
             >
-              <div className="timeline-card">
-                <div className="timeline-date">{event.date}</div>
-                <div className="timeline-content">
-                  <h3>{event.title}</h3>
-                  <p>{event.description}</p>
+              <div className="relative bg-background-light rounded-xl p-8 shadow-custom transition-all duration-300 origin-top">
+                <div className="absolute -top-10 left-1/2 -translate-x-1/2 bg-primary text-background-light px-4 py-2 rounded-full font-semibold whitespace-nowrap">
+                  {event.date}
+                </div>
+                <div className="text-center">
+                  <h3 className="text-primary text-xl mb-4">{event.title}</h3>
+                  <p className="text-[#2A1E17] leading-relaxed opacity-0 max-h-0 overflow-hidden transition-all duration-300 group-hover:opacity-100 group-hover:max-h-[200px] group-hover:mt-4">
+                    {event.description}
+                  </p>
                 </div>
               </div>
             </div>
