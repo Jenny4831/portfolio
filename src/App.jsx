@@ -7,7 +7,7 @@ function App() {
       <SideNav />
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-3 rotate-y-2">
-      <h1 className="text-7xl font-bold text-[#8dff8d] mb-6 animate-fadeIn leading-tight tracking-tight terminal-text">
+      <h1 className="text-5xl font-bold text-[#8dff8d] mb-6 animate-fadeIn leading-tight tracking-tight terminal-text">
         Naimen (Jenny) Zhen Liang<span className="cursor"></span>
       </h1>
       <h2 className="text-2xl text-[#8dff8d]/60 font-normal mb-16 animate-fadeIn tracking-tight terminal-text">
