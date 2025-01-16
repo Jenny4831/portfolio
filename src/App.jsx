@@ -18,6 +18,7 @@ function App() {
         </p>
       </div>
       <Timeline />
+      </div>
     </div>
   )
 }
