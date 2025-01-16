@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Timeline = () => {
   const events = [
@@ -9,18 +9,42 @@ const Timeline = () => {
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
+  const [visibleEvents, setVisibleEvents] = useState([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setVisibleEvents(prev => [...prev, entry.target.dataset.index]);
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    const eventElements = document.querySelectorAll('.timeline-event');
+    eventElements.forEach(el => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div className="timeline">
       {events.map((event, index) => (
         <div 
-          key={index} 
-          className={`timeline-event ${activeIndex === index ? 'active' : ''}`}
+          key={index}
+          data-index={index}
+          className={`timeline-event ${activeIndex === index ? 'active' : ''} ${
+            visibleEvents.includes(index.toString()) ? 'visible' : ''
+          }`}
           onClick={() => setActiveIndex(activeIndex === index ? null : index)}
         >
-          <h3>{event.date}</h3>
-          <h4>{event.title}</h4>
-          {activeIndex === index && <p>{event.description}</p>}
+          <div className="timeline-content">
+            <h3>{event.date}</h3>
+            <h4>{event.title}</h4>
+            <p>{event.description}</p>
+          </div>
         </div>
       ))}
     </div>
