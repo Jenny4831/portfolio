@@ -37,8 +37,8 @@ const Timeline = () => {
             className="group relative cursor-pointer transition-all duration-300 hover:bg-[#252526]/50 rounded-lg p-2"
             onClick={() => toggleExpand(index)}
           >
-            <div className="flex-start flex items-center">
-              <div className="-ms-[7px] -mt-[5px] me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary shadow-[0_0_8px_2px_rgba(86,156,214,0.4)] group-hover:scale-125 transition-transform"></div>
+            <div className="flex-start flex items-center pt-1">
+              <div className="-ms-[9px] me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary shadow-[0_0_8px_2px_rgba(86,156,214,0.4)] group-hover:scale-125 transition-transform"></div>
               <h4 className="text-lg sm:text-xl font-semibold text-primary group-hover:text-[#8dff8d] transition-colors">
                 {event.date}
               </h4>
