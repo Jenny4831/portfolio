@@ -3,24 +3,35 @@ import React from 'react';
 const Timeline = () => {
   const events = [
     { 
-      date: '2018', 
-      title: 'Started Learning Programming', 
-      description: 'Began my journey into programming with basic languages.',
+      date: 'Mar 2020 - Present', 
+      title: 'Senior Software Engineer - Billing Systems, Tech Lead', 
+      description: 'SafetyCulture, Sydney, NSW\n' +
+        '- Led billing system enhancements for enterprise customers\n' +
+        '- Designed internal tooling platform architecture\n' +
+        '- Implemented Salesforce sales order process optimization\n' +
+        '- Built real-time customer activity logging system\n' +
+        '- Managed backend community and mentorship programs',
     },
     { 
-      date: '2019', 
-      title: 'First Project', 
-      description: 'Completed my first software project for a local business.',
+      date: 'Jun 2018 - Mar 2020', 
+      title: 'Software Engineer', 
+      description: 'Snug, Sydney\n' +
+        '- Delivered 3+ major full-stack features monthly\n' +
+        '- Developed analytics dashboard for leasing agencies\n' +
+        '- Built appointment scheduling system\n' +
+        '- Created agent activity reporting feature',
     },
     { 
-      date: '2020', 
-      title: 'Internship at TechCorp', 
-      description: 'Worked as an intern, gaining hands-on experience in web development.',
+      date: 'Nov 2017', 
+      title: 'Education', 
+      description: 'Bachelor of Science: Computer Science\n' +
+        'University of Sydney, Sydney, NSW\n' +
+        'Distinction units: Foundations of IT, Database Systems, Internet Software Platforms, Human-Computer Interaction',
     },
     { 
-      date: '2021', 
-      title: 'Full-Time Software Engineer', 
-      description: 'Started working full-time as a software engineer at Innovatech Solutions.',
+      date: 'Achievements', 
+      title: 'Microsoft Research Asia Prize', 
+      description: 'Awarded Microsoft Research Asia Prize for Junior Software Development Projects at USYD',
     },
   ];
 

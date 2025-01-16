@@ -15,6 +15,8 @@ function App() {
         <p className="text-lg text-[#33ff33] leading-relaxed terminal-text">
           Senior Software Engineer with extensive experience driving technical innovation and delivering complex projects. 
           Expertise in architecting and scaling distributed systems, optimizing performance, and implementing security-first solutions.
+          Proven track record in leading initiatives from research and design through to deployment, while working collaboratively with cross-functional teams. 
+          Passionate about mentoring engineers and interns. Committed to managing the backend community to promote knowledge sharing and upskill team members.
         </p>
       </div>
       <Timeline />
