@@ -1,3 +1,4 @@
+import { motion, useScroll, useTransform } from 'framer-motion'
 import Timeline from './Timeline.jsx'
 import SideNav from './components/SideNav.jsx'
 import HorizontalNavBar from './components/HorizontalNavBar.jsx'
@@ -13,7 +14,13 @@ function App() {
         <SideNav />
         <div className="code-bg"></div>
       <div className="relative transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2 w-full max-w-[90vw] mt-14">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 leading-tight tracking-tight terminal-text typewriter animate-fadeIn" data-text="Naimen (Jenny) Zhen Liang">
+      <motion.h1 
+        className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 leading-tight tracking-tight terminal-text typewriter"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+      >
         <div className="flex justify-center overflow-x-auto">
           <pre className="text-[10px] sm:text-xs md:text-sm lg:text-base whitespace-pre-wrap break-all">
             {`
@@ -32,14 +39,26 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           </pre>
         </div>
       </h1>
-      <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 tracking-tight terminal-text typewriter animate-fadeIn" data-text="Senior Software Engineer">
+      <motion.h2 
+        className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 tracking-tight terminal-text typewriter"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8, delay: 0.4 }}
+      >
         Senior Software Engineer<span className="cursor"></span>
       </h2>
       
       <Socials/>
 
       <div className="max-w-3xl mx-auto my-6 sm:my-8 md:my-12 lg:my-16">
-        <p className="text-lg leading-relaxed terminal-text animate-fadeIn typewriter" data-text="Senior Software Engineer with extensive experience driving technical innovation
+        <motion.p 
+          className="text-lg leading-relaxed terminal-text typewriter"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+        >
           and delivering complex projects. Expertise in architecting and scaling distributed
           systems, optimizing performance, and implementing security-first solutions.">
           <span className="keyword">Senior</span> <span className="function">Software</span> <span className="function">Engineer</span> with extensive experience <span className="keyword">driving</span> technical innovation
@@ -49,7 +68,14 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </div>
       
       <SectionDivider />
-      <section id="experience" className="scroll-mt-20">
+      <motion.section 
+        id="experience" 
+        className="scroll-mt-20"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8 }}
+      >
         <SectionTitle>Experience</SectionTitle>
         <div className="section-content">
           <Timeline />
@@ -57,7 +83,14 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </section>
       
       <SectionDivider />
-      <section id="education" className="scroll-mt-20 max-w-3xl mx-auto">
+      <motion.section 
+        id="education" 
+        className="scroll-mt-20 max-w-3xl mx-auto"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8 }}
+      >
         <SectionTitle>Education</SectionTitle>
         <div className="section-content">
         <div className="text-left">
@@ -86,7 +119,14 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </div>
 
       <SectionDivider />
-      <section id="skills" className="scroll-mt-20 max-w-3xl mx-auto">
+      <motion.section 
+        id="skills" 
+        className="scroll-mt-20 max-w-3xl mx-auto"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8 }}
+      >
         <SectionTitle>Skills</SectionTitle>
         <div className="section-content">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#8dff8d]">
@@ -119,7 +159,14 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </section>
 
       <SectionDivider />
-      <section id="languages" className="scroll-mt-20 max-w-3xl mx-auto">
+      <motion.section 
+        id="languages" 
+        className="scroll-mt-20 max-w-3xl mx-auto"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8 }}
+      >
         <SectionTitle>Spoken Languages</SectionTitle>
         <div className="section-content">
           <div className="text-[#8dff8d]">
@@ -132,7 +179,14 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </section>
 
       <SectionDivider />
-      <section id="hobbies" className="scroll-mt-20 max-w-3xl mx-auto">
+      <motion.section 
+        id="hobbies" 
+        className="scroll-mt-20 max-w-3xl mx-auto"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8 }}
+      >
         <SectionTitle>Hobbies</SectionTitle>
         <div className="section-content">
           <div className="text-[#8dff8d]">
