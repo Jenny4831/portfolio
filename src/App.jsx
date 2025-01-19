@@ -47,7 +47,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         transition={{ duration: 0.8, delay: 0.4 }}
       >
         Senior Software Engineer<span className="cursor"></span>
-      </motion.h2 >
+      </motion.h2>
       
       <Socials/>
 
