@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 const SideNav = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isExperienceExpanded, setIsExperienceExpanded] = useState(false);
 
   return (
     <>
@@ -30,12 +31,21 @@ const SideNav = () => {
       <div className="p-2">
         <div className={`text-[#8dff8d]/80 text-sm mb-2 px-2 ${isCollapsed ? 'hidden' : 'block'}`}>NAIMEN_LIANG</div>
         <div className="text-[#8dff8d] text-sm font-mono">
-          <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+          <div 
+            className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
+            onClick={() => setIsExperienceExpanded(!isExperienceExpanded)}
+          >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
               <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.225a4.85 4.85 0 00-1.647 1.056c-.34.27-.58.62-.726 1.018a.75.75 0 01-1.072.105A12 12 0 012.25 12.76zm14.457-1.99c.011-.01.023-.01.034-.02a.75.75 0 01.757.757c.012.011.023.023.034.034a12 12 0 01-3.424 6.156c-.27.34-.62.58-1.018.726a4.85 4.85 0 001.056-1.647c.231-1.584 1.625-2.707 3.225-2.707zm-1.5-1.5c.011-.01.023-.01.034-.02a.75.75 0 01.757.757c.012.011.023.023.034.034a12 12 0 01-3.424 6.156c-.27.34-.62.58-1.018.726a4.85 4.85 0 001.056-1.647c.231-1.584 1.625-2.707 3.225-2.707zM3.696 9.71a4.836 4.836 0 00-1.647-1.056c-.34-.27-.58-.62-.726-1.018a.75.75 0 01-1.072-.105A12 12 0 013.696 9.71zm15.353 1.29c.011-.01.023-.01.034-.02a.75.75 0 01.757.757c.012.011.023.023.034.034a12 12 0 01-3.424 6.156c-.27.34-.62.58-1.018.726a4.85 4.85 0 001.056-1.647c.231-1.584 1.625-2.707 3.225-2.707z" />
             </svg>
             {isCollapsed ? 'experience' : 'experience'}
           </div>
+          {isExperienceExpanded && (
+            <div className="ml-4 text-[#8dff8d]/60 text-xs">
+              <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">Mar 2020 - Present</div>
+              <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">Jun 2018 - Mar 2020</div>
+            </div>
+          )}
           <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042a8.967 8.967 0 00-7.633 4.5c-1.58 3.017-1.58 6.787 0 9.804 1.58 3.017 4.407 4.5 7.633 4.5 3.226 0 6.053-1.483 7.633-4.5 1.58-3.017 1.58-6.787 0-9.804A8.967 8.967 0 0012 6.042z" />
