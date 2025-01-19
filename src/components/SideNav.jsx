@@ -41,7 +41,7 @@ const SideNav = () => {
             {isCollapsed ? 'experience' : 'experience'}
           </div>
           {isExperienceExpanded && (
-            <div className="text-[#8dff8d]/60 text-xs">
+            <div className="text-[#8dff8d]/60 text-xs pl-4">
               <div 
                 className="hover:bg-[#2a2d2e] pl-0 pr-2 py-1 rounded cursor-pointer flex items-center"
                 onClick={() => setIsExperienceExpanded(true)}
