@@ -54,7 +54,7 @@ const Timeline = () => {
               </h5>
               <div 
                 className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                  expandedIndex === index ? 'max-h-[500px]' : 'max-h-0'
+                  expandedIndex === index ? 'max-h-[500px] overflow-y-auto' : 'max-h-0'
                 }`}
               >
                 <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text whitespace-pre-line">
