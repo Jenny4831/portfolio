@@ -64,13 +64,70 @@ function App() {
       >
         <SectionTitle>Hobbies</SectionTitle>
         <div className="section-content">
-          <div className="text-[#8dff8d] flex flex-col gap-2 border border-[#8dff8d] rounded-md p-4">
-            <p className="flex items-center gap-2 text-lg"><span className="text-xl">🎮</span> <span className="function">Learning</span> <span className="string">Godot</span></p>
-            <p className="flex items-center gap-2 text-lg"><span className="text-xl">🎨</span> <span className="keyword">Painting</span></p>
-            <p className="flex items-center gap-2 text-lg"><span className="text-xl">🍰</span> <span className="keyword">Baking</span></p>
-            <p className="flex items-center gap-2 text-lg"><span className="text-xl">✈️</span> <span className="function">Travelling</span></p>
-          </div>
-          </div>
+          <motion.div 
+            className="text-[#8dff8d] grid grid-cols-1 md:grid-cols-2 gap-4"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ staggerChildren: 0.2 }}
+          >
+            <motion.div 
+              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">🎮</span>
+                <div>
+                  <p className="text-xl font-code"><span className="function">Learning</span> <span className="string">Godot</span></p>
+                  <p className="text-sm text-[#8dff8d]/80">Creating 2D platformer games</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">🎨</span>
+                <div>
+                  <p className="text-xl font-code"><span className="keyword">Painting</span></p>
+                  <p className="text-sm text-[#8dff8d]/80">Acrylic landscapes & abstracts</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">🍰</span>
+                <div>
+                  <p className="text-xl font-code"><span className="keyword">Baking</span></p>
+                  <p className="text-sm text-[#8dff8d]/80">Specializing in French pastries</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-3xl">✈️</span>
+                <div>
+                  <p className="text-xl font-code"><span className="function">Travelling</span></p>
+                  <p className="text-sm text-[#8dff8d]/80">Exploring new cultures & cuisines</p>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        </div>
       </motion.section>
     </div>
 
