@@ -15,7 +15,7 @@ function App() {
       <div className="relative transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2 w-full max-w-[90vw] mt-14">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 leading-tight tracking-tight terminal-text typewriter animate-fadeIn" data-text="Naimen (Jenny) Zhen Liang">
         <div className="flex justify-center overflow-x-auto">
-          <pre className="text-xs sm:text-sm md:text-base lg:text-lg whitespace-pre-wrap break-all">
+          <pre className="text-[10px] sm:text-xs md:text-sm lg:text-base whitespace-pre-wrap break-all">
             {`
       ____.                                                        
     |    | ____   ____   ____ ___.__.                             
