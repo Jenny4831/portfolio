@@ -17,7 +17,7 @@ const SideNav = () => {
       <div className={`fixed left-0 top-0 h-screen bg-[#252526] border-r border-[#3c3c3d] z-20 transition-all duration-300 ${
         isCollapsed ? 'w-12 sm:w-16' : 'w-56 sm:w-64'
       }`}>
-      <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d]">
+      <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d] sm:flex-row flex-col sm:space-x-2 space-y-2 sm:space-y-0">
         <button 
           className="p-1 sm:p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
           onClick={() => setIsCollapsed(!isCollapsed)}
@@ -26,7 +26,7 @@ const SideNav = () => {
         </button>
         <span className={`text-sm text-[#8dff8d]/80 ml-2 ${isCollapsed ? 'hidden' : 'block'}`}>EXPLORER</span>
       </div>
-      <div className="p-2">
+      <div className="p-2 sm:block flex justify-center space-x-4 sm:space-x-0">
         <div className={`text-[#8dff8d]/80 text-sm mb-2 px-2 ${isCollapsed ? 'hidden' : 'block'}`}>JENNY_ZHEN_LIANG</div>
         <div className="text-[#8dff8d] text-sm font-mono">
           <a 
