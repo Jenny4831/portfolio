@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import {
   MenuIcon,
   ExperienceIcon,
@@ -11,38 +11,10 @@ import {
 const HorizontalNavBar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
   const [isExperienceExpanded, setIsExperienceExpanded] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
-  const scrollTimeout = useRef(null);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsVisible(false);
-      
-      // Clear existing timeout
-      if (scrollTimeout.current) {
-        clearTimeout(scrollTimeout.current);
-      }
-      
-      // Set timeout to show menu when scrolling stops
-      scrollTimeout.current = setTimeout(() => {
-        setIsVisible(true);
-      }, 300); // 300ms delay after scrolling stops
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      if (scrollTimeout.current) {
-        clearTimeout(scrollTimeout.current);
-      }
-    };
-  }, []);
 
   return (
     <div className={`fixed top-0 left-0 w-full max-w-[100vw] bg-[#252526] border-b border-[#3c3c3d] z-20 sm:hidden transition-all duration-300 ${
       isCollapsed ? 'h-14' : 'h-auto'
-    } ${
-      isVisible ? 'translate-y-0' : '-translate-y-full'
     }`}>
       <div className="flex flex-row justify-between items-center p-2 px-4 h-14">
         <button 
