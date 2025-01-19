@@ -41,7 +41,7 @@ const SideNav = () => {
             <ExperienceIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
             {!isCollapsed && <span className="ml-2">experience</span>}
           </a>
-          {isExperienceExpanded && (
+          {isExperienceExpanded && !isCollapsed && (
             <div className="text-[#8dff8d]/60 text-xs pl-4">
               <div 
                 className="hover:bg-[#2a2d2e] pl-0 pr-2 py-1 rounded cursor-pointer flex items-center min-w-0"
