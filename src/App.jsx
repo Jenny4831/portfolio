@@ -80,7 +80,7 @@ function App() {
                 <span className="text-3xl">🎮</span>
                 <div>
                   <p className="text-xl font-code"><span className="function">Learning</span> <span className="string">Godot</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Creating 2D platformer games</p>
+                  <p className="text-sm text-[#8dff8d]/80">Creating a 2D pixel game</p>
                 </div>
               </div>
             </motion.div>
@@ -94,7 +94,7 @@ function App() {
                 <span className="text-3xl">🎨</span>
                 <div>
                   <p className="text-xl font-code"><span className="keyword">Painting</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Acrylic landscapes & abstracts</p>
+                  <p className="text-sm text-[#8dff8d]/80">Trying all kinds of medium</p>
                 </div>
               </div>
             </motion.div>
@@ -108,7 +108,7 @@ function App() {
                 <span className="text-3xl">🍰</span>
                 <div>
                   <p className="text-xl font-code"><span className="keyword">Baking</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Specializing in French pastries</p>
+                  <p className="text-sm text-[#8dff8d]/80">Making the same cake in different shapes</p>
                 </div>
               </div>
             </motion.div>
@@ -122,7 +122,7 @@ function App() {
                 <span className="text-3xl">✈️</span>
                 <div>
                   <p className="text-xl font-code"><span className="function">Travelling</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Exploring new cultures & cuisines</p>
+                  <p className="text-sm text-[#8dff8d]/80">Good views, good food and good fun</p>
                 </div>
               </div>
             </motion.div>
