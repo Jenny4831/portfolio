@@ -1,4 +1,12 @@
 import React, { useState } from 'react';
+import {
+  MenuIcon,
+  ExperienceIcon,
+  EducationIcon,
+  SkillsIcon,
+  LanguagesIcon,
+  HobbiesIcon
+} from './StreamlineIcons';
 
 const SideNav = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -40,9 +48,7 @@ const SideNav = () => {
               document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.225a4.85 4.85 0 00-1.647 1.056c-.34.27-.58.62-.726 1.018a.75.75 0 01-1.072.105A12 12 0 012.25 12.76zm14.457-1.99c.011-.01.023-.01.034-.02a.75.75 0 01.757.757c.012.011.023.023.034.034a12 12 0 01-3.424 6.156c-.27.34-.62.58-1.018.726a4.85 4.85 0 001.056-1.647c.231-1.584 1.625-2.707 3.225-2.707zm-1.5-1.5c.011-.01.023-.01.034-.02a.75.75 0 01.757.757c.012.011.023.023.034.034a12 12 0 01-3.424 6.156c-.27.34-.62.58-1.018.726a4.85 4.85 0 001.056-1.647c.231-1.584 1.625-2.707 3.225-2.707zM3.696 9.71a4.836 4.836 0 00-1.647-1.056c-.34-.27-.58-.62-.726-1.018a.75.75 0 01-1.072-.105A12 12 0 013.696 9.71zm15.353 1.29c.011-.01.023-.01.034-.02a.75.75 0 01.757.757c.012.011.023.023.034.034a12 12 0 01-3.424 6.156c-.27.34-.62.58-1.018.726a4.85 4.85 0 001.056-1.647c.231-1.584 1.625-2.707 3.225-2.707z" />
-            </svg>
+            <ExperienceIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
             {isCollapsed ? 'experience' : 'experience'}
           </a>
           {isExperienceExpanded && (
@@ -69,27 +75,19 @@ const SideNav = () => {
             </div>
           )}
           <a href="#education" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042a8.967 8.967 0 00-7.633 4.5c-1.58 3.017-1.58 6.787 0 9.804 1.58 3.017 4.407 4.5 7.633 4.5 3.226 0 6.053-1.483 7.633-4.5 1.58-3.017 1.58-6.787 0-9.804A8.967 8.967 0 0012 6.042z" />
-            </svg>
+            <EducationIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
             {isCollapsed ? 'education' : 'education'}
           </a>
           <a href="#skills" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h10.5A2.25 2.25 0 0021 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0v3m-3 1.5a.375.375 0 11.75 0 .375.375 0 01-.75 0zm3 0v3m3-3a.375.375 0 11.75 0 .375.375 0 01-.75 0z" />
-            </svg>
+            <SkillsIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
             {isCollapsed ? 'skills' : 'skills'}
           </a>
           <a href="#languages" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
-            </svg>
+            <LanguagesIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
             {isCollapsed ? 'spoken' : 'spoken languages'}
           </a>
           <a href="#hobbies" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-            </svg>
+            <HobbiesIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
             {isCollapsed ? 'hobbies' : 'hobbies'}
           </a>
         </div>
