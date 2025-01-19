@@ -76,7 +76,6 @@ function App() {
             - Awarded Microsoft Research Asia Prize for Junior Software Development Projects at USYD
           </p>
         </div>
-      </div>
       </section>
 
       <section id="skills" className="scroll-mt-20 max-w-3xl mx-auto my-8">
