@@ -62,6 +62,7 @@ const SideNav = () => {
                      element.querySelector('.text-sm')?.click();
                      requestAnimationFrame(() => {
                        element.scrollIntoView({ behavior: 'smooth' });
+                       window.scrollBy(0, -100);
                      });
                    }
                 }}
