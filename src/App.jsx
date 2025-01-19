@@ -103,7 +103,10 @@ function App() {
                 { name: "Go", type: "keyword" },
                 { name: "JavaScript", type: "keyword" },
                 { name: "TypeScript", type: "keyword" },
-                { name: "Python", type: "keyword" }
+                { name: "Python", type: "keyword" },
+                { name: "HTML5", type: "string" },
+                { name: "SCSS", type: "string" },
+                { name: "CSS", type: "string" }
               ]}
             />
             <SkillCard 
@@ -112,15 +115,6 @@ function App() {
                 { name: "Postgres", type: "function" },
                 { name: "DynamoDB", type: "function" },
                 { name: "SQL", type: "keyword" }
-              ]}
-            />
-            <SkillCard 
-              title="Frontend" 
-              skills={[
-                { name: "HTML5", type: "string" },
-                { name: "SCSS", type: "string" },
-                { name: "CSS", type: "string" },
-                { name: "Redux", type: "function" }
               ]}
             />
             <SkillCard 
