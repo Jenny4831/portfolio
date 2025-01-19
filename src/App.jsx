@@ -7,6 +7,7 @@ import Summary from './components/Summary.jsx'
 import SectionDivider from './components/SectionDivider.jsx'
 import SectionTitle from './components/SectionTitle.jsx'
 import Header from './components/Header.jsx'
+import SkillCard from './components/SkillCard.jsx'
 
 function App() {
   return (
@@ -90,31 +91,61 @@ function App() {
       >
         <SectionTitle>Skills</SectionTitle>
         <div className="section-content">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#8dff8d]">
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Programming</h4>
-              <p><span className="keyword">Go</span>, <span className="keyword">JavaScript</span>, <span className="keyword">TypeScript</span>, <span className="keyword">Python</span></p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Databases</h4>
-              <p><span className="function">Postgres</span>, <span className="function">DynamoDB</span>, <span className="keyword">SQL</span></p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Frontend</h4>
-              <p><span className="string">HTML5</span>, <span className="string">SCSS</span>, <span className="string">CSS</span>, <span className="function">Redux</span></p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Frameworks</h4>
-              <p><span className="function">ReactJS</span>, <span className="function">Redux</span>, <span className="function">Hugo</span></p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Infrastructure & DevOps</h4>
-              <p><span className="keyword">AWS</span>, <span className="function">S3</span>, <span className="function">Docker</span>, <span className="function">Kafka</span>, <span className="function">SQS</span>, <span className="function">Buildkite</span>, <span className="function">Kubernetes</span></p>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-2">Monitoring</h4>
-              <p><span className="function">Prometheus</span>, <span className="function">Grafana</span>, <span className="function">Kibana</span></p>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <SkillCard 
+              title="Programming" 
+              skills={[
+                { name: "Go", type: "keyword" },
+                { name: "JavaScript", type: "keyword" },
+                { name: "TypeScript", type: "keyword" },
+                { name: "Python", type: "keyword" }
+              ]}
+            />
+            <SkillCard 
+              title="Databases" 
+              skills={[
+                { name: "Postgres", type: "function" },
+                { name: "DynamoDB", type: "function" },
+                { name: "SQL", type: "keyword" }
+              ]}
+            />
+            <SkillCard 
+              title="Frontend" 
+              skills={[
+                { name: "HTML5", type: "string" },
+                { name: "SCSS", type: "string" },
+                { name: "CSS", type: "string" },
+                { name: "Redux", type: "function" }
+              ]}
+            />
+            <SkillCard 
+              title="Frameworks" 
+              skills={[
+                { name: "ReactJS", type: "function" },
+                { name: "Redux", type: "function" },
+                { name: "Hugo", type: "function" }
+              ]}
+            />
+            <SkillCard 
+              title="Infrastructure & DevOps" 
+              skills={[
+                { name: "AWS", type: "keyword" },
+                { name: "S3", type: "function" },
+                { name: "Docker", type: "function" },
+                { name: "Kafka", type: "function" },
+                { name: "SQS", type: "function" },
+                { name: "Buildkite", type: "function" },
+                { name: "Kubernetes", type: "function" }
+              ]}
+            />
+            <SkillCard 
+              title="Monitoring" 
+              skills={[
+                { name: "Prometheus", type: "function" },
+                { name: "Grafana", type: "function" },
+                { name: "Kibana", type: "function" }
+              ]}
+            />
           </div>
         </div>
       </motion.section>

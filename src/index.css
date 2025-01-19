@@ -218,6 +218,14 @@
     @apply absolute left-1/2 -translate-x-1/2 -top-3 text-[#8dff8d]/10 text-sm bg-[#1e1e1e] px-2;
   }
 
+  .skill-card {
+    box-shadow: 0 0 15px rgba(141, 255, 141, 0.05);
+  }
+
+  .skill-card:hover {
+    box-shadow: 0 0 25px rgba(141, 255, 141, 0.1);
+  }
+
   .code-bg::before {
     content: '';
     position: absolute;
