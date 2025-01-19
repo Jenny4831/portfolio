@@ -100,9 +100,9 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           </p>
         </div>
         <div className="text-left mt-8">
-          <h3 className="text-3xl font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2 mt-8">
-            <span className="keyword">Achievements</span>
-          </h3>
+          <h5 className="font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2 mt-8">
+            <span className="text-[#8dff8d]/50">★</span> Achievements <span className="text-[#8dff8d]/50">★</span>
+          </h5>
           <p className="text-xl leading-relaxed terminal-text text-[#8dff8d]">
             <span className="function">Awarded</span> <span className="function">Microsoft</span> <span className="function">Research</span> <span className="function">Asia</span> <span className="function">Prize</span> <span className="keyword">for</span> <span className="function">Junior</span> <span className="function">Software</span> <span className="function">Development</span> <span className="function">Projects</span> <span className="keyword">at</span> <span className="function">USYD</span>
           </p>
