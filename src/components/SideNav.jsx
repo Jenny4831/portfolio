@@ -60,7 +60,9 @@ const SideNav = () => {
                    const element = document.getElementById('experience-1');
                    if (element) {
                      element.querySelector('.text-sm')?.click();
-                     element.scrollIntoView({ behavior: 'smooth' });
+                     setTimeout(() => {
+                       element.scrollIntoView({ behavior: 'smooth' });
+                     }, 300);
                    }
                 }}
               >Jun 2018 - Mar 2020</div>
