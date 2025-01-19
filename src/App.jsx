@@ -86,11 +86,8 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <div className="text-left">
           <h5 className="font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2">
             <span className="text-[#8dff8d]/50">★</span> University of Sydney <span className="text-[#8dff8d]/50">★</span>
-            <p className="text-xl text-[#8dff8d] mt-1">
-              <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
-            </p>
           </h5>
-          <p className="text-base text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017</p>
+          <p className="text-base text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017 - Bachelor of Science: Computer Science</p>
           <p className="text-xl leading-relaxed terminal-text text-[#8dff8d]">
             <span className="keyword">Distinction</span> <span className="function">units</span>: 
             <span className="string">"Foundations of IT"</span>, 
