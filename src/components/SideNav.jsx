@@ -58,7 +58,8 @@ const SideNav = () => {
                  onClick={() => {
                   setIsExperienceExpanded(true);
                    const element = document.getElementById('experience-1');
-                   element?.scrollIntoView({ behavior: 'smooth' });
+                   const heading = element?.querySelector('h4');
+                   heading?.scrollIntoView({ behavior: 'smooth' });
                    if (element) {
                      element.querySelector('.text-sm')?.click();
                    }
