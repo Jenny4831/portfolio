@@ -46,11 +46,11 @@ function App() {
       </div>
 
       <div className="max-w-3xl mx-auto my-6 sm:my-8 md:my-12 lg:my-16">
-        <p className="text-lg text-blue-400 leading-relaxed terminal-text animate-fadeIn typewriter" data-text="Senior Software Engineer with extensive experience driving technical innovation
+        <p className="text-lg leading-relaxed terminal-text animate-fadeIn typewriter" data-text="Senior Software Engineer with extensive experience driving technical innovation
           and delivering complex projects. Expertise in architecting and scaling distributed
           systems, optimizing performance, and implementing security-first solutions.">
-          Senior Software Engineer with extensive experience driving technical innovation
-          and delivering complex projects. Expertise in architecting and scaling distributed
+          <span className="keyword">Senior</span> <span className="function">Software</span> <span className="function">Engineer</span> with extensive experience <span className="keyword">driving</span> technical innovation
+          and <span className="keyword">delivering</span> complex projects. <span className="function">Expertise</span> in architecting and scaling distributed
           systems, optimizing performance, and implementing security-first solutions.
         </p>
       </div>
@@ -83,27 +83,27 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#8dff8d]">
             <div>
               <h4 className="text-lg font-semibold mb-2">Programming</h4>
-              <p>Go, JavaScript, TypeScript, Python</p>
+              <p><span className="keyword">Go</span>, <span className="keyword">JavaScript</span>, <span className="keyword">TypeScript</span>, <span className="keyword">Python</span></p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Databases</h4>
-              <p>Postgres, DynamoDB, SQL</p>
+              <p><span className="function">Postgres</span>, <span className="function">DynamoDB</span>, <span className="keyword">SQL</span></p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Frontend</h4>
-              <p>HTML5, SCSS, CSS, Redux</p>
+              <p><span className="string">HTML5</span>, <span className="string">SCSS</span>, <span className="string">CSS</span>, <span className="function">Redux</span></p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Frameworks</h4>
-              <p>ReactJS, Redux, Hugo</p>
+              <p><span className="function">ReactJS</span>, <span className="function">Redux</span>, <span className="function">Hugo</span></p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Infrastructure & DevOps</h4>
-              <p>AWS, S3, Docker, Kafka, SQS, Buildkite, Kubernetes</p>
+              <p><span className="keyword">AWS</span>, <span className="function">S3</span>, <span className="function">Docker</span>, <span className="function">Kafka</span>, <span className="function">SQS</span>, <span className="function">Buildkite</span>, <span className="function">Kubernetes</span></p>
             </div>
             <div>
               <h4 className="text-lg font-semibold mb-2">Monitoring</h4>
-              <p>Prometheus, Grafana, Kibana</p>
+              <p><span className="function">Prometheus</span>, <span className="function">Grafana</span>, <span className="function">Kibana</span></p>
             </div>
           </div>
       </section>

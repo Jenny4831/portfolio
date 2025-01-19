@@ -62,8 +62,32 @@
   }
 
   .terminal-text {
-    @apply text-blue-400;
-    text-shadow: 0 0 5px rgba(96, 165, 250, 0.3);
+    @apply text-[#d4d4d4]; /* Default text color */
+    text-shadow: 0 0 5px rgba(212, 212, 212, 0.1);
+  }
+
+  .keyword {
+    @apply text-[#569cd6]; /* Blue for keywords */
+  }
+
+  .string {
+    @apply text-[#ce9178]; /* Orange for strings */
+  }
+
+  .function {
+    @apply text-[#dcdcaa]; /* Yellow for functions */
+  }
+
+  .comment {
+    @apply text-[#6a9955]; /* Green for comments */
+  }
+
+  .number {
+    @apply text-[#b5cea8]; /* Light green for numbers */
+  }
+
+  .operator {
+    @apply text-[#d4d4d4]; /* White for operators */
   }
 
   .cursor {
