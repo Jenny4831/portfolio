@@ -130,6 +130,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
               <p><span className="function">Prometheus</span>, <span className="function">Grafana</span>, <span className="function">Kibana</span></p>
             </div>
           </div>
+        </div>
       </section>
 
       <div className="section-divider"></div>
