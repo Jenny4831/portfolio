@@ -96,7 +96,7 @@ function App() {
                     <span className="function">Chinese</span> (<span className="string">Mandarin</span>)
                   </h3>
                 </div>
-                <div className="text-sm text-[#8dff8d]/80">Professional proficiency</div>
+                <div className="text-sm text-[#8dff8d]/80">Native proficiency</div>
               </div>
             </div>
           </div>
