@@ -107,7 +107,6 @@ function App() {
               <p>Prometheus, Grafana, Kibana</p>
             </div>
           </div>
-        </div>
       </section>
 
       <section id="languages" className="scroll-mt-20 max-w-3xl mx-auto my-8">
