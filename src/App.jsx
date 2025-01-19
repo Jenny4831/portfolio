@@ -7,14 +7,16 @@ function App() {
       <SideNav />
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 animate-fadeIn leading-tight tracking-tight terminal-text">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 animate-fadeIn leading-tight tracking-tight terminal-text typewriter" data-text="Naimen (Jenny) Zhen Liang">
         Naimen (Jenny) Zhen Liang<span className="cursor"></span>
       </h1>
-      <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 animate-fadeIn tracking-tight terminal-text">
+      <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 animate-fadeIn tracking-tight terminal-text typewriter" data-text="Senior Software Engineer">
         Senior Software Engineer<span className="cursor"></span>
       </h2>
       <div className="max-w-3xl mx-auto my-6 sm:my-8 md:my-12 lg:my-16 p-4 sm:p-6 md:p-8 lg:p-12 bg-[#252526] rounded-xl sm:rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
-        <p className="text-lg text-blue-400 leading-relaxed terminal-text animate-fadeIn">
+        <p className="text-lg text-blue-400 leading-relaxed terminal-text animate-fadeIn typewriter" data-text="Senior Software Engineer with extensive experience driving technical innovation
+          and delivering complex projects. Expertise in architecting and scaling distributed
+          systems, optimizing performance, and implementing security-first solutions.">
           Senior Software Engineer with extensive experience driving technical innovation
           and delivering complex projects. Expertise in architecting and scaling distributed
           systems, optimizing performance, and implementing security-first solutions.
