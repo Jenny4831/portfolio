@@ -50,6 +50,10 @@ const SideNav = () => {
                   const element = document.getElementById('timeline-0');
                   if (element) {
                     element.querySelector('.text-sm')?.click();
+                    window.scrollTo({
+                      top: element.offsetTop - 100,
+                      behavior: 'smooth',
+                    });
                   }
                 }}
               >Mar 2020 - Present</div>
@@ -61,6 +65,10 @@ const SideNav = () => {
                    const element = document.getElementById('timeline-1');
                    if (element) {
                      element.querySelector('.text-sm')?.click();
+                     window.scrollTo({
+                       top: element.offsetTop - 100,
+                       behavior: 'smooth',
+                     });
                    }
                 }}
               >Jun 2018 - Mar 2020</div>
