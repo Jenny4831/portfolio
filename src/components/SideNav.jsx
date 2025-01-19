@@ -61,11 +61,15 @@ const SideNav = () => {
                       await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
                     }
                     
-                    // Scroll to element with header offset
-                    const headerHeight = 100;
-                    const elementTop = element.getBoundingClientRect().top;
-                    const offsetPosition = elementTop + window.pageYOffset - headerHeight;
+                    // Wait for layout to stabilize
+                    await new Promise(resolve => requestAnimationFrame(resolve));
                     
+                    // Calculate scroll position accounting for header
+                    const headerHeight = 100;
+                    const elementRect = element.getBoundingClientRect();
+                    const offsetPosition = window.scrollY + elementRect.top - headerHeight;
+                    
+                    // Smooth scroll to position
                     window.scrollTo({
                       top: offsetPosition,
                       behavior: 'smooth'
@@ -92,11 +96,15 @@ const SideNav = () => {
                       await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
                     }
                     
-                    // Scroll to element with header offset
-                    const headerHeight = 100;
-                    const elementTop = element.getBoundingClientRect().top;
-                    const offsetPosition = elementTop + window.pageYOffset - headerHeight;
+                    // Wait for layout to stabilize
+                    await new Promise(resolve => requestAnimationFrame(resolve));
                     
+                    // Calculate scroll position accounting for header
+                    const headerHeight = 100;
+                    const elementRect = element.getBoundingClientRect();
+                    const offsetPosition = window.scrollY + elementRect.top - headerHeight;
+                    
+                    // Smooth scroll to position
                     window.scrollTo({
                       top: offsetPosition,
                       behavior: 'smooth'
