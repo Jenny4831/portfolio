@@ -65,6 +65,14 @@ function App() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#8dff8d]">
               <div className="p-4 border border-[#8dff8d]/20 rounded-lg">
                 <div className="flex items-center gap-3 mb-2">
+                  <span className="text-2xl">🇬🇧</span>
+                  <h3 className="text-xl font-bold terminal-text"><span className="keyword">English</span></h3>
+                </div>
+                <div className="text-sm text-[#8dff8d]/80">Professional proficiency</div>
+              </div>
+
+              <div className="p-4 border border-[#8dff8d]/20 rounded-lg">
+                <div className="flex items-center gap-3 mb-2">
                   <span className="text-2xl">🇪🇸</span>
                   <h3 className="text-xl font-bold terminal-text"><span className="keyword">Spanish</span></h3>
                 </div>
@@ -87,14 +95,6 @@ function App() {
                   <h3 className="text-xl font-bold terminal-text">
                     <span className="function">Chinese</span> (<span className="string">Mandarin</span>)
                   </h3>
-                </div>
-                <div className="text-sm text-[#8dff8d]/80">Professional proficiency</div>
-              </div>
-
-              <div className="p-4 border border-[#8dff8d]/20 rounded-lg">
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="text-2xl">🇬🇧</span>
-                  <h3 className="text-xl font-bold terminal-text"><span className="keyword">English</span></h3>
                 </div>
                 <div className="text-sm text-[#8dff8d]/80">Professional proficiency</div>
               </div>
