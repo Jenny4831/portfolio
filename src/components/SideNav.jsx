@@ -27,7 +27,7 @@ const SideNav = () => {
         <span className={`text-sm text-[#8dff8d]/80 ml-2 ${isCollapsed ? 'hidden' : 'block'}`}>EXPLORER</span>
       </div>
       <div className="p-2">
-        <div className={`text-[#8dff8d]/80 text-sm mb-2 px-2 ${isCollapsed ? 'hidden' : 'block'}`}>NAIMEN_LIANG</div>
+        <div className={`text-[#8dff8d]/80 text-sm mb-2 px-2 ${isCollapsed ? 'hidden' : 'block'}`}>JENNY_ZHEN_LIANG</div>
         <div className="text-[#8dff8d] text-sm font-mono">
           <a 
             href="#experience"
