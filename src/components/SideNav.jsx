@@ -44,57 +44,59 @@ const SideNav = () => {
             <div className="ml-4 text-[#8dff8d]/60 text-xs">
               <div 
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
-                onClick={() => {
+                onClick={async () => {
                   setIsExperienceExpanded(true);
                   const element = document.getElementById('timeline-0');
                   if (element) {
                     // First collapse any expanded item
                     const currentlyExpanded = document.querySelector('.max-h-[500px]');
-                    if (currentlyExpanded) {
+                    if (currentlyExpanded && currentlyExpanded.parentElement !== element) {
                       currentlyExpanded.parentElement.click();
+                      await new Promise(resolve => setTimeout(resolve, 300)); // Wait for collapse
                     }
                     
-                    // Wait for collapse animation
-                    setTimeout(() => {
-                      element.click(); // Expand target item
-                      // Scroll after expansion
-                      setTimeout(() => {
-                        const rect = element.getBoundingClientRect();
-                        const offset = window.scrollY + rect.top - 100;
-                        window.scrollTo({
-                          top: offset,
-                          behavior: 'smooth'
-                        });
-                      }, 50);
-                    }, 50);
+                    // If not already expanded, click to expand
+                    if (!element.querySelector('.max-h-[500px]')) {
+                      element.click();
+                      await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
+                    }
+                    
+                    // Scroll to element
+                    const rect = element.getBoundingClientRect();
+                    const offset = window.scrollY + rect.top - 100;
+                    window.scrollTo({
+                      top: offset,
+                      behavior: 'smooth'
+                    });
                   }
                 }}
               >Mar 2020 - Present</div>
               <div 
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
-                onClick={() => {
+                onClick={async () => {
                   setIsExperienceExpanded(true);
                   const element = document.getElementById('timeline-1');
                   if (element) {
                     // First collapse any expanded item
                     const currentlyExpanded = document.querySelector('.max-h-[500px]');
-                    if (currentlyExpanded) {
+                    if (currentlyExpanded && currentlyExpanded.parentElement !== element) {
                       currentlyExpanded.parentElement.click();
+                      await new Promise(resolve => setTimeout(resolve, 300)); // Wait for collapse
                     }
                     
-                    // Wait for collapse animation
-                    setTimeout(() => {
-                      element.click(); // Expand target item
-                      // Scroll after expansion
-                      setTimeout(() => {
-                        const rect = element.getBoundingClientRect();
-                        const offset = window.scrollY + rect.top - 100;
-                        window.scrollTo({
-                          top: offset,
-                          behavior: 'smooth'
-                        });
-                      }, 50);
-                    }, 50);
+                    // If not already expanded, click to expand
+                    if (!element.querySelector('.max-h-[500px]')) {
+                      element.click();
+                      await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
+                    }
+                    
+                    // Scroll to element
+                    const rect = element.getBoundingClientRect();
+                    const offset = window.scrollY + rect.top - 100;
+                    window.scrollTo({
+                      top: offset,
+                      behavior: 'smooth'
+                    });
                   }
                 }}
               >Jun 2018 - Mar 2020</div>
