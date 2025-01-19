@@ -38,7 +38,7 @@ const SideNav = () => {
               document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <ExperienceIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
+            <ExperienceIcon className="w-3 h-3 mr-2 text-[#8dff8d]" />
             {isCollapsed ? 'experience' : 'experience'}
           </a>
           {isExperienceExpanded && (
@@ -65,19 +65,19 @@ const SideNav = () => {
             </div>
           )}
           <a href="#education" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <EducationIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
+            <EducationIcon className="w-3 h-3 mr-2 text-[#8dff8d]" />
             {isCollapsed ? 'education' : 'education'}
           </a>
           <a href="#skills" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <SkillsIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
+            <SkillsIcon className="w-3 h-3 mr-2 text-[#8dff8d]" />
             {isCollapsed ? 'skills' : 'skills'}
           </a>
           <a href="#languages" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <LanguagesIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
+            <LanguagesIcon className="w-3 h-3 mr-2 text-[#8dff8d]" />
             {isCollapsed ? 'spoken' : 'spoken languages'}
           </a>
           <a href="#hobbies" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <HobbiesIcon className="w-3 h-3 mr-1 text-[#8dff8d]" />
+            <HobbiesIcon className="w-3 h-3 mr-2 text-[#8dff8d]" />
             {isCollapsed ? 'hobbies' : 'hobbies'}
           </a>
         </div>
