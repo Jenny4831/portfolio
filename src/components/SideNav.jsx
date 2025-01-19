@@ -11,11 +11,6 @@ import {
 const SideNav = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [isExperienceExpanded, setIsExperienceExpanded] = useState(false);
-  const [isDarkMode, setIsDarkMode] = useState(true);
-
-  useEffect(() => {
-    document.documentElement.classList.toggle('light-mode', !isDarkMode);
-  }, [isDarkMode]);
 
   return (
     <>
@@ -28,23 +23,6 @@ const SideNav = () => {
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
           <MenuIcon className={`text-[#8dff8d] transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`} />
-        </button>
-        <button
-          className="ml-2 p-1 sm:p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
-          onClick={() => setIsDarkMode(!isDarkMode)}
-        >
-          <svg 
-            className={`w-4 h-4 ${isDarkMode ? 'text-yellow-300' : 'text-gray-800'}`} 
-            fill="none" 
-            viewBox="0 0 24 24" 
-            stroke="currentColor"
-          >
-            {isDarkMode ? (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-            ) : (
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-            )}
-          </svg>
         </button>
         <span className={`text-sm text-[#8dff8d]/80 ml-2 ${isCollapsed ? 'hidden' : 'block'}`}>EXPLORER</span>
       </div>
