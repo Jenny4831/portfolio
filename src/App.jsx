@@ -91,7 +91,8 @@ function App() {
       >
         <SectionTitle>Skills</SectionTitle>
         <div className="section-content">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="text-left">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <SkillCard 
               title="Programming" 
               skills={[
@@ -146,6 +147,7 @@ function App() {
                 { name: "Kibana", type: "function" }
               ]}
             />
+            </div>
           </div>
         </div>
       </motion.section>
