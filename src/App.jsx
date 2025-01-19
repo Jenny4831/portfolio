@@ -98,7 +98,9 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             - Awarded Microsoft Research Asia Prize for Junior Software Development Projects at USYD
           </p>
         </div>
+        </div>
       </section>
+      </div>
 
       <div className="section-divider"></div>
       <section id="skills" className="scroll-mt-20 max-w-3xl mx-auto">
@@ -143,6 +145,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             <p>Chinese (Mandarin)</p>
             <p>English</p>
           </div>
+          </div>
       </section>
 
       <div className="section-divider"></div>
@@ -155,8 +158,10 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             <p>Baking</p>
             <p>Travelling</p>
           </div>
+          </div>
       </section>
       </div>
+      
     </div>
   )
 }
