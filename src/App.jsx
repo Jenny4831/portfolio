@@ -64,11 +64,11 @@ function App() {
       >
         <SectionTitle>Hobbies</SectionTitle>
         <div className="section-content">
-          <div className="text-[#8dff8d]">
-            <p><span className="function">Learning</span> <span className="string">Godot</span></p>
-            <p><span className="keyword">Painting</span></p>
-            <p><span className="keyword">Baking</span></p>
-            <p><span className="function">Travelling</span></p>
+          <div className="text-[#8dff8d] flex flex-col gap-2">
+            <p className="flex items-center gap-2"><span className="text-xl">🎮</span> <span className="function">Learning</span> <span className="string">Godot</span></p>
+            <p className="flex items-center gap-2"><span className="text-xl">🎨</span> <span className="keyword">Painting</span></p>
+            <p className="flex items-center gap-2"><span className="text-xl">🍰</span> <span className="keyword">Baking</span></p>
+            <p className="flex items-center gap-2"><span className="text-xl">✈️</span> <span className="function">Travelling</span></p>
           </div>
           </div>
       </motion.section>
