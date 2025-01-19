@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-timeline-vertical": "^1.0.1",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {

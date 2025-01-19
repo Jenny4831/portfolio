@@ -1,26 +1,52 @@
-## Naimen (Jenny) Zhen
+## Naimen (Jenny) Zhen Liang
 
-## Liang
+## Contact details
+Email: jennnai.rl4831@gmail.com
 
-# Personal details
-
-```
-Naimen (Jenny) Zhen Liang
-```
-```
-jennnai.rl4831@gmail.com
-```
-### 0412479812
-
-```
-Cronulla, NSW 2230
-2230 Cronulla
-```
-```
-linkedin.com/in/naimen-zhen-
+linkedin: linkedin.com/in/naimen-zhen-
 liang
-```
-# Skills
+
+github: https://github.com/Jenny4831
+
+# Summary
+
+`Senior Software Engineer with extensive experience driving technical innovation
+and delivering complex projects. Expertise in architecting and scaling distributed
+systems, optimizing performance, and implementing security-first solutions.
+
+## Employment
+
+### Mar 2020 - Present
+#### SafetyCulture - Senior Software Engineer - Billing SystemsTech Lead
+
+- Led the enhancement of the billing system to support enterprise customers: collaborated with finance team on requirements, selected billing providers, designed system architecture with migration plan, and managed cross-functional implementation while maintaining regular stakeholder updates. Successfully unlocked enterprise contracts and custom billing models.
+
+- Designed and developed the core architecture for the company's internal tooling platform that equips customer support and GTM teams with essential tools to manage customer inquiries and execute operations on customer's account. Built with scalability in mind, the platform allows domain teams to extend functionality with custom tooling, boosting support for customer-facing teams. This initiative reduced reliance on scripts, enhanced traceability of actions taken against customer accounts, and introduced granular permission controls for features provided by different teams, ultimately increasing security, visibility, and reliability.
+
+- Implemented and optimized sales order process with Salesforce synchronization, boosting sales team efficiency and productivity.
+Designed and built a real-time, event-based customer activity logging system. The system features a flexible architecture that integrates seamlessly with both legacy and modern services, enabling simple adoption by different teams. Customers can now monitor their users' activities in real-time, improving transparency and accountability.
+
+- Took a key role in managing the backend community, promoting a culture of knowledge sharing through engineers' expertise and developing comprehensive, hands-on workshops to elevate skills across diverse topics.
+
+- Actively involved in guiding interns, participating in mentorship, and representing the company at university career fairs and various activities.
+
+- Led the seamless migration of legacy users, enabling the rollout of new features across various domains and the retirement of outdated plans. Collaborated closely with product, marketing, and support teams to ensure effective communication with customers and smooth execution of each rollout stage. This migration enhanced product accessibility for legacy users, resulting in a 10% increase in trial conversions.
+
+- Implemented data retention strategies to ensure compliance with GDPR regulations. Worked closely with data store team, to be able to set up ground work, such that other teams can follow an example.
+
+
+### Jun 2018 - Mar 2020
+#### Snug - Full Stack Software Engineer
+
+- Delivered an average of three major full-stack features per month in 2018-2019.
+- Collaborated with software development and testing teams to design and develop scalable and high-performance leasing solutions that met client functionality requirements.
+- Tested and troubleshot methods, devised innovative solutions, and documented resolutions, contributing to the knowledge base for the support team.
+- Analytics dashboard: Designed and implemented an analytics dashboard for leasing agencies, enabling performance tracking and insights end-to-end.
+- Appointment Scheduling Feature: Led full-stack development of a property leasing appointment scheduling system.
+- Activity Report: Developed full-stack a feature to export agent activity reports for leasing agencies, improving transparency and operational visibility.
+
+
+## Skills
 
 Programming: Go, JavaScript,
 TypeScript, Python(minor)
@@ -42,7 +68,7 @@ Kibana
 
 Others: Protobuf, kafka, SQS, gRPC
 
-# Soft Skills
+## Soft Skills
 
 Design Reviews
 
@@ -52,92 +78,32 @@ Troubleshooting
 
 Written and Oral Communications
 
-# Summary
+## Languages
 
-```
-Senior Software Engineer with extensive experience driving technical innovation
-and delivering complex projects. Expertise in architecting and scaling distributed
-systems, optimizing performance, and implementing security-first solutions.
-```
-# Employment
+- Spanish
 
-```
-SafetyCulture, Sydney, NSW 
-```
-````
-Senior Software Engineer - Billing SystemsTech Lead
-````
-````
-Mar 2020 - Present
-````
+- Chinese (Cantonese)
 
-- Led the enhancement of the billing system to support enterprise customers: collaborated with finance team on requirements, selected billing providers, designed system architecture with migration plan, and managed cross-functional implementation while maintaining regular stakeholder updates. Successfully unlocked enterprise contracts and custom billing models.
+- Chinese (Mandarin)
 
-- Designed and developed the core architecture for the company's internal tooling platform that equips customer support and GTM teams with essential tools to manage customer inquiries and execute operations on customer's account. Built with scalability in mind, the platform allows domain teams to extend functionality with custom tooling, boosting support for customer-facing teams. This initiative reduced reliance on scripts, enhanced traceability of actions taken against customer accounts, and introduced granular permission controls for features provided by different teams, ultimately increasing security, visibility, and reliability.
+- English
 
-- Implemented and optimized sales order process with Salesforce synchronization, boosting sales team efficiency and productivity.
-Designed and built a real-time, event-based customer activity logging system. The system features a flexible architecture that integrates seamlessly with both legacy and modern services, enabling simple adoption by different teams. Customers can now monitor their users' activities in real-time, improving transparency and accountability.
+## Hobbies
 
-- Took a key role in managing the backend community, promoting a culture of knowledge sharing through engineers' expertise and developing comprehensive, hands-on workshops to elevate skills across diverse topics.
+- Learning Godot
 
-- Actively involved in guiding interns, participating in mentorship, and representing the company at university career fairs and various activities.
+- Painting
 
-- Led the seamless migration of legacy users, enabling the rollout of new features across various domains and the retirement of outdated plans. Collaborated closely with product, marketing, and support teams to ensure effective communication with customers and smooth execution of each rollout stage. This migration enhanced product accessibility for legacy users, resulting in a 10% increase in trial conversions.
+- Baking
 
-- Implemented data retention strategies to ensure compliance with GDPR regulations. Worked closely with data store team, to be able to set up ground work, such that other teams can follow an example.
+- Travelling
 
-```
-Snug, Sydney
-```
-````
-Software Engineer Jun 2018 - Mar 2020
-````
-
-- Delivered an average of three major full-stack features per month in 2018-2019.
-- Collaborated with software development and testing teams to design and develop scalable and high-performance leasing solutions that met client functionality requirements.
-- Tested and troubleshot methods, devised innovative solutions, and documented resolutions, contributing to the knowledge base for the support team.
-- Analytics dashboard: Designed and implemented an analytics dashboard for leasing agencies, enabling performance tracking and insights end-to-end.
-- Appointment Scheduling Feature: Led full-stack development of a property leasing appointment scheduling system.
-- Activity Report: Developed full-stack a feature to export agent activity reports for leasing agencies, improving transparency and operational visibility.
-
-
-# Languages
-
-Spanish
-
-Chinese (Cantonese)
-
-Chinese (Mandarin)
-
-English
-
-# Hobbies
-
-```
-Learning Godot
-```
-```
-Painting
-```
-```
-Baking
-```
-```
-Travelling
-```
-
-# Education
-
-```
+## Education
 Bachelor of Science: Computer Science Nov 2017
 University of Sydney, Sydney, NSW
 Distinction units: Foundations of IT, Database Systems, Internet Software
 Platforms, Human-Computer Interaction.
-```
-# Achievements
 
-```
+## Achievements
 Awarded Microsoft Research AsiaPrize for Junior SoftwareDevelopment Projects
 Award at USYD
-```
-
