@@ -82,7 +82,7 @@ function App() {
 
       <section id="languages" className="scroll-mt-20">
         <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
-          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Languages</h3>
+          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Spoken Languages</h3>
           <div className="text-[#8dff8d]">
             <p>Spanish</p>
             <p>Chinese (Cantonese)</p>
