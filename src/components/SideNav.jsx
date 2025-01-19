@@ -44,85 +44,15 @@ const SideNav = () => {
             <div className="ml-4 text-[#8dff8d]/60 text-xs">
               <div 
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
-                onClick={async () => {
-                  setIsExperienceExpanded(true);
-                  const element = document.getElementById('timeline-0');
-                  if (element) {
-                    // First collapse any expanded item
-                    const currentlyExpanded = document.querySelector('.max-h-[500px]');
-                    if (currentlyExpanded && currentlyExpanded.parentElement !== element) {
-                      currentlyExpanded.parentElement.click();
-                      await new Promise(resolve => setTimeout(resolve, 300)); // Wait for collapse
-                    }
-                    
-                    // If not already expanded, click to expand
-                    if (!element.querySelector('.max-h-[500px]')) {
-                      element.click();
-                      await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
-                    }
-                    
-                    // Wait for layout to stabilize
-                    await new Promise(resolve => requestAnimationFrame(resolve));
-                    
-                    // Calculate scroll position accounting for header
-                    const headerHeight = 100;
-                    const elementRect = element.getBoundingClientRect();
-                    const offsetPosition = window.scrollY + elementRect.top - headerHeight;
-                    
-                    // Smooth scroll to position
-                    window.scrollTo({
-                      top: offsetPosition,
-                      behavior: 'smooth'
-                    });
-                  }
-                }}
+                onClick={() => setIsExperienceExpanded(true)}
               >Mar 2020 - Present</div>
               <div 
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
-                onClick={async () => {
-                  setIsExperienceExpanded(true);
-                  const element = document.getElementById('timeline-1');
-                  if (element) {
-                    // First collapse any expanded item
-                    const currentlyExpanded = document.querySelector('.max-h-[500px]');
-                    if (currentlyExpanded && currentlyExpanded.parentElement !== element) {
-                      currentlyExpanded.parentElement.click();
-                      await new Promise(resolve => setTimeout(resolve, 300)); // Wait for collapse
-                    }
-                    
-                    // If not already expanded, click to expand
-                    if (!element.querySelector('.max-h-[500px]')) {
-                      element.click();
-                      await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
-                    }
-                    
-                    // Wait for layout to stabilize
-                    await new Promise(resolve => requestAnimationFrame(resolve));
-                    
-                    // Calculate scroll position accounting for header
-                    const headerHeight = 100;
-                    const elementRect = element.getBoundingClientRect();
-                    const offsetPosition = window.scrollY + elementRect.top - headerHeight;
-                    
-                    // Smooth scroll to position
-                    window.scrollTo({
-                      top: offsetPosition,
-                      behavior: 'smooth'
-                    });
-                  }
-                }}
+                onClick={() => setIsExperienceExpanded(true)}
               >Jun 2018 - Mar 2020</div>
             </div>
           )}
-          <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer" onClick={() => {
-            const element = document.getElementById('education');
-            if (element) {
-              element.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-              });
-            }
-          }}>
+          <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042a8.967 8.967 0 00-7.633 4.5c-1.58 3.017-1.58 6.787 0 9.804 1.58 3.017 4.407 4.5 7.633 4.5 3.226 0 6.053-1.483 7.633-4.5 1.58-3.017 1.58-6.787 0-9.804A8.967 8.967 0 0012 6.042z" />
             </svg>
