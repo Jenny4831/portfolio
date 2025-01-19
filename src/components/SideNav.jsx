@@ -46,14 +46,22 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                 onClick={() => {
                   setIsExperienceExpanded(true);
-                  document.getElementById('experience-0')?.scrollIntoView({ behavior: 'smooth' });
+                  const element = document.getElementById('experience-0');
+                  element?.scrollIntoView({ behavior: 'smooth' });
+                  if (element) {
+                    element.querySelector('.text-sm')?.click();
+                  }
                 }}
               >Mar 2020 - Present</div>
               <div 
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                  onClick={() => {
                   setIsExperienceExpanded(true);
-                  document.getElementById('experience-1')?.scrollIntoView({ behavior: 'smooth' });
+                   const element = document.getElementById('experience-1');
+                   element?.scrollIntoView({ behavior: 'smooth' });
+                   if (element) {
+                     element.querySelector('.text-sm')?.click();
+                   }
                 }}
               >Jun 2018 - Mar 2020</div>
             </div>
