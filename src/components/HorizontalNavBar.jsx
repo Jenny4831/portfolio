@@ -91,7 +91,7 @@ const HorizontalNavBar = () => {
                 document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              <ExperienceIcon className="w-3 h-3 text-[#8dff8d] mr-4" />
+              <ExperienceIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
               <span>experience</span>
             </a>
             {isExperienceExpanded && (
@@ -112,19 +112,19 @@ const HorizontalNavBar = () => {
               </div>
             )}
             <a href="#education" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <EducationIcon className="w-3 h-3 text-[#8dff8d] mr-4" />
+              <EducationIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
               <span>education</span>
             </a>
             <a href="#skills" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <SkillsIcon className="w-3 h-3 text-[#8dff8d] mr-4" />
+              <SkillsIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
               <span>skills</span>
             </a>
             <a href="#languages" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <LanguagesIcon className="w-3 h-3 text-[#8dff8d] mr-4" />
+              <LanguagesIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
               <span>spoken languages</span>
             </a>
             <a href="#hobbies" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <HobbiesIcon className="w-3 h-3 text-[#8dff8d] mr-4" />
+              <HobbiesIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
               <span>hobbies</span>
             </a>
           </div>
