@@ -58,10 +58,9 @@ const SideNav = () => {
                  onClick={() => {
                   setIsExperienceExpanded(true);
                    const element = document.getElementById('experience-1');
-                   const heading = element?.querySelector('h4');
-                   heading?.scrollIntoView({ behavior: 'smooth' });
                    if (element) {
                      element.querySelector('.text-sm')?.click();
+                     element.scrollIntoView({ behavior: 'smooth' });
                    }
                 }}
               >Jun 2018 - Mar 2020</div>
