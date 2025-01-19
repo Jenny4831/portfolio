@@ -36,7 +36,7 @@
   }
 
   .light-mode .terminal-text {
-    @apply text-[#2d3748];
+    @apply text-black;
   }
 
   .light-mode h1 {
@@ -76,15 +76,15 @@
   }
 
   .light-mode .comment {
-    @apply text-[#38a169];
+    @apply text-black/70;
   }
 
   .light-mode .number {
-    @apply text-[#2f855a];
+    @apply text-black;
   }
 
   .light-mode .operator {
-    @apply text-[#4a5568];
+    @apply text-black;
   }
 
   .light-mode .cursor {
@@ -96,11 +96,11 @@
   }
 
   .light-mode .section-title {
-    @apply text-[#2b6cb0];
+    @apply text-black;
   }
 
   .light-mode .section-content {
-    @apply text-[#4a5568];
+    @apply text-black;
   }
 
   .light-mode a {
