@@ -201,6 +201,7 @@ function App() {
           </div>
       </motion.section>
     </div>
+    </div>
   )
 }
 
