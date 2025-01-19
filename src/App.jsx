@@ -10,6 +10,7 @@ import Header from './components/Header.jsx'
 import Skills from './components/Skills.jsx'
 import Education from './components/Education.jsx'
 import Languages from './components/Languages.jsx'
+import CardGrid, { Card } from './components/CardGrid.jsx'
 
 function App() {
   return (
@@ -64,69 +65,28 @@ function App() {
       >
         <SectionTitle>Hobbies</SectionTitle>
         <div className="section-content">
-          <motion.div 
-            className="text-[#8dff8d] grid grid-cols-1 md:grid-cols-2 gap-6"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ staggerChildren: 0.2 }}
-          >
-            <motion.div 
-              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <div className="flex items-start gap-3">
-                <span className="text-3xl mt-1">🎮</span>
-                <div className="text-left">
-                  <p className="text-xl font-code"><span className="function">Learning</span> <span className="string">Godot</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Creating a 2D pixel game</p>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div 
-              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <div className="flex items-start gap-3">
-                <span className="text-3xl mt-1">🎨</span>
-                <div className="text-left">
-                  <p className="text-xl font-code"><span className="keyword">Painting</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Trying all kinds of medium</p>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div 
-              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <div className="flex items-start gap-3">
-                <span className="text-3xl mt-1">🍰</span>
-                <div className="text-left">
-                  <p className="text-xl font-code"><span className="keyword">Baking</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Making the same cake in different shapes</p>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div 
-              className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <div className="flex items-start gap-3">
-                <span className="text-3xl mt-1">✈️</span>
-                <div className="text-left">
-                  <p className="text-xl font-code"><span className="function">Travelling</span></p>
-                  <p className="text-sm text-[#8dff8d]/80">Good views, good food and good fun</p>
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
+          <CardGrid className="text-[#8dff8d]">
+            <Card 
+              emoji="🎮"
+              title={<><span className="function">Learning</span> <span className="string">Godot</span></>}
+              subtitle="Creating a 2D pixel game"
+            />
+            <Card 
+              emoji="🎨"
+              title={<span className="keyword">Painting</span>}
+              subtitle="Trying all kinds of medium"
+            />
+            <Card 
+              emoji="🍰"
+              title={<span className="keyword">Baking</span>}
+              subtitle="Making the same cake in different shapes"
+            />
+            <Card 
+              emoji="✈️"
+              title={<span className="function">Travelling</span>}
+              subtitle="Good views, good food and good fun"
+            />
+          </CardGrid>
         </div>
       </motion.section>
     </div>
