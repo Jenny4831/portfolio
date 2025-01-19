@@ -117,7 +117,6 @@ function App() {
             <p>Chinese (Mandarin)</p>
             <p>English</p>
           </div>
-        </div>
       </section>
 
       <section id="hobbies" className="scroll-mt-20 max-w-3xl mx-auto my-8">
