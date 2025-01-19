@@ -10,7 +10,7 @@ import Header from './components/Header.jsx'
 
 function App() {
   return (
-    <>
+    <div>
       <HorizontalNavBar />
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pb-32">
         <SideNav />
@@ -159,7 +159,6 @@ function App() {
           </div>
       </motion.section>
     </div>
-  </>
   )
 }
 
