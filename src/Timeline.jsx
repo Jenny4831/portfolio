@@ -6,23 +6,23 @@ const Timeline = () => {
     {
       date: 'Mar 2020 - Present',
       title: 'Senior Software Engineer - Billing Systems, Tech Lead',
-      description: 'SafetyCulture, Sydney, NSW\n' +
-        '- Led enterprise billing system overhaul enabling custom contracts and pricing models\n' +
-        '- Designed and built internal tooling platform for customer support teams with granular permissions\n' +
-        '- Developed real-time customer activity tracking system with flexible architecture\n' +
-        '- Led migration of legacy billing plans to new platform, enabling feature rollout\n' +
-        '- Implemented GDPR-compliant data retention policies, setting an example for other teams to follow\n' +
-        '- Mentored interns and led engineering workshops on distributed systems',
+      description: '<span class="function">SafetyCulture</span>, Sydney, NSW\n' +
+        '- <span class="keyword">Led</span> enterprise billing system overhaul enabling custom contracts and pricing models\n' +
+        '- <span class="keyword">Designed</span> and <span class="keyword">built</span> internal tooling platform for customer support teams with granular permissions\n' +
+        '- <span class="keyword">Developed</span> real-time customer activity tracking system with flexible architecture\n' +
+        '- <span class="keyword">Led</span> migration of legacy billing plans to new platform, enabling feature rollout\n' +
+        '- <span class="keyword">Implemented</span> GDPR-compliant data retention policies, setting an example for other teams to follow\n' +
+        '- <span class="keyword">Mentored</span> interns and led engineering workshops on distributed systems',
     },
     {
       date: 'Jun 2018 - Mar 2020',
       title: 'Full Stack Software Engineer',
-      description: 'Snug, Sydney\n' +
-        '- Delivered 3+ major features monthly across full stack\n' +
-        '- Built leasing analytics dashboard providing real-time performance insights\n' +
-        '- Developed appointment scheduling system handling 10k+ bookings monthly\n' +
-        '- Created activity reporting tools improving operational transparency\n' +
-        '- Optimized system performance, reducing API response times by 40%',
+      description: '<span class="function">Snug</span>, Sydney\n' +
+        '- <span class="keyword">Delivered</span> 3+ major features monthly across full stack\n' +
+        '- <span class="keyword">Built</span> leasing analytics dashboard providing real-time performance insights\n' +
+        '- <span class="keyword">Developed</span> appointment scheduling system handling 10k+ bookings monthly\n' +
+        '- <span class="keyword">Created</span> activity reporting tools improving operational transparency\n' +
+        '- <span class="keyword">Optimized</span> system performance, reducing API response times by 40%',
     },
   ];
 
@@ -55,9 +55,7 @@ const Timeline = () => {
                   expandedIndex === index ? 'max-h-[500px] overflow-y-auto' : 'max-h-0'
                 }`}
               >
-                <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text whitespace-pre-line">
-                  {event.description}
-                </p>
+                <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text whitespace-pre-line" dangerouslySetInnerHTML={{ __html: event.description }} />
               </div>
               <div className="mt-2 text-sm text-[#8dff8d]/60">
                 {expandedIndex === index ? '▲ Show Less' : '▼ Show More Details'}
