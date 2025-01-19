@@ -102,8 +102,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             <span className="keyword">Achievements</span>
           </h3>
           <p className="text-lg leading-relaxed terminal-text">
-            <span className="comment">// </span>
-            <span className="keyword">-</span> <span className="function">Awarded</span> <span className="function">Microsoft</span> <span className="function">Research</span> <span className="function">Asia</span> <span className="function">Prize</span> <span className="keyword">for</span> <span className="function">Junior</span> <span className="function">Software</span> <span className="function">Development</span> <span className="function">Projects</span> <span className="keyword">at</span> <span className="function">USYD</span>
+            <span className="function">Awarded</span> <span className="function">Microsoft</span> <span className="function">Research</span> <span className="function">Asia</span> <span className="function">Prize</span> <span className="keyword">for</span> <span className="function">Junior</span> <span className="function">Software</span> <span className="function">Development</span> <span className="function">Projects</span> <span className="keyword">at</span> <span className="function">USYD</span>
           </p>
         </div>
         </div>
