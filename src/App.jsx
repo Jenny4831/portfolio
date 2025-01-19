@@ -83,7 +83,6 @@ function App() {
       </motion.section>
       </div>
 
-      </div>
       <div className="max-w-3xl mx-auto">
         <SectionDivider />
       <motion.section 
@@ -200,6 +199,8 @@ function App() {
           </div>
           </div>
       </motion.section>
+    </div>
+
     </div>
     </div>
   )
