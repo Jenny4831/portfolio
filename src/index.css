@@ -155,6 +155,15 @@
     overflow: hidden;
   }
 
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
 
   .section-title {
     @apply text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center;
