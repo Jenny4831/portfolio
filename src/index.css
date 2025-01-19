@@ -89,13 +89,6 @@
 
   p {
     @apply text-[#d4d4d4]/90 text-base;
-    transition: all 0.3s ease;
-    transform-origin: top center;
-  }
-
-  p:hover {
-    transform: scale(1.02);
-    text-shadow: 0 0 5px rgba(212, 212, 212, 0.2);
   }
 
   .keyword {
@@ -169,12 +162,6 @@
   .section-divider {
     @apply w-full h-px bg-gradient-to-r from-transparent via-[#8dff8d]/40 to-transparent my-8;
     position: relative;
-    transition: all 0.3s ease;
-  }
-
-  .section-divider:hover {
-    transform: scaleX(1.1);
-    background: linear-gradient(to right, transparent 0%, #8dff8d 50%, transparent 100%);
   }
 
   .section-divider::before {
