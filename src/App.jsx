@@ -46,6 +46,7 @@ function App() {
           </p>
         </div>
       </div>
+      </section>
       </div>
     </div>
   )
