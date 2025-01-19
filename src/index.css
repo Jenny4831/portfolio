@@ -21,6 +21,76 @@
     font-family: 'Source Code Pro', monospace;
   }
 
+  .light-mode body {
+    @apply bg-[#f8fafc] text-[#1e293b];
+  }
+
+  .light-mode .code-bg {
+    background: linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%);
+  }
+
+  .light-mode .code-bg::before {
+    background-image: 
+      linear-gradient(to right, rgba(0,0,0,0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0,0,0,0.02) 1px, transparent 1px);
+  }
+
+  .light-mode .terminal-text {
+    @apply text-[#1e293b];
+  }
+
+  .light-mode h1 {
+    @apply text-[#1e40af];
+  }
+
+  .light-mode h2 {
+    @apply text-[#1e40af]/90;
+  }
+
+  .light-mode h3 {
+    @apply text-[#1e40af]/80;
+  }
+
+  .light-mode h4 {
+    @apply text-[#1e40af]/70;
+  }
+
+  .light-mode h5 {
+    @apply text-[#1e40af]/60;
+  }
+
+  .light-mode p {
+    @apply text-[#1e293b]/90;
+  }
+
+  .light-mode .keyword {
+    @apply text-[#2563eb];
+  }
+
+  .light-mode .string {
+    @apply text-[#dc2626];
+  }
+
+  .light-mode .function {
+    @apply text-[#ca8a04];
+  }
+
+  .light-mode .comment {
+    @apply text-[#16a34a];
+  }
+
+  .light-mode .number {
+    @apply text-[#059669];
+  }
+
+  .light-mode .operator {
+    @apply text-[#1e293b];
+  }
+
+  .light-mode .cursor {
+    background: #2563eb;
+  }
+
   .timeline-line {
     position: absolute;
     left: 50%;
