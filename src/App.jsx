@@ -84,9 +84,9 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <h3 className="section-title">Education</h3>
         <div className="section-content">
         <div className="text-left">
-          <h4 className="text-xl font-semibold mb-2 terminal-text text-[#8dff8d]/80 border-b border-[#8dff8d]/20 pb-2">
-            <span className="function">University</span> <span className="keyword">of</span> <span className="function">Sydney</span>
-            <p className="text-sm text-[#8dff8d]/60 mt-1">
+          <h4 className="text-3xl font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2">
+            <span className="text-[#8dff8d]/50">★</span> <span className="function">University</span> <span className="keyword">of</span> <span className="function">Sydney</span> <span className="text-[#8dff8d]/50">★</span>
+            <p className="text-base text-[#8dff8d]/80 mt-1">
               <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
             </p>
           </h4>
