@@ -8,8 +8,9 @@ function App() {
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 animate-fadeIn leading-tight tracking-tight terminal-text typewriter" data-text="Naimen (Jenny) Zhen Liang">
-        <pre className="text-left text-sm sm:text-base md:text-lg lg:text-xl">
-          {`
+        <div className="flex justify-center">
+          <pre className="text-sm sm:text-base md:text-lg lg:text-xl">
+            {`
       ____.                                                        
     |    | ____   ____   ____ ___.__.                             
     |    _/ __ \\ /    \\ /    <   |  |                             
@@ -21,8 +22,9 @@ _________.__  \\/     \\/     \\/\\/.____    .__
  /     /_|   Y  \\  ___/|   |  \\ |    |___|  |/ __ \\|   |  / /_/  >
 /_______ |___|  /\\___  |___|  / |_______ |__(____  |___|  \\___  / 
         \\/    \\/     \\/     \\/          \\/       \\/     \\/_____/  
-          `}
-        </pre>
+            `}
+          </pre>
+        </div>
         <span className="cursor"></span>
       </h1>
       <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 animate-fadeIn tracking-tight terminal-text typewriter" data-text="Senior Software Engineer">
