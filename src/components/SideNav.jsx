@@ -53,9 +53,11 @@ const SideNav = () => {
                   const element = document.getElementById('timeline-0');
                   if (element) {
                     element.querySelector('.text-sm')?.click();
-                    window.scrollTo({
-                      top: element.offsetTop - 100,
-                      behavior: 'smooth',
+                    requestAnimationFrame(() => {
+                      window.scrollTo({
+                        top: element.offsetTop - 100,
+                        behavior: 'smooth',
+                      });
                     });
                   }
                 }}
@@ -71,9 +73,11 @@ const SideNav = () => {
                    const element = document.getElementById('timeline-1');
                    if (element) {
                      element.querySelector('.text-sm')?.click();
-                     window.scrollTo({
-                       top: element.offsetTop - 100,
-                       behavior: 'smooth',
+                     requestAnimationFrame(() => {
+                       window.scrollTo({
+                         top: element.offsetTop - 100,
+                         behavior: 'smooth',
+                       });
                      });
                    }
                 }}
@@ -84,7 +88,13 @@ const SideNav = () => {
             if (window.location.hash === '#education') {
               window.location.hash = '';
             }
-            window.location.hash = '#education'
+            window.location.hash = '#education';
+            requestAnimationFrame(() => {
+              window.scrollTo({
+                top: document.getElementById('education').offsetTop - 100,
+                behavior: 'smooth',
+              });
+            });
           }}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042a8.967 8.967 0 00-7.633 4.5c-1.58 3.017-1.58 6.787 0 9.804 1.58 3.017 4.407 4.5 7.633 4.5 3.226 0 6.053-1.483 7.633-4.5 1.58-3.017 1.58-6.787 0-9.804A8.967 8.967 0 0012 6.042z" />
