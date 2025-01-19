@@ -46,6 +46,9 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                 onClick={() => {
                   setIsExperienceExpanded(true);
+                  if (window.location.hash === '#timeline-0') {
+                    window.location.hash = '';
+                  }
                   window.location.hash = '#timeline-0';
                   const element = document.getElementById('timeline-0');
                   if (element) {
@@ -61,6 +64,9 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                  onClick={() => {
                   setIsExperienceExpanded(true);
+                  if (window.location.hash === '#timeline-1') {
+                    window.location.hash = '';
+                  }
                    window.location.hash = '#timeline-1';
                    const element = document.getElementById('timeline-1');
                    if (element) {
@@ -74,7 +80,12 @@ const SideNav = () => {
               >Jun 2018 - Mar 2020</div>
             </div>
           )}
-          <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer" onClick={() => {window.location.hash = '#education'}}>
+          <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer" onClick={() => {
+            if (window.location.hash === '#education') {
+              window.location.hash = '';
+            }
+            window.location.hash = '#education'
+          }}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042a8.967 8.967 0 00-7.633 4.5c-1.58 3.017-1.58 6.787 0 9.804 1.58 3.017 4.407 4.5 7.633 4.5 3.226 0 6.053-1.483 7.633-4.5 1.58-3.017 1.58-6.787 0-9.804A8.967 8.967 0 0012 6.042z" />
             </svg>
