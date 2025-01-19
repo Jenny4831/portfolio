@@ -85,7 +85,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <div className="section-content">
         <div className="text-left">
           <h4 className="text-4xl font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2">
-            <span className="text-[#8dff8d]/50">★</span> <span className="function">University</span> <span className="keyword">of</span> <span className="function">Sydney</span> <span className="text-[#8dff8d]/50">★</span>
+            <span className="text-[#8dff8d]/50">★</span> University of Sydney <span className="text-[#8dff8d]/50">★</span>
             <p className="text-xl text-[#8dff8d] mt-1">
               <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
             </p>
