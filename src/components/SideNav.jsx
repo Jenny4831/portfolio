@@ -48,13 +48,25 @@ const SideNav = () => {
                   setIsExperienceExpanded(true);
                   const element = document.getElementById('timeline-0');
                   if (element) {
-                    element.click(); // Trigger the expand
-                    requestAnimationFrame(() => {
-                      element.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                      });
-                    });
+                    // First collapse any expanded item
+                    const currentlyExpanded = document.querySelector('.max-h-[500px]');
+                    if (currentlyExpanded) {
+                      currentlyExpanded.parentElement.click();
+                    }
+                    
+                    // Wait for collapse animation
+                    setTimeout(() => {
+                      element.click(); // Expand target item
+                      // Scroll after expansion
+                      setTimeout(() => {
+                        const rect = element.getBoundingClientRect();
+                        const offset = window.scrollY + rect.top - 100;
+                        window.scrollTo({
+                          top: offset,
+                          behavior: 'smooth'
+                        });
+                      }, 50);
+                    }, 50);
                   }
                 }}
               >Mar 2020 - Present</div>
@@ -64,13 +76,25 @@ const SideNav = () => {
                   setIsExperienceExpanded(true);
                   const element = document.getElementById('timeline-1');
                   if (element) {
-                    element.click(); // Trigger the expand
-                    requestAnimationFrame(() => {
-                      element.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                      });
-                    });
+                    // First collapse any expanded item
+                    const currentlyExpanded = document.querySelector('.max-h-[500px]');
+                    if (currentlyExpanded) {
+                      currentlyExpanded.parentElement.click();
+                    }
+                    
+                    // Wait for collapse animation
+                    setTimeout(() => {
+                      element.click(); // Expand target item
+                      // Scroll after expansion
+                      setTimeout(() => {
+                        const rect = element.getBoundingClientRect();
+                        const offset = window.scrollY + rect.top - 100;
+                        window.scrollTo({
+                          top: offset,
+                          behavior: 'smooth'
+                        });
+                      }, 50);
+                    }, 50);
                   }
                 }}
               >Jun 2018 - Mar 2020</div>
