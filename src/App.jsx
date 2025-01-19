@@ -84,17 +84,26 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <h3 className="section-title">Education</h3>
         <div className="section-content">
         <div className="text-left">
-          <h4 className="text-xl text-[#8dff8d] font-semibold mb-2 terminal-text">Bachelor of Science: Computer Science</h4>
-          <p className="text-sm text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017</p>
-          <p className="text-lg text-[#8dff8d] leading-relaxed terminal-text">
-            University of Sydney, Sydney, NSW<br/>
-            Distinction units: Foundations of IT, Database Systems, Internet Software Platforms, Human-Computer Interaction
+          <h4 className="text-xl font-semibold mb-2 terminal-text">
+            <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
+          </h4>
+          <p className="text-sm text-[#6A9955] mb-4 terminal-text comment">// Nov 2017</p>
+          <p className="text-lg leading-relaxed terminal-text">
+            <span className="function">University</span> <span className="keyword">of</span> <span className="function">Sydney</span>, <span className="function">Sydney</span>, <span className="function">NSW</span><br/>
+            <span className="keyword">Distinction</span> <span className="function">units</span>: 
+            <span className="string">"Foundations of IT"</span>, 
+            <span className="string">"Database Systems"</span>, 
+            <span className="string">"Internet Software Platforms"</span>, 
+            <span className="string">"Human-Computer Interaction"</span>
           </p>
         </div>
         <div className="text-left mt-8">
-          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Achievements</h3>
-          <p className="text-lg text-[#8dff8d] leading-relaxed terminal-text">
-            - Awarded Microsoft Research Asia Prize for Junior Software Development Projects at USYD
+          <h3 className="text-2xl font-bold mb-6 terminal-text">
+            <span className="keyword">Achievements</span>
+          </h3>
+          <p className="text-lg leading-relaxed terminal-text">
+            <span className="comment">// </span>
+            <span className="keyword">-</span> <span className="function">Awarded</span> <span className="function">Microsoft</span> <span className="function">Research</span> <span className="function">Asia</span> <span className="function">Prize</span> <span className="keyword">for</span> <span className="function">Junior</span> <span className="function">Software</span> <span className="function">Development</span> <span className="function">Projects</span> <span className="keyword">at</span> <span className="function">USYD</span>
           </p>
         </div>
         </div>
