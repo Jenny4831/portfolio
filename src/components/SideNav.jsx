@@ -42,8 +42,18 @@ const SideNav = () => {
           </div>
           {isExperienceExpanded && (
             <div className="ml-4 text-[#8dff8d]/60 text-xs">
-              <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">Mar 2020 - Present</div>
-              <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">Jun 2018 - Mar 2020</div>
+              <div 
+                className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
+                onClick={() => {
+                  document.getElementById('experience-0')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >Mar 2020 - Present</div>
+              <div 
+                className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
+                 onClick={() => {
+                  document.getElementById('experience-1')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >Jun 2018 - Mar 2020</div>
             </div>
           )}
           <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
