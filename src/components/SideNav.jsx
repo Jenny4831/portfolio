@@ -46,7 +46,7 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                 onClick={() => {
                   setIsExperienceExpanded(true);
-                  const element = document.getElementById('experience');
+                  const element = document.getElementById('timeline-0');
                   if (element) {
                     element.scrollIntoView({
                       behavior: 'smooth',
@@ -59,7 +59,7 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                 onClick={() => {
                   setIsExperienceExpanded(true);
-                  const element = document.getElementById('experience');
+                  const element = document.getElementById('timeline-1');
                   if (element) {
                     element.scrollIntoView({
                       behavior: 'smooth',

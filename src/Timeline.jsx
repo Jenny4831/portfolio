@@ -40,7 +40,7 @@ const Timeline = () => {
           <li 
             key={index}
             id={`timeline-${index}`}
-            className="group relative cursor-pointer transition-all duration-300 hover:bg-[#252526]/50 rounded-lg p-2"
+            className="group relative cursor-pointer transition-all duration-300 hover:bg-[#252526]/50 rounded-lg p-2 scroll-mt-20"
             onClick={() => toggleExpand(index)}
           >
             <div className="flex-start flex items-center pt-1">
