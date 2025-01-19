@@ -78,7 +78,6 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           <Timeline />
         </div>
       </section>
-      <Timeline />
       
       <div className="section-divider"></div>
       <section id="education" className="scroll-mt-20 max-w-3xl mx-auto">
