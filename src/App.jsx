@@ -72,12 +72,22 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </div>
       
       <section id="experience" className="scroll-mt-20">
-        <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Experience</h3>
+        <h3 
+          className="section-title" 
+          data-text="Experience"
+        >
+          Experience
+        </h3>
       </section>
       <Timeline />
       
       <section id="education" className="scroll-mt-20 max-w-3xl mx-auto my-8">
-        <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center">Education</h3>
+        <h3 
+          className="section-title" 
+          data-text="Education"
+        >
+          Education
+        </h3>
         <div className="text-left">
           <h4 className="text-xl text-[#8dff8d] font-semibold mb-2 terminal-text">Bachelor of Science: Computer Science</h4>
           <p className="text-sm text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017</p>
@@ -95,7 +105,12 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </section>
 
       <section id="skills" className="scroll-mt-20 max-w-3xl mx-auto my-8">
-        <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center">Skills</h3>
+        <h3 
+          className="section-title" 
+          data-text="Skills"
+        >
+          Skills
+        </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#8dff8d]">
             <div>
               <h4 className="text-lg font-semibold mb-2">Programming</h4>
@@ -125,7 +140,12 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </section>
 
       <section id="languages" className="scroll-mt-20 max-w-3xl mx-auto my-8">
-        <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center">Spoken Languages</h3>
+        <h3 
+          className="section-title" 
+          data-text="Languages"
+        >
+          Spoken Languages
+        </h3>
           <div className="text-[#8dff8d]">
             <p>Spanish</p>
             <p>Chinese (Cantonese)</p>
@@ -135,7 +155,12 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </section>
 
       <section id="hobbies" className="scroll-mt-20 max-w-3xl mx-auto my-8">
-        <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center">Hobbies</h3>
+        <h3 
+          className="section-title" 
+          data-text="Hobbies"
+        >
+          Hobbies
+        </h3>
           <div className="text-[#8dff8d]">
             <p>Learning Godot</p>
             <p>Painting</p>

@@ -138,10 +138,43 @@
 
   .section-title {
     @apply text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center;
+    position: relative;
+  }
+
+  .section-title::before,
+  .section-title::after {
+    content: '// ' attr(data-text) ' //';
+    @apply text-[#8dff8d]/20 absolute whitespace-nowrap;
+    font-size: 1.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  .section-title::before {
+    left: -100%;
+  }
+
+  .section-title::after {
+    right: -100%;
   }
 
   .section-content {
     @apply text-[#8dff8d] leading-relaxed terminal-text;
+    position: relative;
+    padding: 2rem 0;
+  }
+
+  .section-content::before {
+    content: '';
+    @apply absolute top-0 left-1/2 w-3/4 h-px bg-[#8dff8d]/10;
+    transform: translateX(-50%);
+  }
+
+  .section-content::after {
+    content: '/* --- */';
+    @apply absolute bottom-0 left-1/2 text-[#8dff8d]/10 text-sm;
+    transform: translateX(-50%);
   }
 
   .code-bg::before {
