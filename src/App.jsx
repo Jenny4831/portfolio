@@ -25,7 +25,6 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             `}
           </pre>
         </div>
-        <span className="cursor"></span>
       </h1>
       <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 animate-fadeIn tracking-tight terminal-text typewriter" data-text="Senior Software Engineer">
         Senior Software Engineer<span className="cursor"></span>
