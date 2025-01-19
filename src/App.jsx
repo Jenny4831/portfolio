@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <HorizontalNavBar />
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pb-32">
         <SideNav />
         <div className="code-bg"></div>
       <div className="relative transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2 w-full max-w-[90vw] mt-14">
