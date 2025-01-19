@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <HorizontalNavBar />
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pb-32">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pb-32">
         <SideNav />
         <div className="code-bg"></div>
       <Header />
@@ -28,11 +28,12 @@ function App() {
       </motion.div>
 
       <Summary />
-      
-      <SectionDivider />
+
+      <div className="max-w-3xl mx-auto">
+        <SectionDivider />
       <motion.section 
         id="experience" 
-        className="scroll-mt-20"
+        className="scroll-mt-20 max-w-3xl mx-auto"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
@@ -44,7 +45,9 @@ function App() {
         </div>
       </motion.section>
       
-      <SectionDivider />
+      </div>
+      <div className="max-w-3xl mx-auto">
+        <SectionDivider />
       <motion.section 
         id="education" 
         className="scroll-mt-20 max-w-3xl mx-auto"
@@ -80,7 +83,9 @@ function App() {
       </motion.section>
       </div>
 
-      <SectionDivider />
+      </div>
+      <div className="max-w-3xl mx-auto">
+        <SectionDivider />
       <motion.section 
         id="skills" 
         className="scroll-mt-20 max-w-3xl mx-auto"
@@ -152,7 +157,9 @@ function App() {
         </div>
       </motion.section>
 
-      <SectionDivider />
+      </div>
+      <div className="max-w-3xl mx-auto">
+        <SectionDivider />
       <motion.section 
         id="languages" 
         className="scroll-mt-20 max-w-3xl mx-auto"
@@ -172,7 +179,9 @@ function App() {
           </div>
       </motion.section>
 
-      <SectionDivider />
+      </div>
+      <div className="max-w-3xl mx-auto">
+        <SectionDivider />
       <motion.section 
         id="hobbies" 
         className="scroll-mt-20 max-w-3xl mx-auto"
