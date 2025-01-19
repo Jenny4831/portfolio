@@ -89,6 +89,13 @@
 
   p {
     @apply text-[#d4d4d4]/90 text-base;
+    transition: all 0.3s ease;
+    transform-origin: top center;
+  }
+
+  p:hover {
+    transform: scale(1.02);
+    text-shadow: 0 0 5px rgba(212, 212, 212, 0.2);
   }
 
   .keyword {
