@@ -120,10 +120,10 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <SectionTitle>Spoken Languages</SectionTitle>
         <div className="section-content">
           <div className="text-[#8dff8d]">
-            <p>Spanish</p>
-            <p>Chinese (Cantonese)</p>
-            <p>Chinese (Mandarin)</p>
-            <p>English</p>
+            <p><span className="keyword">Spanish</span></p>
+            <p><span className="function">Chinese</span> (<span className="string">Cantonese</span>)</p>
+            <p><span className="function">Chinese</span> (<span className="string">Mandarin</span>)</p>
+            <p><span className="keyword">English</span></p>
           </div>
           </div>
       </section>
