@@ -11,7 +11,7 @@ const Timeline = () => {
         '- Designed and built internal tooling platform for customer support teams with granular permissions\n' +
         '- Developed real-time customer activity tracking system with flexible architecture\n' +
         '- Led migration of legacy billing plans to new platform, enabling feature rollout\n' +
-        '- Implemented GDPR-compliant data retention policies across all services\n' +
+        '- Implemented GDPR-compliant data retention policies, setting an example for other teams to follow\n' +
         '- Mentored interns and led engineering workshops on distributed systems',
     },
     {
