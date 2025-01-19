@@ -68,7 +68,7 @@ function App() {
                   <span className="text-2xl">🇬🇧</span>
                   <h3 className="text-xl font-bold terminal-text"><span className="keyword">English</span></h3>
                 </div>
-                <div className="text-sm text-[#8dff8d]/80">Native proficiency</div>
+                <div className="text-sm text-[#8dff8d]/80">Professional proficiency</div>
               </div>
 
               <div className="p-4 border border-[#8dff8d]/20 rounded-lg">
