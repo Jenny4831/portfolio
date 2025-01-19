@@ -86,16 +86,6 @@
     overflow: hidden;
   }
 
-  .section-card {
-    @apply max-w-3xl mx-auto my-8 p-6 bg-[#252526] rounded-xl border border-[#3c3c3c];
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    transition: all 0.3s ease;
-  }
-
-  .section-card:hover {
-    @apply scale-[1.02];
-    box-shadow: 0 35px 60px -15px rgba(0, 0, 0, 0.6);
-  }
 
   .section-title {
     @apply text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center;

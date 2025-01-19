@@ -31,7 +31,7 @@ const Timeline = () => {
   };
 
   return (
-    <div className="section-card w-full max-w-2xl mx-auto">
+    <div className="w-full max-w-2xl mx-auto my-8">
       <ol className="relative left-1/2 transform -translate-x-1/2">
         {events.map((event, index) => (
           <li 
