@@ -2,6 +2,7 @@ import Timeline from './Timeline.jsx'
 import SideNav from './components/SideNav.jsx'
 import Socials from './components/socials.jsx'
 import SectionDivider from './components/SectionDivider.jsx'
+import SectionTitle from './components/SectionTitle.jsx'
 
 function App() {
   return (
@@ -46,7 +47,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       
       <SectionDivider />
       <section id="experience" className="scroll-mt-20">
-        <h3 className="section-title">Experience</h3>
+        <SectionTitle>Experience</SectionTitle>
         <div className="section-content">
           <Timeline />
         </div>
@@ -54,7 +55,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       
       <SectionDivider />
       <section id="education" className="scroll-mt-20 max-w-3xl mx-auto">
-        <h3 className="section-title">Education</h3>
+        <SectionTitle>Education</SectionTitle>
         <div className="section-content">
         <div className="text-left">
           <h5 className="font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2">
@@ -83,7 +84,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
 
       <SectionDivider />
       <section id="skills" className="scroll-mt-20 max-w-3xl mx-auto">
-        <h3 className="section-title">Skills</h3>
+        <SectionTitle>Skills</SectionTitle>
         <div className="section-content">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#8dff8d]">
             <div>
@@ -116,7 +117,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
 
       <SectionDivider />
       <section id="languages" className="scroll-mt-20 max-w-3xl mx-auto">
-        <h3 className="section-title">Spoken Languages</h3>
+        <SectionTitle>Spoken Languages</SectionTitle>
         <div className="section-content">
           <div className="text-[#8dff8d]">
             <p>Spanish</p>
@@ -129,7 +130,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
 
       <SectionDivider />
       <section id="hobbies" className="scroll-mt-20 max-w-3xl mx-auto">
-        <h3 className="section-title">Hobbies</h3>
+        <SectionTitle>Hobbies</SectionTitle>
         <div className="section-content">
           <div className="text-[#8dff8d]">
             <p>Learning Godot</p>
