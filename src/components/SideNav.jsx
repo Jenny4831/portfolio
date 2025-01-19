@@ -43,11 +43,11 @@ const SideNav = () => {
           {isExperienceExpanded && (
             <div className="text-[#8dff8d]/60 text-xs pl-4">
               <div 
-                className="hover:bg-[#2a2d2e] pl-2 pr-4 py-1 rounded cursor-pointer"
+                className="hover:bg-[#2a2d2e] pl-0 pr-2 py-1 rounded cursor-pointer"
                 onClick={() => setIsExperienceExpanded(true)}
               >Mar 2020 - Present</div>
               <div 
-                className="hover:bg-[#2a2d2e] pl-2 pr-4 py-1 rounded cursor-pointer"
+                className="hover:bg-[#2a2d2e] pl-0 pr-2 py-1 rounded cursor-pointer"
                 onClick={() => setIsExperienceExpanded(true)}
               >Jun 2018 - Mar 2020</div>
             </div>
