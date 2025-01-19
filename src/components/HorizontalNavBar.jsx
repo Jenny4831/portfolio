@@ -17,10 +17,10 @@ const HorizontalNavBar = () => {
     }`}>
       <div className="flex flex-row justify-between items-center p-2 px-4">
         <button 
-          className="p-2 hover:bg-[#2a2d2e] rounded transition-colors flex items-center"
+          className="p-1 sm:p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
           onClick={() => setIsCollapsed(!isCollapsed)}
         >
-          <MenuIcon className={`w-6 h-6 text-[#8dff8d] transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`} />
+          <MenuIcon className={`text-[#8dff8d] transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`} />
         </button>
         <div className={`flex flex-row justify-around items-end space-x-4 transition-all duration-300 ${
           isCollapsed ? 'opacity-0 pointer-events-none' : 'opacity-100'
