@@ -1,6 +1,8 @@
 import Timeline from './Timeline.jsx'
 import SideNav from './components/SideNav.jsx'
 import Socials from './components/socials.jsx'
+import SectionDivider from './components/SectionDivider.jsx'
+
 function App() {
   return (
     <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen flex flex-col justify-center pl-16 sm:pl-20 md:pl-64 lg:pl-80">
@@ -42,7 +44,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         </p>
       </div>
       
-      <div className="section-divider"></div>
+      <SectionDivider />
       <section id="experience" className="scroll-mt-20">
         <h3 className="section-title">Experience</h3>
         <div className="section-content">
@@ -50,7 +52,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         </div>
       </section>
       
-      <div className="section-divider"></div>
+      <SectionDivider />
       <section id="education" className="scroll-mt-20 max-w-3xl mx-auto">
         <h3 className="section-title">Education</h3>
         <div className="section-content">
@@ -79,7 +81,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
       </section>
       </div>
 
-      <div className="section-divider"></div>
+      <SectionDivider />
       <section id="skills" className="scroll-mt-20 max-w-3xl mx-auto">
         <h3 className="section-title">Skills</h3>
         <div className="section-content">
@@ -112,7 +114,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         </div>
       </section>
 
-      <div className="section-divider"></div>
+      <SectionDivider />
       <section id="languages" className="scroll-mt-20 max-w-3xl mx-auto">
         <h3 className="section-title">Spoken Languages</h3>
         <div className="section-content">
@@ -125,7 +127,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           </div>
       </section>
 
-      <div className="section-divider"></div>
+      <SectionDivider />
       <section id="hobbies" className="scroll-mt-20 max-w-3xl mx-auto">
         <h3 className="section-title">Hobbies</h3>
         <div className="section-content">
