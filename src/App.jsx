@@ -7,7 +7,7 @@ import SectionTitle from './components/SectionTitle.jsx'
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pt-20">
+    <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pt-20 relative z-0">
       <SideNav />
       <HorizontalNavBar />
       <div className="code-bg"></div>

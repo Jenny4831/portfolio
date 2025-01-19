@@ -24,7 +24,7 @@ const HorizontalNavBar = () => {
   }, [isCollapsed]);
 
   return (
-    <div className={`fixed top-0 left-0 w-full max-w-[100vw] bg-[#252526]/95 backdrop-blur-sm border-b border-[#3c3c3d] z-50 sm:hidden transition-all duration-300 ${
+    <div className={`fixed top-0 left-0 w-full max-w-[100vw] bg-[#252526]/95 backdrop-blur-sm border-b border-[#3c3c3d] z-100 sm:hidden transition-all duration-300 ${
       isCollapsed ? 'h-14' : 'h-auto'
     }`} style={{ zIndex: 1000 }}>
       <div className="flex flex-row justify-between items-center p-2 px-4 h-14">
