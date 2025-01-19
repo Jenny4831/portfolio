@@ -31,14 +31,16 @@ const SideNav = () => {
         <div className="text-[#8dff8d] text-sm font-mono">
           <a 
             href="#experience"
-            className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
+            className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+              isCollapsed ? 'justify-center px-0' : 'px-2'
+            }`}
             onClick={(e) => {
               e.preventDefault();
               setIsExperienceExpanded(!isExperienceExpanded);
               document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <ExperienceIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
+            <ExperienceIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-2">experience</span>}
           </a>
           {isExperienceExpanded && !isCollapsed && (
@@ -64,20 +66,28 @@ const SideNav = () => {
               </div>
             </div>
           )}
-          <a href="#education" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <EducationIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
+          <a href="#education" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+            isCollapsed ? 'justify-center px-0' : 'px-2'
+          }`}>
+            <EducationIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-2">education</span>}
           </a>
-          <a href="#skills" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <SkillsIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
+          <a href="#skills" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+            isCollapsed ? 'justify-center px-0' : 'px-2'
+          }`}>
+            <SkillsIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-2">skills</span>}
           </a>
-          <a href="#languages" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <LanguagesIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
+          <a href="#languages" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+            isCollapsed ? 'justify-center px-0' : 'px-2'
+          }`}>
+            <LanguagesIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-2">spoken languages</span>}
           </a>
-          <a href="#hobbies" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            <HobbiesIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
+          <a href="#hobbies" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+            isCollapsed ? 'justify-center px-0' : 'px-2'
+          }`}>
+            <HobbiesIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-2">hobbies</span>}
           </a>
         </div>
