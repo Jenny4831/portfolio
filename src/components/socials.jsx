@@ -1,8 +1,15 @@
 import React from "react";
+import { motion } from 'framer-motion';
 
 const Socials = () => {
     return (
-    <div className="flex justify-center space-x-4 mb-6 sm:mb-8 md:mb-12 lg:mb-16">
+    <motion.div 
+      className="flex justify-center space-x-4 mb-6 sm:mb-8 md:mb-12 lg:mb-16"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.8, delay: 0.8 }}
+    >
       <a href="https://www.linkedin.com/in/naimen-zhen-liang" target="_blank" rel="noopener noreferrer" className="text-[#8dff8d]/80 hover:text-[#8dff8d] transition-colors flex items-center">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-5 h-5 mr-2">
           <g>
@@ -31,7 +38,7 @@ const Socials = () => {
         </svg>
         GitHub
       </a>
-    </div>
+    </motion.div>
     );
 };
 
