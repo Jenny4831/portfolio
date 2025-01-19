@@ -66,27 +66,55 @@ const SideNav = () => {
               </div>
             </div>
           )}
-          <a href="#education" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
-            isCollapsed ? 'justify-center px-0' : 'px-2'
-          }`}>
+          <a 
+            href="#education"
+            className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+              isCollapsed ? 'justify-center px-0' : 'px-2'
+            }`}
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             <EducationIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">education</span>}
           </a>
-          <a href="#skills" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
-            isCollapsed ? 'justify-center px-0' : 'px-2'
-          }`}>
+          <a 
+            href="#skills"
+            className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+              isCollapsed ? 'justify-center px-0' : 'px-2'
+            }`}
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             <SkillsIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">skills</span>}
           </a>
-          <a href="#languages" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
-            isCollapsed ? 'justify-center px-0' : 'px-2'
-          }`}>
+          <a 
+            href="#languages"
+            className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+              isCollapsed ? 'justify-center px-0' : 'px-2'
+            }`}
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('languages')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             <LanguagesIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">spoken languages</span>}
           </a>
-          <a href="#hobbies" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
-            isCollapsed ? 'justify-center px-0' : 'px-2'
-          }`}>
+          <a 
+            href="#hobbies"
+            className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+              isCollapsed ? 'justify-center px-0' : 'px-2'
+            }`}
+            onClick={(e) => {
+              e.preventDefault();
+              document.getElementById('hobbies')?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
             <HobbiesIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">hobbies</span>}
           </a>
