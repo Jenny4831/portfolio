@@ -45,12 +45,14 @@ const SideNav = () => {
               <div 
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                 onClick={() => {
+                  setIsExperienceExpanded(true);
                   document.getElementById('experience-0')?.scrollIntoView({ behavior: 'smooth' });
                 }}
               >Mar 2020 - Present</div>
               <div 
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                  onClick={() => {
+                  setIsExperienceExpanded(true);
                   document.getElementById('experience-1')?.scrollIntoView({ behavior: 'smooth' });
                 }}
               >Jun 2018 - Mar 2020</div>
