@@ -13,6 +13,16 @@ function App() {
       <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 animate-fadeIn tracking-tight terminal-text typewriter" data-text="Senior Software Engineer">
         Senior Software Engineer<span className="cursor"></span>
       </h2>
+      
+      <div className="flex justify-center space-x-4 mb-6 sm:mb-8 md:mb-12 lg:mb-16">
+        <a href="https://www.linkedin.com/in/naimen-zhen-liang" target="_blank" rel="noopener noreferrer" className="text-[#8dff8d]/80 hover:text-[#8dff8d] transition-colors">
+          LinkedIn
+        </a>
+        <a href="https://github.com/Jenny4831" target="_blank" rel="noopener noreferrer" className="text-[#8dff8d]/80 hover:text-[#8dff8d] transition-colors">
+          GitHub
+        </a>
+      </div>
+
       <div className="max-w-3xl mx-auto my-6 sm:my-8 md:my-12 lg:my-16 p-4 sm:p-6 md:p-8 lg:p-12 bg-[#252526] rounded-xl sm:rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
         <p className="text-lg text-blue-400 leading-relaxed terminal-text animate-fadeIn typewriter" data-text="Senior Software Engineer with extensive experience driving technical innovation
           and delivering complex projects. Expertise in architecting and scaling distributed
