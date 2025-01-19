@@ -127,7 +127,6 @@ function App() {
             <p>Baking</p>
             <p>Travelling</p>
           </div>
-        </div>
       </section>
       </div>
     </div>
