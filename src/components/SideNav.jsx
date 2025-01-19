@@ -61,11 +61,13 @@ const SideNav = () => {
                       await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
                     }
                     
-                    // Scroll to element
-                    const rect = element.getBoundingClientRect();
-                    const offset = window.scrollY + rect.top - 100;
+                    // Scroll to element with header offset
+                    const headerHeight = 100;
+                    const elementTop = element.getBoundingClientRect().top;
+                    const offsetPosition = elementTop + window.pageYOffset - headerHeight;
+                    
                     window.scrollTo({
-                      top: offset,
+                      top: offsetPosition,
                       behavior: 'smooth'
                     });
                   }
@@ -90,11 +92,13 @@ const SideNav = () => {
                       await new Promise(resolve => setTimeout(resolve, 50)); // Wait for expand
                     }
                     
-                    // Scroll to element
-                    const rect = element.getBoundingClientRect();
-                    const offset = window.scrollY + rect.top - 100;
+                    // Scroll to element with header offset
+                    const headerHeight = 100;
+                    const elementTop = element.getBoundingClientRect().top;
+                    const offsetPosition = elementTop + window.pageYOffset - headerHeight;
+                    
                     window.scrollTo({
-                      top: offset,
+                      top: offsetPosition,
                       behavior: 'smooth'
                     });
                   }
