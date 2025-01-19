@@ -61,8 +61,8 @@ function App() {
       <Timeline />
       
       <section id="education" className="scroll-mt-20">
-        <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
-        <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Education</h3>
+        <div className="section-card">
+          <h3 className="section-title">Education</h3>
         <div className="text-left">
           <h4 className="text-xl text-[#8dff8d] font-semibold mb-2 terminal-text">Bachelor of Science: Computer Science</h4>
           <p className="text-sm text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017</p>
@@ -81,8 +81,8 @@ function App() {
       </section>
 
       <section id="skills" className="scroll-mt-20">
-        <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
-          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Skills</h3>
+        <div className="section-card">
+          <h3 className="section-title">Skills</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#8dff8d]">
             <div>
               <h4 className="text-lg font-semibold mb-2">Programming</h4>
@@ -113,8 +113,8 @@ function App() {
       </section>
 
       <section id="languages" className="scroll-mt-20">
-        <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
-          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Spoken Languages</h3>
+        <div className="section-card">
+          <h3 className="section-title">Spoken Languages</h3>
           <div className="text-[#8dff8d]">
             <p>Spanish</p>
             <p>Chinese (Cantonese)</p>
@@ -125,8 +125,8 @@ function App() {
       </section>
 
       <section id="hobbies" className="scroll-mt-20">
-        <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
-          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Hobbies</h3>
+        <div className="section-card">
+          <h3 className="section-title">Hobbies</h3>
           <div className="text-[#8dff8d]">
             <p>Learning Godot</p>
             <p>Painting</p>
