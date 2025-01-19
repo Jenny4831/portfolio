@@ -57,6 +57,23 @@ const HorizontalNavBar = () => {
         >
           <MenuIcon className={`text-[#8dff8d] transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`} />
         </button>
+        <div className="flex space-x-4">
+          <a href="#experience" className="p-1 hover:bg-[#2a2d2e] rounded">
+            <ExperienceIcon className="w-4 h-4 text-[#8dff8d]" />
+          </a>
+          <a href="#education" className="p-1 hover:bg-[#2a2d2e] rounded">
+            <EducationIcon className="w-4 h-4 text-[#8dff8d]" />
+          </a>
+          <a href="#skills" className="p-1 hover:bg-[#2a2d2e] rounded">
+            <SkillsIcon className="w-4 h-4 text-[#8dff8d]" />
+          </a>
+          <a href="#languages" className="p-1 hover:bg-[#2a2d2e] rounded">
+            <LanguagesIcon className="w-4 h-4 text-[#8dff8d]" />
+          </a>
+          <a href="#hobbies" className="p-1 hover:bg-[#2a2d2e] rounded">
+            <HobbiesIcon className="w-4 h-4 text-[#8dff8d]" />
+          </a>
+        </div>
       </div>
       
       {!isCollapsed && (
