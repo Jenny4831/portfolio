@@ -47,7 +47,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         transition={{ duration: 0.8, delay: 0.4 }}
       >
         Senior Software Engineer<span className="cursor"></span>
-      </h2>
+      </motion.h2 >
       
       <Socials/>
 
@@ -64,7 +64,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           <span className="keyword">Senior</span> <span className="function">Software</span> <span className="function">Engineer</span> with extensive experience <span className="keyword">driving</span> technical innovation
           and <span className="keyword">delivering</span> complex projects. <span className="function">Expertise</span> in architecting and scaling distributed
           systems, optimizing performance, and implementing security-first solutions.
-        </p>
+        </motion.p>
       </div>
       
       <SectionDivider />
@@ -80,7 +80,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <div className="section-content">
           <Timeline />
         </div>
-      </section>
+      </motion.section>
       
       <SectionDivider />
       <motion.section 
@@ -115,7 +115,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           </p>
         </div>
         </div>
-      </section>
+      </motion.section>
       </div>
 
       <SectionDivider />
@@ -156,7 +156,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
 
       <SectionDivider />
       <motion.section 
@@ -176,7 +176,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             <p><span className="keyword">English</span></p>
           </div>
           </div>
-      </section>
+      </motion.section>
 
       <SectionDivider />
       <motion.section 
@@ -196,7 +196,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             <p><span className="function">Travelling</span></p>
           </div>
           </div>
-      </section>
+      </motion.section>
       
       </div>
     </>
