@@ -92,7 +92,6 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           </h4>
           <p className="text-sm text-[#6A9955] mb-4 terminal-text comment">// Nov 2017</p>
           <p className="text-lg leading-relaxed terminal-text">
-            <span className="function">University</span> <span className="keyword">of</span> <span className="function">Sydney</span>, <span className="function">Sydney</span>, <span className="function">NSW</span><br/>
             <span className="keyword">Distinction</span> <span className="function">units</span>: 
             <span className="string">"Foundations of IT"</span>, 
             <span className="string">"Database Systems"</span>, 
