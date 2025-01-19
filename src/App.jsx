@@ -86,6 +86,9 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <div className="text-left">
           <h4 className="text-xl font-semibold mb-2 terminal-text text-[#8dff8d]/80 border-b border-[#8dff8d]/20 pb-2">
             <span className="function">University</span> <span className="keyword">of</span> <span className="function">Sydney</span>
+            <p className="text-sm text-[#8dff8d]/60 mt-1">
+              <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
+            </p>
           </h4>
           <p className="text-sm text-[#6A9955] mb-4 terminal-text comment">// Nov 2017</p>
           <p className="text-lg leading-relaxed terminal-text">
