@@ -31,16 +31,16 @@ const SideNav = () => {
         <div className={`text-[#8dff8d]/80 text-sm mb-2 ${isCollapsed ? 'hidden' : 'block'}`}>NAIMEN_LIANG</div>
         <div className="text-[#8dff8d] text-sm font-mono">
           <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            {isCollapsed ? '📄' : '├── 📄 resume.jsx'}
+            {isCollapsed ? 'resume' : 'resume.jsx'}
           </div>
           <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            {isCollapsed ? '📁' : '├── 📁 experience'}
+            {isCollapsed ? 'experience' : 'experience'}
           </div>
           <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            {isCollapsed ? '📁' : '├── 📁 education'}
+            {isCollapsed ? 'education' : 'education'}
           </div>
           <div className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
-            {isCollapsed ? '📁' : '└── 📁 skills'}
+            {isCollapsed ? 'skills' : 'skills'}
           </div>
         </div>
       </div>
