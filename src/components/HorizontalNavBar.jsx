@@ -57,22 +57,24 @@ const HorizontalNavBar = () => {
         >
           <MenuIcon className={`text-[#8dff8d] w-5 h-5 transform transition-transform ${isCollapsed ? 'rotate-90' : 'rotate-0'}`} />
         </button>
-        <div className="flex space-x-3 ml-2 overflow-x-auto scrollbar-hide">
-          <a href="#experience" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
-            <ExperienceIcon className="w-5 h-5 text-[#8dff8d]" />
-          </a>
-          <a href="#education" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
-            <EducationIcon className="w-5 h-5 text-[#8dff8d]" />
-          </a>
-          <a href="#skills" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
-            <SkillsIcon className="w-5 h-5 text-[#8dff8d]" />
-          </a>
-          <a href="#languages" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
-            <LanguagesIcon className="w-5 h-5 text-[#8dff8d]" />
-          </a>
-          <a href="#hobbies" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
-            <HobbiesIcon className="w-5 h-5 text-[#8dff8d]" />
-          </a>
+        <div className="flex-1 flex justify-end overflow-x-auto scrollbar-hide pl-2">
+          <div className="flex space-x-3">
+            <a href="#experience" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
+              <ExperienceIcon className="w-5 h-5 text-[#8dff8d]" />
+            </a>
+            <a href="#education" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
+              <EducationIcon className="w-5 h-5 text-[#8dff8d]" />
+            </a>
+            <a href="#skills" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
+              <SkillsIcon className="w-5 h-5 text-[#8dff8d]" />
+            </a>
+            <a href="#languages" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
+              <LanguagesIcon className="w-5 h-5 text-[#8dff8d]" />
+            </a>
+            <a href="#hobbies" className="p-1.5 hover:bg-[#2a2d2e] rounded flex-shrink-0">
+              <HobbiesIcon className="w-5 h-5 text-[#8dff8d]" />
+            </a>
+          </div>
         </div>
       </div>
       
