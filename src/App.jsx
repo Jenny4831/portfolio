@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion } from 'framer-motion'
 import Timeline from './Timeline.jsx'
 import SideNav from './components/SideNav.jsx'
 import HorizontalNavBar from './components/HorizontalNavBar.jsx'
