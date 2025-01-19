@@ -46,8 +46,8 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                 onClick={() => {
                   setIsExperienceExpanded(true);
+                  window.location.hash = '#experience';
                   const element = document.getElementById('experience-0');
-                  element?.scrollIntoView({ behavior: 'smooth' });
                   if (element) {
                     element.querySelector('.text-sm')?.click();
                   }
@@ -57,27 +57,16 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                  onClick={() => {
                   setIsExperienceExpanded(true);
+                   window.location.hash = '#experience';
                    const element = document.getElementById('experience-1');
                    if (element) {
                      element.querySelector('.text-sm')?.click();
-                     requestAnimationFrame(() => {
-                       const rect = element.getBoundingClientRect();
-                       if (rect.top >= 0 && rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)) {
-                         window.scrollTo({
-                           top: element.offsetTop - 100,
-                           behavior: 'smooth',
-                         });
-                       } else {
-                         element.scrollIntoView({ behavior: 'smooth' });
-                         window.scrollBy(0, -100);
-                       }
-                     });
                    }
                 }}
               >Jun 2018 - Mar 2020</div>
             </div>
           )}
-          <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+          <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer" onClick={() => {window.location.hash = '#education'}}>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042a8.967 8.967 0 00-7.633 4.5c-1.58 3.017-1.58 6.787 0 9.804 1.58 3.017 4.407 4.5 7.633 4.5 3.226 0 6.053-1.483 7.633-4.5 1.58-3.017 1.58-6.787 0-9.804A8.967 8.967 0 0012 6.042z" />
             </svg>
