@@ -133,10 +133,10 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <SectionTitle>Hobbies</SectionTitle>
         <div className="section-content">
           <div className="text-[#8dff8d]">
-            <p>Learning Godot</p>
-            <p>Painting</p>
-            <p>Baking</p>
-            <p>Travelling</p>
+            <p><span className="function">Learning</span> <span className="string">Godot</span></p>
+            <p><span className="keyword">Painting</span></p>
+            <p><span className="keyword">Baking</span></p>
+            <p><span className="function">Travelling</span></p>
           </div>
           </div>
       </section>
