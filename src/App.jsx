@@ -84,7 +84,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <h3 className="section-title">Education</h3>
         <div className="section-content">
         <div className="text-left">
-          <h4 className="text-xl font-semibold mb-2 terminal-text">
+          <h4 className="text-xl font-semibold mb-2 terminal-text text-[#8dff8d]/80 border-b border-[#8dff8d]/20 pb-2">
             <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
           </h4>
           <p className="text-sm text-[#6A9955] mb-4 terminal-text comment">// Nov 2017</p>
@@ -98,7 +98,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           </p>
         </div>
         <div className="text-left mt-8">
-          <h3 className="text-2xl font-bold mb-6 terminal-text">
+          <h3 className="text-xl font-semibold mb-2 terminal-text text-[#8dff8d]/80 border-b border-[#8dff8d]/20 pb-2 mt-8">
             <span className="keyword">Achievements</span>
           </h3>
           <p className="text-lg leading-relaxed terminal-text">
