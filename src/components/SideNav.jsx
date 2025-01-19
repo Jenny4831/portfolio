@@ -48,9 +48,12 @@ const SideNav = () => {
                   setIsExperienceExpanded(true);
                   const element = document.getElementById('timeline-0');
                   if (element) {
-                    element.scrollIntoView({
-                      behavior: 'smooth',
-                      block: 'start'
+                    element.click(); // Trigger the expand
+                    requestAnimationFrame(() => {
+                      element.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                      });
                     });
                   }
                 }}
@@ -61,9 +64,12 @@ const SideNav = () => {
                   setIsExperienceExpanded(true);
                   const element = document.getElementById('timeline-1');
                   if (element) {
-                    element.scrollIntoView({
-                      behavior: 'smooth',
-                      block: 'start'
+                    element.click(); // Trigger the expand
+                    requestAnimationFrame(() => {
+                      element.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                      });
                     });
                   }
                 }}
