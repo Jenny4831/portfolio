@@ -46,8 +46,8 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                 onClick={() => {
                   setIsExperienceExpanded(true);
-                  window.location.hash = '#experience';
-                  const element = document.getElementById('experience-0');
+                  window.location.hash = '#timeline-0';
+                  const element = document.getElementById('timeline-0');
                   if (element) {
                     element.querySelector('.text-sm')?.click();
                   }
@@ -57,8 +57,8 @@ const SideNav = () => {
                 className="hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer"
                  onClick={() => {
                   setIsExperienceExpanded(true);
-                   window.location.hash = '#experience';
-                   const element = document.getElementById('experience-1');
+                   window.location.hash = '#timeline-1';
+                   const element = document.getElementById('timeline-1');
                    if (element) {
                      element.querySelector('.text-sm')?.click();
                    }

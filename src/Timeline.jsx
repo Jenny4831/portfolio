@@ -39,7 +39,7 @@ const Timeline = () => {
         {events.map((event, index) => (
           <li 
             key={index}
-            id={`experience-${index}`}
+            id={`timeline-${index}`}
             className="group relative cursor-pointer transition-all duration-300 hover:bg-[#252526]/50 rounded-lg p-2"
             onClick={() => toggleExpand(index)}
           >
