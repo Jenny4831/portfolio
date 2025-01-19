@@ -78,7 +78,7 @@ function App() {
             >
               <div className="flex items-start gap-3">
                 <span className="text-3xl mt-1">🎮</span>
-                <div>
+                <div className="text-left">
                   <p className="text-xl font-code"><span className="function">Learning</span> <span className="string">Godot</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Creating a 2D pixel game</p>
                 </div>
@@ -92,7 +92,7 @@ function App() {
             >
               <div className="flex items-start gap-3">
                 <span className="text-3xl mt-1">🎨</span>
-                <div>
+                <div className="text-left">
                   <p className="text-xl font-code"><span className="keyword">Painting</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Trying all kinds of medium</p>
                 </div>
@@ -106,7 +106,7 @@ function App() {
             >
               <div className="flex items-start gap-3">
                 <span className="text-3xl mt-1">🍰</span>
-                <div>
+                <div className="text-left">
                   <p className="text-xl font-code"><span className="keyword">Baking</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Making the same cake in different shapes</p>
                 </div>
@@ -120,7 +120,7 @@ function App() {
             >
               <div className="flex items-start gap-3">
                 <span className="text-3xl mt-1">✈️</span>
-                <div>
+                <div className="text-left">
                   <p className="text-xl font-code"><span className="function">Travelling</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Good views, good food and good fun</p>
                 </div>
