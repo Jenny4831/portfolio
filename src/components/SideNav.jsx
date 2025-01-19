@@ -14,7 +14,7 @@ const SideNav = () => {
 
   return (
     <>
-      <div className={`fixed top-0 left-0 w-full sm:left-0 sm:top-0 sm:h-screen bg-[#252526] border-[#3c3c3d] z-20 transition-all duration-300 ${
+      <div className={`hidden sm:block fixed top-0 left-0 w-full sm:left-0 sm:top-0 sm:h-screen bg-[#252526] border-[#3c3c3d] z-20 transition-all duration-300 ${
         isCollapsed ? 'h-0 sm:w-16' : 'h-auto sm:w-56 md:w-64'
       } border-b sm:border-r`}>
       <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d] sm:flex-row flex-row space-x-2">
