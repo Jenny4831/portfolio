@@ -39,7 +39,7 @@ const SideNav = () => {
             }}
           >
             <ExperienceIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
-            <span className={isCollapsed ? 'ml-1' : 'ml-2'}>experience</span>
+            {!isCollapsed && <span className="ml-2">experience</span>}
           </a>
           {isExperienceExpanded && (
             <div className="text-[#8dff8d]/60 text-xs pl-4">
@@ -66,19 +66,19 @@ const SideNav = () => {
           )}
           <a href="#education" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
             <EducationIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
-            <span className={isCollapsed ? 'ml-1' : 'ml-2'}>education</span>
+            {!isCollapsed && <span className="ml-2">education</span>}
           </a>
           <a href="#skills" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
             <SkillsIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
-            <span className={isCollapsed ? 'ml-1' : 'ml-2'}>skills</span>
+            {!isCollapsed && <span className="ml-2">skills</span>}
           </a>
           <a href="#languages" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
             <LanguagesIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
-            <span className={isCollapsed ? 'ml-1' : 'ml-2'}>spoken languages</span>
+            {!isCollapsed && <span className="ml-2">spoken languages</span>}
           </a>
           <a href="#hobbies" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
             <HobbiesIcon className="w-3 h-3 mr-4 text-[#8dff8d]" />
-            <span className={isCollapsed ? 'ml-1' : 'ml-2'}>hobbies</span>
+            {!isCollapsed && <span className="ml-2">hobbies</span>}
           </a>
         </div>
       </div>
