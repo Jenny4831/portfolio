@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   MenuIcon,
   ExperienceIcon,
@@ -11,6 +11,17 @@ import {
 const HorizontalNavBar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
   const [isExperienceExpanded, setIsExperienceExpanded] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!isCollapsed) {
+        setIsCollapsed(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [isCollapsed]);
 
   return (
     <div className={`fixed top-0 left-0 w-full max-w-[100vw] bg-[#252526]/95 backdrop-blur-sm border-b border-[#3c3c3d] z-50 sm:hidden transition-all duration-300 ${
