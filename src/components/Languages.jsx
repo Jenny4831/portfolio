@@ -16,7 +16,7 @@ const Languages = () => {
       >
         <SectionTitle>Spoken Languages</SectionTitle>
         <div className="section-content">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-[#8dff8d]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-[#8dff8d]">
             <motion.div 
               className="hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)]"
               whileHover={{ scale: 1.05 }}
