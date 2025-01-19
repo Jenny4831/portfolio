@@ -47,6 +47,62 @@ function App() {
         </div>
       </div>
       </section>
+
+      <section id="skills" className="scroll-mt-20">
+        <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
+          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Skills</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-[#8dff8d]">
+            <div>
+              <h4 className="text-lg font-semibold mb-2">Programming</h4>
+              <p>Go, JavaScript, TypeScript, Python</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-2">Databases</h4>
+              <p>Postgres, DynamoDB, SQL</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-2">Frontend</h4>
+              <p>HTML5, SCSS, CSS, Redux</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-2">Frameworks</h4>
+              <p>ReactJS, Redux, Hugo</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-2">Infrastructure & DevOps</h4>
+              <p>AWS, S3, Docker, Kafka, SQS, Buildkite, Kubernetes</p>
+            </div>
+            <div>
+              <h4 className="text-lg font-semibold mb-2">Monitoring</h4>
+              <p>Prometheus, Grafana, Kibana</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="languages" className="scroll-mt-20">
+        <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
+          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Languages</h3>
+          <div className="text-[#8dff8d]">
+            <p>Spanish</p>
+            <p>Chinese (Cantonese)</p>
+            <p>Chinese (Mandarin)</p>
+            <p>English</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobbies" className="scroll-mt-20">
+        <div className="max-w-3xl mx-auto my-16 p-12 bg-[#252526] rounded-2xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] border border-[#3c3c3c] animate-fadeUp transform transition-all hover:scale-105 hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)]">
+          <h3 className="text-2xl text-[#8dff8d] font-bold mb-6 terminal-text">Hobbies</h3>
+          <div className="text-[#8dff8d]">
+            <p>Learning Godot</p>
+            <p>Painting</p>
+            <p>Baking</p>
+            <p>Travelling</p>
+          </div>
+        </div>
+      </section>
       </div>
     </div>
   )

@@ -58,12 +58,24 @@ const SideNav = () => {
             </svg>
             {isCollapsed ? 'education' : 'education'}
           </div>
-           <div className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+          <a href="#skills" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
               <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h10.5A2.25 2.25 0 0021 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0v3m-3 1.5a.375.375 0 11.75 0 .375.375 0 01-.75 0zm3 0v3m3-3a.375.375 0 11.75 0 .375.375 0 01-.75 0z" />
             </svg>
             {isCollapsed ? 'skills' : 'skills'}
-          </div>
+          </a>
+          <a href="#languages" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 21l5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 016-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 01-3.827-5.802" />
+            </svg>
+            {isCollapsed ? 'languages' : 'languages'}
+          </a>
+          <a href="#hobbies" className="flex items-center hover:bg-[#2a2d2e] px-2 py-1 rounded cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-3 h-3 mr-1">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+            </svg>
+            {isCollapsed ? 'hobbies' : 'hobbies'}
+          </a>
         </div>
       </div>
     </div>
