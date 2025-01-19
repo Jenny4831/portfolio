@@ -154,7 +154,7 @@
 
 
   .section-divider {
-    @apply w-full h-px bg-gradient-to-r from-transparent via-[#8dff8d]/10 to-transparent my-8;
+    @apply w-full h-px bg-gradient-to-r from-transparent via-[#8dff8d]/20 to-transparent my-8;
     position: relative;
   }
 
