@@ -8,7 +8,17 @@ function App() {
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 animate-fadeIn leading-tight tracking-tight terminal-text typewriter" data-text="Naimen (Jenny) Zhen Liang">
-        Naimen (Jenny) Zhen Liang<span className="cursor"></span>
+        <pre className="text-left text-sm sm:text-base md:text-lg lg:text-xl">
+          {`
+  _   _       _                        _   _             _   _             _ 
+ | \\ | |     (_)                      | \\ | |           | | (_)           | |
+ |  \\| | __ _ _ _ __    _ __ ___   ___|  \\| | __ _ _ __ | |_ _ _ __   __ _| |
+ | . \` |/ _\` | | '_ \\  | '_ \` _ \\ / _ \\ . \` |/ _\` | '_ \\| __| | '_ \\ / _\` | |
+ | |\\  | (_| | | | | | | | | | | |  __/ |\\  | (_| | | | | |_| | | | | (_| | |
+ |_| \\_|\\__,_|_|_| |_| |_| |_| |_|\\___|_| \\_|\\__,_|_| |_|\\__|_|_| |_|\\__,_|_|
+          `}
+        </pre>
+        <span className="cursor"></span>
       </h1>
       <h2 className="text-lg sm:text-xl md:text-2xl text-[#8dff8d]/60 font-normal mb-6 sm:mb-8 md:mb-12 lg:mb-16 animate-fadeIn tracking-tight terminal-text typewriter" data-text="Senior Software Engineer">
         Senior Software Engineer<span className="cursor"></span>
