@@ -14,9 +14,11 @@ const SideNav = () => {
 
   return (
     <>
-      <div className={`fixed left-0 top-0 h-screen bg-[#252526] border-r border-[#3c3c3d] z-20 transition-all duration-300 ${
-        isCollapsed ? 'w-12 sm:w-16' : 'w-56 sm:w-64'
-      }`}>
+      <div className={`fixed sm:left-0 sm:top-0 sm:h-screen bg-[#252526] border-[#3c3c3d] z-20 transition-all duration-300 ${
+        isCollapsed ? 'w-12 sm:w-16' : 'w-full sm:w-56 md:w-64'
+      } ${
+        isCollapsed ? 'bottom-0 h-12 sm:h-auto' : 'bottom-0 h-auto sm:h-screen'
+      } border-t sm:border-r`}>
       <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d] sm:flex-row flex-col sm:space-x-2 space-y-2 sm:space-y-0">
         <button 
           className="p-1 sm:p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
