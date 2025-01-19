@@ -140,6 +140,12 @@
     @apply text-2xl text-[#8dff8d] font-bold mb-6 terminal-text text-center;
     position: relative;
     padding: 1rem 0;
+    transition: all 0.3s ease;
+  }
+
+  .section-title:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 10px rgba(141, 255, 141, 0.5);
   }
 
   .section-title::before {
@@ -156,6 +162,12 @@
   .section-divider {
     @apply w-full h-px bg-gradient-to-r from-transparent via-[#8dff8d]/40 to-transparent my-8;
     position: relative;
+    transition: all 0.3s ease;
+  }
+
+  .section-divider:hover {
+    transform: scaleX(1.1);
+    background: linear-gradient(to right, transparent 0%, #8dff8d 50%, transparent 100%);
   }
 
   .section-divider::before {
