@@ -76,8 +76,8 @@ function App() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">🎮</span>
+              <div className="flex items-start gap-3">
+                <span className="text-3xl mt-1">🎮</span>
                 <div>
                   <p className="text-xl font-code"><span className="function">Learning</span> <span className="string">Godot</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Creating a 2D pixel game</p>
@@ -90,8 +90,8 @@ function App() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">🎨</span>
+              <div className="flex items-start gap-3">
+                <span className="text-3xl mt-1">🎨</span>
                 <div>
                   <p className="text-xl font-code"><span className="keyword">Painting</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Trying all kinds of medium</p>
@@ -104,8 +104,8 @@ function App() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">🍰</span>
+              <div className="flex items-start gap-3">
+                <span className="text-3xl mt-1">🍰</span>
                 <div>
                   <p className="text-xl font-code"><span className="keyword">Baking</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Making the same cake in different shapes</p>
@@ -118,8 +118,8 @@ function App() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="flex items-center gap-3">
-                <span className="text-3xl">✈️</span>
+              <div className="flex items-start gap-3">
+                <span className="text-3xl mt-1">✈️</span>
                 <div>
                   <p className="text-xl font-code"><span className="function">Travelling</span></p>
                   <p className="text-sm text-[#8dff8d]/80">Good views, good food and good fun</p>
