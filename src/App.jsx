@@ -84,14 +84,14 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         <h3 className="section-title">Education</h3>
         <div className="section-content">
         <div className="text-left">
-          <h4 className="text-3xl font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2">
+          <h4 className="text-4xl font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2">
             <span className="text-[#8dff8d]/50">★</span> <span className="function">University</span> <span className="keyword">of</span> <span className="function">Sydney</span> <span className="text-[#8dff8d]/50">★</span>
-            <p className="text-base text-[#8dff8d]/80 mt-1">
+            <p className="text-xl text-[#8dff8d] mt-1">
               <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
             </p>
           </h4>
-          <p className="text-sm text-[#6A9955] mb-4 terminal-text comment">// Nov 2017</p>
-          <p className="text-lg leading-relaxed terminal-text">
+          <p className="text-base text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017</p>
+          <p className="text-xl leading-relaxed terminal-text text-[#8dff8d]">
             <span className="keyword">Distinction</span> <span className="function">units</span>: 
             <span className="string">"Foundations of IT"</span>, 
             <span className="string">"Database Systems"</span>, 
@@ -100,10 +100,10 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           </p>
         </div>
         <div className="text-left mt-8">
-          <h3 className="text-xl font-semibold mb-2 terminal-text text-[#8dff8d]/80 border-b border-[#8dff8d]/20 pb-2 mt-8">
+          <h3 className="text-3xl font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2 mt-8">
             <span className="keyword">Achievements</span>
           </h3>
-          <p className="text-lg leading-relaxed terminal-text">
+          <p className="text-xl leading-relaxed terminal-text text-[#8dff8d]">
             <span className="function">Awarded</span> <span className="function">Microsoft</span> <span className="function">Research</span> <span className="function">Asia</span> <span className="function">Prize</span> <span className="keyword">for</span> <span className="function">Junior</span> <span className="function">Software</span> <span className="function">Development</span> <span className="function">Projects</span> <span className="keyword">at</span> <span className="function">USYD</span>
           </p>
         </div>
