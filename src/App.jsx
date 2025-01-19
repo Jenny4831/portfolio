@@ -89,7 +89,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
             <p className="text-xl text-[#8dff8d] mt-1">
               <span className="keyword">Bachelor</span> <span className="keyword">of</span> <span className="function">Science</span>: <span className="function">Computer</span> <span className="function">Science</span>
             </p>
-          </h4>
+          </h5>
           <p className="text-base text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017</p>
           <p className="text-xl leading-relaxed terminal-text text-[#8dff8d]">
             <span className="keyword">Distinction</span> <span className="function">units</span>: 
