@@ -10,7 +10,7 @@ import {
 const HorizontalNavBar = () => {
   return (
     <div className="fixed bottom-0 left-0 w-full bg-[#252526] border-t border-[#3c3c3d] z-20 sm:hidden">
-      <div className="flex justify-around p-2">
+      <div className="flex flex-row justify-around items-center p-2 space-x-4">
         <a href="#experience" className="p-2 hover:bg-[#2a2d2e] rounded transition-colors">
           <ExperienceIcon className="w-5 h-5 text-[#8dff8d]" />
         </a>
