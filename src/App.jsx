@@ -11,6 +11,7 @@ import Skills from './components/Skills.jsx';
 import Education from './components/Education.jsx';
 import Languages from './components/Languages.jsx';
 import Hobbies from './components/Hobbies.jsx';
+import Languages from './components/Languages.jsx';
 
 function App() {
   return (
