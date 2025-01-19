@@ -14,12 +14,10 @@ const SideNav = () => {
 
   return (
     <>
-      <div className={`fixed sm:left-0 sm:top-0 sm:h-screen bg-[#252526] border-[#3c3c3d] z-20 transition-all duration-300 ${
-        isCollapsed ? 'w-12 sm:w-16' : 'w-full sm:w-56 md:w-64'
-      } ${
-        isCollapsed ? 'bottom-0 h-12 sm:h-auto' : 'bottom-0 h-auto sm:h-screen'
-      } border-t sm:border-r`}>
-      <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d] sm:flex-row flex-col sm:space-x-2 space-y-2 sm:space-y-0">
+      <div className={`fixed top-0 left-0 w-full sm:left-0 sm:top-0 sm:h-screen bg-[#252526] border-[#3c3c3d] z-20 transition-all duration-300 ${
+        isCollapsed ? 'h-12 sm:w-16' : 'h-auto sm:w-56 md:w-64'
+      } border-b sm:border-r`}>
+      <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d] sm:flex-row flex-row space-x-2">
         <button 
           className="p-1 sm:p-2 bg-transparent rounded-lg hover:bg-[#2a2d2e] transition-colors"
           onClick={() => setIsCollapsed(!isCollapsed)}
@@ -28,7 +26,7 @@ const SideNav = () => {
         </button>
         <span className={`text-sm text-[#8dff8d]/80 ml-2 ${isCollapsed ? 'hidden' : 'block'}`}>EXPLORER</span>
       </div>
-      <div className="p-2 sm:block flex justify-center space-x-4 sm:space-x-0">
+      <div className="p-2 sm:block flex flex-row justify-start space-x-4 sm:space-x-0">
         <div className={`text-[#8dff8d]/80 text-sm mb-2 px-2 ${isCollapsed ? 'hidden' : 'block'}`}>JENNY_ZHEN_LIANG</div>
         <div className="text-[#8dff8d] text-sm font-mono">
           <a 

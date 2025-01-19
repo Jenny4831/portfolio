@@ -6,7 +6,7 @@ import SectionTitle from './components/SectionTitle.jsx'
 
 function App() {
   return (
-    <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen flex flex-col justify-center items-center sm:pl-20 md:pl-64 lg:pl-80 sm:pt-0 pt-16">
+    <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen flex flex-col justify-center items-center sm:pl-20 md:pl-64 lg:pl-80 sm:pt-0 pt-24">
       <SideNav />
       <div className="code-bg"></div>
       <div className="relative z-10 transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2 w-full max-w-[90vw]">
