@@ -10,7 +10,7 @@ const Timeline = () => {
         '- Led enterprise billing system overhaul enabling custom contracts and pricing models\n' +
         '- Designed and built internal tooling platform for customer support teams with granular permissions\n' +
         '- Developed real-time customer activity tracking system with flexible architecture\n' +
-        '- Migrated 100k+ legacy users to new platform, increasing trial conversions by 10%\n' +
+        '- Led migration of legacy billing plans to new platform, enabling feature rollout\n' +
         '- Implemented GDPR-compliant data retention policies across all services\n' +
         '- Mentored interns and led engineering workshops on distributed systems',
     },
