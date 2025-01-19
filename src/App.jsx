@@ -19,7 +19,7 @@ function App() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.8, delay: 0.2 }}
+        transition={{ duration: 0.8, delay: 0.1 }}
       >
         <div className="flex justify-center overflow-x-auto">
           <pre className="text-[10px] sm:text-xs md:text-sm lg:text-base whitespace-pre-wrap break-all">
@@ -44,12 +44,19 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.8, delay: 0.4 }}
+        transition={{ duration: 0.8, delay: 0.3 }}
       >
         Senior Software Engineer<span className="cursor"></span>
       </motion.h2>
       
-      <Socials/>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+      >
+        <Socials/>
+      </motion.div>
 
       <div className="max-w-3xl mx-auto my-6 sm:my-8 md:my-12 lg:my-16">
         <motion.p 
@@ -57,7 +64,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.7 }}
         >
           and delivering complex projects. Expertise in architecting and scaling distributed
           systems, optimizing performance, and implementing security-first solutions."
