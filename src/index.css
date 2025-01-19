@@ -152,32 +152,6 @@
     @apply text-[#8dff8d]/50;
   }
 
-  .section-content {
-    @apply text-[#8dff8d] leading-relaxed terminal-text;
-    position: relative;
-    padding: 2rem 0;
-    border-left: 2px dashed rgba(141, 255, 141, 0.1);
-    margin-left: 1rem;
-  }
-
-  .section-content::before {
-    content: '{';
-    @apply absolute top-0 left-0 text-[#8dff8d]/10 text-4xl -ml-6;
-  }
-
-  .section-content::after {
-    content: '}';
-    @apply absolute bottom-0 left-0 text-[#8dff8d]/10 text-4xl -ml-6;
-  }
-
-  .section-content:hover {
-    border-left-color: rgba(141, 255, 141, 0.3);
-  }
-
-  .section-content:hover::before,
-  .section-content:hover::after {
-    @apply text-[#8dff8d]/30;
-  }
 
   .section-divider {
     @apply w-full h-px bg-gradient-to-r from-transparent via-[#8dff8d]/10 to-transparent my-8;
