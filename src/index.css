@@ -62,32 +62,56 @@
   }
 
   .terminal-text {
-    @apply text-[#d4d4d4]; /* Default text color */
+    @apply text-[#d4d4d4]; /* Base text color */
     text-shadow: 0 0 5px rgba(212, 212, 212, 0.1);
   }
 
+  h1 {
+    @apply text-[#8dff8d] text-5xl;
+  }
+
+  h2 {
+    @apply text-[#8dff8d]/90 text-4xl;
+  }
+
+  h3 {
+    @apply text-[#8dff8d]/80 text-3xl;
+  }
+
+  h4 {
+    @apply text-[#8dff8d]/70 text-2xl;
+  }
+
+  h5 {
+    @apply text-[#8dff8d]/60 text-xl;
+  }
+
+  p {
+    @apply text-[#d4d4d4]/90 text-base;
+  }
+
   .keyword {
-    @apply text-[#569cd6]; /* Blue for keywords */
+    @apply text-[#569cd6] text-base; /* Blue for keywords */
   }
 
   .string {
-    @apply text-[#ce9178]; /* Orange for strings */
+    @apply text-[#ce9178] text-base; /* Orange for strings */
   }
 
   .function {
-    @apply text-[#dcdcaa]; /* Yellow for functions */
+    @apply text-[#dcdcaa] text-base; /* Yellow for functions */
   }
 
   .comment {
-    @apply text-[#6a9955]; /* Green for comments */
+    @apply text-[#6a9955] text-sm; /* Green for comments */
   }
 
   .number {
-    @apply text-[#b5cea8]; /* Light green for numbers */
+    @apply text-[#b5cea8] text-sm; /* Light green for numbers */
   }
 
   .operator {
-    @apply text-[#d4d4d4]; /* White for operators */
+    @apply text-[#d4d4d4] text-sm; /* White for operators */
   }
 
   .cursor {
