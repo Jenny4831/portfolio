@@ -7,22 +7,22 @@ const Timeline = () => {
       date: 'Mar 2020 - Present',
       title: 'Senior Software Engineer - Billing Systems, Tech Lead',
       description: 'SafetyCulture, Sydney, NSW\n' +
-        '- Led enterprise billing system overhaul, enabling custom contracts\n' +
-        '- Built internal tooling platform for customer support teams\n' +
-        '- Developed real-time customer activity tracking system\n' +
-        '- Migrated legacy users to new platform, increasing trial conversions by 10%\n' +
-        '- Implemented GDPR-compliant data retention policies\n' +
-        '- Mentored interns and led engineering workshops',
+        '- Led enterprise billing system overhaul enabling custom contracts and pricing models\n' +
+        '- Designed and built internal tooling platform for customer support teams with granular permissions\n' +
+        '- Developed real-time customer activity tracking system with flexible architecture\n' +
+        '- Migrated 100k+ legacy users to new platform, increasing trial conversions by 10%\n' +
+        '- Implemented GDPR-compliant data retention policies across all services\n' +
+        '- Mentored interns and led engineering workshops on distributed systems',
     },
     {
       date: 'Jun 2018 - Mar 2020',
       title: 'Full Stack Software Engineer',
       description: 'Snug, Sydney\n' +
-        '- Delivered 3+ major features monthly\n' +
-        '- Built leasing analytics dashboard\n' +
-        '- Developed appointment scheduling system\n' +
-        '- Created activity reporting tools\n' +
-        '- Improved system scalability and performance',
+        '- Delivered 3+ major features monthly across full stack\n' +
+        '- Built leasing analytics dashboard providing real-time performance insights\n' +
+        '- Developed appointment scheduling system handling 10k+ bookings monthly\n' +
+        '- Created activity reporting tools improving operational transparency\n' +
+        '- Optimized system performance, reducing API response times by 40%',
     },
   ];
 
