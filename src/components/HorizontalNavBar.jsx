@@ -91,8 +91,8 @@ const HorizontalNavBar = () => {
                 document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              <ExperienceIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
-              <span>experience</span>
+              <ExperienceIcon className="w-4 h-4 text-[#8dff8d] mr-4" />
+              <span className="ml-2">experience</span>
             </a>
             {isExperienceExpanded && (
               <div className="text-[#8dff8d]/60 text-xs pl-4">
@@ -112,20 +112,20 @@ const HorizontalNavBar = () => {
               </div>
             )}
             <a href="#education" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <EducationIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
-              <span>education</span>
+              <EducationIcon className="w-4 h-4 text-[#8dff8d] mr-4" />
+              <span className="ml-2">education</span>
             </a>
             <a href="#skills" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <SkillsIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
-              <span>skills</span>
+              <SkillsIcon className="w-4 h-4 text-[#8dff8d] mr-4" />
+              <span className="ml-2">skills</span>
             </a>
             <a href="#languages" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <LanguagesIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
-              <span>spoken languages</span>
+              <LanguagesIcon className="w-4 h-4 text-[#8dff8d] mr-4" />
+              <span className="ml-2">spoken languages</span>
             </a>
             <a href="#hobbies" className="flex items-center hover:bg-[#2a2d2e] py-1 px-2 rounded cursor-pointer">
-              <HobbiesIcon className="w-4 h-4 text-[#8dff8d] mr-6" />
-              <span>hobbies</span>
+              <HobbiesIcon className="w-4 h-4 text-[#8dff8d] mr-4" />
+              <span className="ml-2">hobbies</span>
             </a>
           </div>
         </div>

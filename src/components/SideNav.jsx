@@ -40,8 +40,8 @@ const SideNav = () => {
               document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <ExperienceIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
-            {!isCollapsed && <span className="ml-2">experience</span>}
+            <ExperienceIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            {!isCollapsed && <span className="ml-3">experience</span>}
           </a>
           {isExperienceExpanded && !isCollapsed && (
             <div className="text-[#8dff8d]/60 text-xs pl-4">
@@ -69,26 +69,26 @@ const SideNav = () => {
           <a href="#education" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
             isCollapsed ? 'justify-center px-0' : 'px-2'
           }`}>
-            <EducationIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
-            {!isCollapsed && <span className="ml-2">education</span>}
+            <EducationIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            {!isCollapsed && <span className="ml-3">education</span>}
           </a>
           <a href="#skills" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
             isCollapsed ? 'justify-center px-0' : 'px-2'
           }`}>
-            <SkillsIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
-            {!isCollapsed && <span className="ml-2">skills</span>}
+            <SkillsIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            {!isCollapsed && <span className="ml-3">skills</span>}
           </a>
           <a href="#languages" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
             isCollapsed ? 'justify-center px-0' : 'px-2'
           }`}>
-            <LanguagesIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
-            {!isCollapsed && <span className="ml-2">spoken languages</span>}
+            <LanguagesIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            {!isCollapsed && <span className="ml-3">spoken languages</span>}
           </a>
           <a href="#hobbies" className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
             isCollapsed ? 'justify-center px-0' : 'px-2'
           }`}>
-            <HobbiesIcon className={`w-3 h-3 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
-            {!isCollapsed && <span className="ml-2">hobbies</span>}
+            <HobbiesIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            {!isCollapsed && <span className="ml-3">hobbies</span>}
           </a>
         </div>
       </div>
