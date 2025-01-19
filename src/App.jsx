@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <HorizontalNavBar />
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pb-32">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pb-32 space-y-12">
         <SideNav />
         <div className="code-bg"></div>
       <Header />
@@ -31,7 +31,7 @@ function App() {
 
       <Summary />
 
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto space-y-12">
         <SectionDivider />
       <motion.section 
         id="experience" 
@@ -50,9 +50,9 @@ function App() {
       </div>
       <Education />
 
-      <Skills />
-      <Languages />
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto space-y-12">
+        <Skills />
+        <Languages />
         <SectionDivider />
       <motion.section 
         id="hobbies" 
@@ -65,7 +65,7 @@ function App() {
         <SectionTitle>Hobbies</SectionTitle>
         <div className="section-content">
           <motion.div 
-            className="text-[#8dff8d] grid grid-cols-1 md:grid-cols-2 gap-4"
+            className="text-[#8dff8d] grid grid-cols-1 md:grid-cols-2 gap-6"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
