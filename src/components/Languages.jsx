@@ -1,13 +1,14 @@
-import { motion } from 'framer-motion'
-import SectionTitle from './SectionTitle.jsx'
-import SectionDivider from './SectionDivider.jsx'
+import { motion } from 'framer-motion';
+import SectionTitle from './SectionTitle.jsx';
+import SectionDivider from './SectionDivider.jsx';
+import CardGrid, { Card } from './CardGrid.jsx';
 
 const Languages = () => {
   return (
     <div className="max-w-3xl mx-auto">
       <SectionDivider />
-      <motion.section 
-        id="languages" 
+      <motion.section
+        id="languages"
         className="scroll-mt-20 max-w-3xl mx-auto"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -17,22 +18,22 @@ const Languages = () => {
         <SectionTitle>Spoken Languages</SectionTitle>
         <div className="section-content">
           <CardGrid className="text-[#8dff8d]">
-            <Card 
+            <Card
               emoji="🇬🇧"
               title={<span className="keyword">English</span>}
               subtitle="Professional proficiency"
             />
-            <Card 
+            <Card
               emoji="🇪🇸"
               title={<span className="keyword">Spanish</span>}
               subtitle="Native proficiency"
             />
-            <Card 
+            <Card
               emoji="🇨🇳"
               title={<><span className="function">Chinese</span> (<span className="string">Cantonese</span>)</>}
               subtitle="Native proficiency"
             />
-            <Card 
+            <Card
               emoji="🇨🇳"
               title={<><span className="function">Chinese</span> (<span className="string">Mandarin</span>)</>}
               subtitle="Native proficiency"
@@ -41,7 +42,7 @@ const Languages = () => {
         </div>
       </motion.section>
     </div>
-  )
-}
+  );
+};
 
 export default Languages
