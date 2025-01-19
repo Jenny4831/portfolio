@@ -7,11 +7,11 @@ import SectionTitle from './components/SectionTitle.jsx'
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80 pt-20">
+    <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-8 lg:py-16 text-center min-h-screen sm:pl-20 md:pl-64 lg:pl-80">
       <SideNav />
       <HorizontalNavBar />
       <div className="code-bg"></div>
-      <div className="relative transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2 w-full max-w-[90vw] mt-14">
+      <div className="relative transform perspective-1000 rotate-x-0 md:rotate-x-3 md:rotate-y-2 w-full max-w-[90vw] mt-20">
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8dff8d] mb-3 sm:mb-4 md:mb-6 leading-tight tracking-tight terminal-text typewriter animate-fadeIn" data-text="Naimen (Jenny) Zhen Liang">
         <div className="flex justify-center">
           <pre className="text-sm sm:text-base md:text-lg lg:text-xl">
