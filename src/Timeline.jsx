@@ -7,7 +7,7 @@ const Timeline = () => {
       company: 'SafetyCulture',
       date: 'Mar 2020 - Present',
       title: 'Senior Software Engineer - Billing Systems, Tech Lead',
-      description: '<span class="function">SafetyCulture</span>\n' +
+      description:
         '- <span class="keyword">Led</span> the enhancement of the billing system to support enterprise customers.\n' +
         '- <span class="keyword">Designed</span> and <span class="keyword">developed</span> the core architecture for the company\'s internal tooling platform that equips customer support and GTM teams with essential tools to manage customer inquiries and execute operations on customer\'s account.\n' +
         '- <span class="keyword">Implemented</span> and optimized sales order process with Salesforce synchronization, boosting sales team efficiency and productivity.\n' +
@@ -20,7 +20,7 @@ const Timeline = () => {
       company: 'Snug',
       date: 'Jun 2018 - Mar 2020',
       title: 'Full Stack Software Engineer',
-      description: '<span class="function">Snug</span>\n' +
+      description: 
         '- <span class="keyword">Delivered</span> an average of three major full-stack features per month in 2018-2019.\n' +
         '- <span class="keyword">Collaborated</span> with software development and testing teams to design and develop scalable and high-performance leasing solutions that met client functionality requirements.\n' +
         '- <span class="keyword">Tested</span> and troubleshot methods, devised innovative solutions, and documented resolutions, contributing to the knowledge base for the support team.\n' +
