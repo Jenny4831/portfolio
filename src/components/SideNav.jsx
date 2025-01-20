@@ -43,7 +43,7 @@ const SideNav = () => {
               });
             }}
           >
-            <ExperienceIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            <ExperienceIcon className={`w-5 h-5 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">experience</span>}
           </a>
           {isExperienceExpanded && !isCollapsed && (
@@ -79,7 +79,7 @@ const SideNav = () => {
               document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <EducationIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            <EducationIcon className={`w-5 h-5 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">education</span>}
           </a>
           <a 
@@ -92,7 +92,7 @@ const SideNav = () => {
               document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <SkillsIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            <SkillsIcon className={`w-5 h-5 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">skills</span>}
           </a>
           <a 
@@ -105,7 +105,7 @@ const SideNav = () => {
               document.getElementById('languages')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <LanguagesIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            <LanguagesIcon className={`w-5 h-5 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">spoken languages</span>}
           </a>
           <a 
@@ -118,7 +118,7 @@ const SideNav = () => {
               document.getElementById('hobbies')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
-            <HobbiesIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
+            <HobbiesIcon className={`w-5 h-5 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
             {!isCollapsed && <span className="ml-3">hobbies</span>}
           </a>
         </div>
