@@ -1,3 +1,5 @@
+NOTE: This project was built using aider and experimenting with gemini and deepseek models.
+
 
 # Jenny Zhen Liang's Portfolio
 
@@ -11,3 +13,4 @@ This is my professional portfolio showcasing my skills, experience, and projects
 - Personal projects and achievements
 
 Feel free to explore and learn more about my professional journey!
+
