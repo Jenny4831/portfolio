@@ -45,7 +45,7 @@ const Timeline = () => {
             onClick={() => toggleExpand(index)}
           >
             <div className="flex-start flex items-center pt-1">
-              <div className="-ms-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary group-hover:scale-125 transition-transform"></div>
+              <div className="-ms-2 me-3 flex h-3 w-3 items-center justify-center rounded-full bg-primary group-hover:scale-125 transition-transform"></div>
               <h4 className="text-lg sm:text-xl font-semibold text-primary group-hover:text-[#8dff8d] transition-colors">
                 {event.company} - {event.date}
               </h4>
