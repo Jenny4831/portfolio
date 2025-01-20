@@ -14,7 +14,7 @@ const SideNav = () => {
 
   return (
     <>
-      <div className={`hidden sm:block fixed top-0 left-0 w-full sm:left-0 sm:top-0 sm:h-screen bg-[#252526] border-[#3c3c3d] z-20 transition-all duration-300 ${
+      <div className={`hidden sm:block fixed top-0 left-0 w-full sm:left-0 sm:top-0 sm:h-screen bg-[#252526]/95 backdrop-blur-sm border-[#3c3c3d] z-20 transition-all duration-300 ease-in-out ${
         isCollapsed ? 'h-0 sm:w-16' : 'h-auto sm:w-56 md:w-64'
       } border-b sm:border-r`}>
       <div className="h-10 flex items-center px-4 border-b border-[#3c3c3d] sm:flex-row flex-row space-x-2">
@@ -31,13 +31,16 @@ const SideNav = () => {
         <div className="text-[#8dff8d] text-sm font-mono">
           <a 
             href="#experience"
-            className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer ${
+            className={`flex items-center hover:bg-[#2a2d2e] py-1 rounded cursor-pointer transition-colors duration-200 ${
               isCollapsed ? 'justify-center px-0' : 'px-2'
             }`}
             onClick={(e) => {
               e.preventDefault();
               setIsExperienceExpanded(!isExperienceExpanded);
-              document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
+              document.getElementById('experience')?.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+              });
             }}
           >
             <ExperienceIcon className={`w-4 h-4 text-[#8dff8d] ${isCollapsed ? '' : 'mr-4'}`} />
