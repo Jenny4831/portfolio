@@ -38,7 +38,10 @@ const Socials = () => {
         </svg>
         GitHub
       </a>
-      <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer" className="text-[#8dff8d]/80 hover:text-[#8dff8d] transition-colors flex items-center group">
+      <a href="mailto:your-email@example.com" target="_blank" rel="noopener noreferrer" className="text-[#8dff8d]/80 hover:text-[#8dff8d] transition-colors flex items-center group relative" data-tooltip="Email me">
+        <span className="absolute -top-8 left-1/2 -translate-x-1/2 bg-[#8dff8d]/90 text-black px-2 py-1 rounded text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap">
+          Email me
+        </span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6 mr-2 group-hover:hidden">
           <g>
             <path d="M21.138749999999998 6.855h1.1475v9.1425h-1.1475Z" fill="currentColor" stroke-width="0.75"></path>
