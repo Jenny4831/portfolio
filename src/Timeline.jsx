@@ -51,7 +51,7 @@ const Timeline = () => {
               </h4>
             </div>
             <div className={`mb-6 ms-6 pb-6 text-left transition-all duration-300 ${expandedIndex === index ? 'opacity-100' : 'opacity-80'}`}>
-              <h5 className="text-base sm:text-lg font-medium text-[#8dff8d] mb-2 terminal-text group-hover:underline">
+              <h5 className="text-base sm:text-lg font-medium text-[#8dff8d] mb-3 terminal-text group-hover:underline">
                 {event.title}
               </h5>
               <div 
@@ -59,9 +59,9 @@ const Timeline = () => {
                   expandedIndex === index ? 'max-h-[500px] overflow-y-auto' : 'max-h-0'
                 }`}
               >
-                <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text" dangerouslySetInnerHTML={{ __html: event.description }} />
+                <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text leading-relaxed" dangerouslySetInnerHTML={{ __html: event.description }} />
               </div>
-              <div className="mt-2 text-sm text-[#8dff8d]/60">
+              <div className="mt-3 text-sm text-[#8dff8d]/60">
                 {expandedIndex === index ? '▲ Show Less' : '▼ Show More Details'}
               </div>
             </div>
