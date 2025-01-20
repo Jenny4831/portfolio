@@ -59,7 +59,7 @@ const Timeline = () => {
                   expandedIndex === index ? 'max-h-[500px] overflow-y-auto' : 'max-h-0'
                 }`}
               >
-                <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text whitespace-pre-line" dangerouslySetInnerHTML={{ __html: event.description }} />
+                <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text" dangerouslySetInnerHTML={{ __html: event.description }} />
               </div>
               <div className="mt-2 text-sm text-[#8dff8d]/60">
                 {expandedIndex === index ? '▲ Show Less' : '▼ Show More Details'}
