@@ -60,7 +60,6 @@ const Socials = () => {
             <path d="M0 18.285h1.1400000000000001v2.2874999999999996H0Z" fill="currentColor" stroke-width="0.75"></path>
           </g>
         </svg>
-        Email
       </a>
     </motion.div>
     );
