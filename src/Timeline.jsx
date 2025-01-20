@@ -4,6 +4,7 @@ const Timeline = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
   const events = [
     {
+      company: 'SafetyCulture',
       date: 'Mar 2020 - Present',
       title: 'Senior Software Engineer - Billing Systems, Tech Lead',
       description: '<span class="function">SafetyCulture</span>, Sydney, NSW\n' +
@@ -16,6 +17,7 @@ const Timeline = () => {
         '- <span class="keyword">Implemented</span> data retention strategies to ensure compliance with GDPR regulations. Worked closely with data store team, to be able to set up ground work, such that other teams can follow an example.',
     },
     {
+      company: 'Snug',
       date: 'Jun 2018 - Mar 2020',
       title: 'Full Stack Software Engineer',
       description: '<span class="function">Snug</span>, Sydney\n' +
@@ -45,7 +47,7 @@ const Timeline = () => {
             <div className="flex-start flex items-center pt-1">
               <div className="-ms-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary group-hover:scale-125 transition-transform"></div>
               <h4 className="text-lg sm:text-xl font-semibold text-primary group-hover:text-[#8dff8d] transition-colors">
-                {event.date}
+                {event.company} - {event.date}
               </h4>
             </div>
             <div className={`mb-6 ms-6 pb-6 text-left transition-all duration-300 ${expandedIndex === index ? 'opacity-100' : 'opacity-80'}`}>
