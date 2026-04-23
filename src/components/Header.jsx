@@ -35,7 +35,7 @@ _________.__  \\/     \\/     \\/\\/.____    .__
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.8, delay: 0.3 }}
       >
-        Senior Software Engineer<span className="cursor"></span>
+        Senior Backend Engineer<span className="cursor"></span>
       </motion.h2>
     </div>
   )

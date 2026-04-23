@@ -19,11 +19,6 @@ const Hobbies = () => {
         <div className="section-content">
           <CardGrid className="text-[#8dff8d]">
             <Card
-              emoji="🎮"
-              title={<><span className="function">Learning</span> <span className="string">Godot</span></>}
-              subtitle="Creating a 2D pixel game"
-            />
-            <Card
               emoji="🎨"
               title={<span className="keyword">Painting</span>}
               subtitle="Trying all kinds of medium"

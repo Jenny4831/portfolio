@@ -20,51 +20,50 @@ const Skills = () => {
           <div className="text-left">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <SkillCard 
-                title="Programming" 
+                title="Languages & Frameworks" 
                 skills={[
                   { name: "Go", type: "keyword" },
-                  { name: "JavaScript", type: "keyword" },
                   { name: "TypeScript", type: "keyword" },
-                  { name: "Python", type: "keyword" },
-                  { name: "HTML5", type: "string" },
-                  { name: "SCSS", type: "string" },
-                  { name: "CSS", type: "string" }
+                  { name: "JavaScript", type: "keyword" },
+                  { name: "GraphQL", type: "function" },
+                  { name: "gRPC", type: "function" },
+                  { name: "Node.js", type: "function" }
                 ]}
               />
               <SkillCard 
                 title="Databases" 
                 skills={[
-                  { name: "Postgres", type: "function" },
+                  { name: "PostgreSQL", type: "function" },
                   { name: "DynamoDB", type: "function" },
-                  { name: "SQL", type: "keyword" }
+                  { name: "MongoDB", type: "function" }
                 ]}
               />
               <SkillCard 
-                title="Frameworks" 
-                skills={[
-                  { name: "ReactJS", type: "function" },
-                  { name: "Redux", type: "function" },
-                  { name: "Hugo", type: "function" }
-                ]}
-              />
-              <SkillCard 
-                title="Infrastructure & DevOps" 
+                title="Infrastructure & Tools" 
                 skills={[
                   { name: "AWS", type: "keyword" },
-                  { name: "S3", type: "function" },
-                  { name: "Docker", type: "function" },
-                  { name: "Kafka", type: "function" },
+                  { name: "EKS", type: "function" },
+                  { name: "Lambda", type: "function" },
                   { name: "SQS", type: "function" },
-                  { name: "Buildkite", type: "function" },
-                  { name: "Kubernetes", type: "function" }
+                  { name: "Kubernetes", type: "function" },
+                  { name: "Docker", type: "function" }
                 ]}
               />
               <SkillCard 
-                title="Monitoring" 
+                title="Eventing & Data Flow" 
                 skills={[
-                  { name: "Prometheus", type: "function" },
+                  { name: "Kafka", type: "function" },
+                  { name: "NATS", type: "function" },
+                  { name: "Redis", type: "function" }
+                ]}
+              />
+              <SkillCard 
+                title="Engineering Leadership" 
+                skills={[
                   { name: "Grafana", type: "function" },
-                  { name: "Kibana", type: "function" }
+                  { name: "On-call Ownership", type: "string" },
+                  { name: "RFC Authoring", type: "string" },
+                  { name: "Stakeholder Management", type: "string" }
                 ]}
               />
             </div>

@@ -20,21 +20,17 @@ const Education = () => {
             <h5 className="font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2">
               <span className="text-[#8dff8d]/50">★</span> University of Sydney <span className="text-[#8dff8d]/50">★</span>
             </h5>
-            <p className="text-base text-[#8dff8d]/80 mb-4 terminal-text">Nov 2017 - Bachelor of Science: Computer Science</p>
+            <p className="text-base text-[#8dff8d]/80 mb-4 terminal-text">Bachelor of Science in Computer Science · Nov 2017</p>
             <p className="text-xl leading-relaxed terminal-text text-[#8dff8d]">
-              <span className="keyword">Distinction</span> <span className="function">units</span>: 
-              <span className="string">"Foundations of IT"</span>, 
-              <span className="string">"Database Systems"</span>, 
-              <span className="string">"Internet Software Platforms"</span>, 
-              <span className="string">"Human-Computer Interaction"</span>
+              <span className="function">BSc</span> focused on computer science fundamentals and software engineering foundations.
             </p>
           </div>
           <div className="text-left mt-8">
             <h5 className="font-bold mb-2 terminal-text text-[#8dff8d] border-b border-[#8dff8d]/20 pb-2 mt-8">
-              <span className="text-[#8dff8d]/50">★</span> Achievements <span className="text-[#8dff8d]/50">★</span>
+              <span className="text-[#8dff8d]/50">★</span> Award <span className="text-[#8dff8d]/50">★</span>
             </h5>
             <p className="text-xl leading-relaxed terminal-text text-[#8dff8d]">
-              <span className="function">Awarded</span> <span className="function">Microsoft</span> <span className="function">Research</span> <span className="function">Asia</span> <span className="function">Prize</span> <span className="keyword">for</span> <span className="function">Junior</span> <span className="function">Software</span> <span className="function">Development</span> <span className="function">Projects</span> <span className="keyword">at</span> <span className="function">USYD</span>
+              <span className="function">Awarded</span> <span className="function">Microsoft</span> <span className="function">Research</span> <span className="function">Asia</span> <span className="function">Prize</span> <span className="keyword">for</span> <span className="function">Junior</span> <span className="function">Software</span> <span className="function">Development</span> <span className="function">Projects</span>.
             </p>
           </div>
         </div>
