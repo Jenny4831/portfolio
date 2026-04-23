@@ -27,6 +27,11 @@ const Hobbies = () => {
               subtitle="Making the same cake in different shapes"
             />
             <Card
+              emoji="🍙"
+              title={<span className="string">Onigiri</span>}
+              subtitle="A tiny triangle of joy"
+            />
+            <Card
               emoji="✈️"
               title={<span className="function">Travelling</span>}
               subtitle="Good views, good food and good fun"
