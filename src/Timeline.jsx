@@ -46,17 +46,17 @@ const Timeline = () => {
           <li 
             key={index}
             id={`timeline-${index}`}
-            className="group relative cursor-pointer transition-all duration-300 hover:bg-[#252526]/50 rounded-lg p-2 scroll-mt-[100px]"
+            className="timeline-entry group relative cursor-pointer transition-all duration-300 rounded-xl p-3 scroll-mt-[100px]"
             onClick={() => toggleExpand(index)}
           >
             <div className="flex-start flex items-center pt-1">
-              <div className="-ms-2 me-3 flex h-3 w-3 items-center justify-center rounded-full bg-primary group-hover:scale-125 transition-transform"></div>
-              <h4 className="text-lg sm:text-xl font-semibold text-primary group-hover:text-[#8dff8d] transition-colors">
+              <div className="-ms-2 me-3 flex h-3 w-3 items-center justify-center rounded-full bg-[#569cd6] shadow-[0_0_12px_rgba(86,156,214,0.5)] group-hover:scale-125 transition-transform"></div>
+              <h4 className="text-lg sm:text-xl font-semibold text-[#d4d4d4] group-hover:text-[#8dff8d] transition-colors">
                 {event.company} - {event.date}
               </h4>
             </div>
             <div className={`mb-6 ms-6 pb-6 text-left transition-all duration-300 ${expandedIndex === index ? 'opacity-100' : 'opacity-80'}`}>
-              <h5 className="text-base sm:text-lg font-medium text-[#8dff8d] mb-3 terminal-text group-hover:underline">
+              <h5 className="text-base sm:text-lg font-medium text-[#8dff8d] mb-3 terminal-text">
                 {event.title}
               </h5>
               <div 
