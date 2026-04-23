@@ -1,11 +1,9 @@
 import { motion } from 'framer-motion'
 import SectionTitle from './SectionTitle.jsx'
-import SectionDivider from './SectionDivider.jsx'
 
 const Education = () => {
   return (
     <div className="max-w-3xl mx-auto">
-      <SectionDivider />
       <motion.section 
         id="education" 
         className="scroll-mt-20 max-w-3xl mx-auto section-panel"

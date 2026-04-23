@@ -1,12 +1,10 @@
 import { motion } from 'framer-motion';
 import SectionTitle from './SectionTitle.jsx';
-import SectionDivider from './SectionDivider.jsx';
 import CardGrid, { Card } from './CardGrid.jsx';
 
 const Languages = () => {
   return (
     <div className="max-w-3xl mx-auto">
-      <SectionDivider />
       <motion.section
         id="languages"
         className="scroll-mt-20 max-w-3xl mx-auto section-panel"
