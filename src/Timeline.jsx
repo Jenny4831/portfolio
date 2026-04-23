@@ -40,23 +40,23 @@ const Timeline = () => {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto my-8">
+    <div className="w-full max-w-2xl mx-auto my-4">
       <ol className="relative left-1/2 transform -translate-x-1/2">
         {events.map((event, index) => (
           <li 
             key={index}
             id={`timeline-${index}`}
-            className="timeline-entry group relative cursor-pointer transition-all duration-300 rounded-xl p-3 scroll-mt-[100px]"
+            className="timeline-entry group relative cursor-pointer transition-all duration-300 rounded-xl px-5 py-4 scroll-mt-[100px]"
             onClick={() => toggleExpand(index)}
           >
-            <div className="flex-start flex items-center pt-1">
-              <div className="-ms-2 me-3 flex h-3 w-3 items-center justify-center rounded-full bg-[#569cd6] shadow-[0_0_12px_rgba(86,156,214,0.5)] group-hover:scale-125 transition-transform"></div>
+            <div className="flex-start flex items-center">
+              <div className="me-4 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#569cd6] shadow-[0_0_12px_rgba(86,156,214,0.5)] group-hover:scale-125 transition-transform"></div>
               <h4 className="text-lg sm:text-xl font-semibold text-[#d4d4d4] group-hover:text-[#8dff8d] transition-colors">
                 {event.company} - {event.date}
               </h4>
             </div>
-            <div className={`mb-6 ms-6 pb-6 text-left transition-all duration-300 ${expandedIndex === index ? 'opacity-100' : 'opacity-80'}`}>
-              <h5 className="text-base sm:text-lg font-medium text-[#8dff8d] mb-3 terminal-text">
+            <div className={`mt-3 ml-8 text-left transition-all duration-300 ${expandedIndex === index ? 'opacity-100' : 'opacity-80'}`}>
+              <h5 className="text-base sm:text-lg font-medium text-[#8dff8d] mb-2 terminal-text">
                 {event.title}
               </h5>
               <div 
@@ -64,9 +64,9 @@ const Timeline = () => {
                   expandedIndex === index ? 'max-h-[500px] overflow-y-auto' : 'max-h-0'
                 }`}
               >
-                <p className="mb-4 mt-2 text-[#8dff8d] text-left terminal-text leading-relaxed" dangerouslySetInnerHTML={{ __html: event.description }} />
+                <p className="mb-3 mt-2 text-[#8dff8d] text-left terminal-text leading-relaxed" dangerouslySetInnerHTML={{ __html: event.description }} />
               </div>
-              <div className="mt-3 text-sm text-[#8dff8d]/60">
+              <div className="mt-2 text-sm text-[#8dff8d]/60">
                 {expandedIndex === index ? '▲ Show Less' : '▼ Show More Details'}
               </div>
             </div>
