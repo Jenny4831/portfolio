@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
+import PropTypes from 'prop-types';
 import {
   MenuIcon,
   ExperienceIcon,
@@ -107,6 +108,11 @@ const HorizontalNavBar = ({ activeSection, onSelectSection }) => {
       )}
     </div>
   );
+};
+
+HorizontalNavBar.propTypes = {
+  activeSection: PropTypes.string.isRequired,
+  onSelectSection: PropTypes.func.isRequired,
 };
 
 export default HorizontalNavBar;

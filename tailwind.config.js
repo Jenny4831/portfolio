@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+/* eslint-disable no-undef, no-dupe-keys */
 module.exports = {
   content: [
     "./index.html",

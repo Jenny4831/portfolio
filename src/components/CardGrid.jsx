@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 
 const CardGrid = ({ children, className = '' }) => {
@@ -13,6 +14,11 @@ const CardGrid = ({ children, className = '' }) => {
     </motion.div>
   )
 }
+
+CardGrid.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+};
 
 export const Card = ({ emoji, title, subtitle, className = '' }) => {
     return (
@@ -31,5 +37,12 @@ export const Card = ({ emoji, title, subtitle, className = '' }) => {
       </motion.div>
     );
   };
+
+Card.propTypes = {
+  emoji: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  className: PropTypes.string,
+};
 
 export default CardGrid

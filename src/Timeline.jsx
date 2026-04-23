@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Timeline = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);

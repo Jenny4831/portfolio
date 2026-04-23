@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { motion } from 'framer-motion'
 
 const SkillCard = ({ title, skills }) => {
@@ -27,5 +28,15 @@ const SkillCard = ({ title, skills }) => {
     </motion.div>
   )
 }
+
+SkillCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  skills: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+};
 
 export default SkillCard

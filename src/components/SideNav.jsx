@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import PropTypes from 'prop-types';
 import {
   MenuIcon,
   ExperienceIcon,
@@ -108,6 +109,11 @@ const SideNav = ({ activeSection, onSelectSection }) => {
     </div>
     </>
   );
+};
+
+SideNav.propTypes = {
+  activeSection: PropTypes.string.isRequired,
+  onSelectSection: PropTypes.func.isRequired,
 };
 
 export default SideNav;
