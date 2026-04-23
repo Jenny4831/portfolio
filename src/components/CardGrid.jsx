@@ -17,7 +17,7 @@ const CardGrid = ({ children, className = '' }) => {
 export const Card = ({ emoji, title, subtitle, className = '' }) => {
     return (
       <motion.div
-        className={`hobby-card bg-[#0d1117] p-4 rounded-lg border border-[#8dff8d]/20 hover:border-[#8dff8d] transition-all duration-300 hover:shadow-[0_0_15px_rgba(141,255,141,0.3)] ${className}`}
+        className={`info-card hobby-card p-4 rounded-xl transition-all duration-300 ${className}`}
         whileHover={{ scale: 1.05 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
@@ -25,7 +25,7 @@ export const Card = ({ emoji, title, subtitle, className = '' }) => {
           <span className="text-3xl mt-1">{emoji}</span>
           <div className="text-left">
             <p className="text-xl font-code">{title}</p>
-            <p className="text-sm text-[#8dff8d]/80">{subtitle}</p>
+            <p className="text-sm text-[#d4d4d4]/70">{subtitle}</p>
           </div>
         </div>
       </motion.div>
