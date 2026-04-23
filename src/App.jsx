@@ -54,7 +54,7 @@ function App() {
           <div className="editor-status hidden md:block">VS Code Theme: Night Shift</div>
         </div>
 
-        <div className="editor-body w-full scroll-smooth sm:grid sm:grid-cols-[14rem_minmax(0,1fr)] md:grid-cols-[16rem_minmax(0,1fr)]">
+        <div className={`editor-body w-full scroll-smooth sm:grid sm:grid-cols-[14rem_minmax(0,1fr)] md:grid-cols-[16rem_minmax(0,1fr)] ${isHome ? 'home-active' : ''}`}>
           <SideNav activeSection={activeSection} onSelectSection={setActiveSection} />
           <div className="code-bg"></div>
           <div className="editor-main">
