@@ -22,7 +22,7 @@ const HorizontalNavBar = ({ activeSection, onSelectSection }) => {
   const [isExperienceExpanded, setIsExperienceExpanded] = useState(false);
 
   return (
-    <div className={`nav-surface fixed bottom-0 left-0 w-full max-w-[100vw] border-t border-[#3c3c3d] z-[1000] sm:hidden transition-all duration-300 ease-in-out ${
+    <div className={`mobile-nav nav-surface fixed bottom-0 left-0 w-full max-w-[100vw] border-t border-[#3c3c3d] z-[1000] sm:hidden transition-all duration-300 ease-in-out ${
       isCollapsed ? 'h-14' : 'h-auto'
     }`}>
       <div className="flex flex-row justify-between items-center p-2 px-4 h-14">
