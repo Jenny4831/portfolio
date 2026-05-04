@@ -23,7 +23,7 @@ const SideNav = ({ activeSection, onSelectSection }) => {
 
   return (
     <>
-      <div className={`nav-surface hidden sm:flex flex-col border-r border-[#3c3c3d] z-20 transition-all duration-300 ease-in-out ${
+      <div className={`side-nav nav-surface hidden sm:flex flex-col border-r border-[#3c3c3d] z-20 transition-all duration-300 ease-in-out ${
         isCollapsed ? 'w-16' : 'w-56 md:w-64'
       }`}>
       <div className="nav-header h-12 flex items-center px-4 border-b border-[#3c3c3d] sm:flex-row flex-row space-x-2">
