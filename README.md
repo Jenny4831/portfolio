@@ -1,4 +1,4 @@
-NOTE: This project was built using aider and experimenting with gemini and deepseek models.
+NOTE: This project was built using codex + aider and experimenting with gemini and deepseek models.
 
 
 # Jenny Zhen Liang's Portfolio
